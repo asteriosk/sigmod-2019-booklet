@@ -1,0 +1,38 @@
+\documentclass[paper=a6,twoside=true,BCOR=10mm,DIV=calc]{scrbook}
+\usepackage{incgraph,microtype,tikz,colortbl,pdflscape,moresize,lmodern}
+\usepackage[utf8]{inputenc}
+\usepackage[tt=false]{libertine}
+\renewcommand{\ttdefault}{cmtt}
+\areaset[10mm]{85mm}{128mm}
+\setlength{\footskip}{6mm}
+
+\usepackage{array}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+
+\hypersetup{
+    colorlinks,
+    linkcolor=, %linkcolor={red!50!black},
+    citecolor={blue!50!black},
+    urlcolor={blue!80!black}
+}
+
+
+\title{VLDB 2017}
+
+\begin{document}
+
+\incgraph[paper=document,options={width=105mm}]{images/cover.pdf}
+\setlength\parindent{0pt}
+
+\input{welcome.tex}
+\input{plans.tex}
+\input{wlan.tex}
+\input{sponsors.tex}
+\input{overview.tex}
+\input{detailed.tex}
+\input{workshops.tex}
+\input{ads.tex}
+
+\end{document} 

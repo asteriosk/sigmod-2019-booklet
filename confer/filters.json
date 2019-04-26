@@ -1,0 +1,99 @@
+fb_comment = true
+s_filters=[
+    {
+        "label":"Session",
+        "vals":
+            [
+                {
+                    "data":"all",
+                    "class":"p_session filter active f_all",
+                    "type":"p_session",
+                    "label":"All"
+                },
+                {
+                    "data":"s_starred",
+                    "class":"p_session filter",
+                    "type":"p_session",
+                    "label":"Liked"
+                },
+                {
+                    "data":"s_recommended, .s_starred",
+                    "class":"p_session filter",
+                    "type":"p_session",
+                    "label":"Liked + Recommended"
+                },
+                {
+                    "data":"s_award, .s_nominated, .s_hm",
+                    "class":"p_session filter",
+                    "type":"p_session",
+                    "label":"Award"
+                }
+        ]
+    },
+    {
+        "label":"Day",
+        "vals":
+            [
+                {
+                    "data":"all",
+                    "class":"day filter active f_all",
+                    "type":"day",
+                    "label":"All"
+                },
+                {
+                    "data":"Tuesday",
+                    "class":"day filter",
+                    "type":"day",
+                    "label":"Tuesday"
+                },
+                {
+                    "data":"Wednesday",
+                    "class":"day filter",
+                    "type":"day",
+                    "label":"Wednesday"
+                },
+                {
+                    "data":"Thursday",
+                    "class":"day filter",
+                    "type":"day",
+                    "label":"Thursday"
+                }
+        ]
+    },
+    {
+        "label":"Time",
+        "vals":
+            [
+                {
+                    "data":"all",
+                    "class":"time filter active f_all",
+                    "type":"time",
+                    "label":"All"
+                },
+                {
+                    "data":"morning1",
+                    "class":"time filter",
+                    "type":"time",
+                    "label":"Early Morning"
+                },
+                {
+                    "data":"morning2",
+                    "class":"time filter",
+                    "type":"time",
+                    "label":"Late Morning"
+                },
+                {
+                    "data":"afternoon1",
+                    "class":"time filter",
+                    "type":"time",
+                    "label":"Early Afternoon"
+                },
+                {
+                    "data":"afternoon2",
+                    "class":"time filter",
+                    "type":"time",
+                    "label":"Late Afternoon"
+                }
+        ]
+    }
+]

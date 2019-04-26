@@ -1,0 +1,45 @@
+\newpage
+
+\tikzset{
+  headings/base/.style = {
+    outer sep = 0pt,
+    text width = {\textwidth - 0.6666em},
+    align = left,
+    text = white,
+  },
+  headings/slot/.style = {
+    headings/base,
+    fill = blue!50,
+    rounded corners=1mm,
+    font = \sffamily\Large
+  },
+  headings/session/.style = {
+    headings/base,
+    fill = blue!25,
+    rounded corners=1mm,
+    font = \sffamily\large
+  }
+}
+
+\hypersetup{
+    colorlinks,
+    linkcolor=, %linkcolor={red!50!black},
+    citecolor={blue!50!black},
+    urlcolor= %{blue!80!black}
+}
+
+\newcommand{\slotheading}[1]{\noindent\tikz{\node[headings/slot]{#1};}}
+
+\newcommand{\sessionname}[2]{\noindent\hypertarget{#1}{}\tikz{\node[headings/session]{#2};}}
+\newcommand{\sessionnamenl}[1]{\noindent\tikz{\node[headings/session]{#1};}}
+\newcommand{\sessionlocation}[1]{\noindent Location: #1}
+\newcommand{\sessionchair}[1]{\noindent Chair: #1}
+\newcommand{\sessionsep}{\vspace{2mm}}
+
+\newcommand{\papertitle}[2]{\noindent\href{#2}{\textbf{#1}}}
+\newcommand{\paperauthors}[1]{\\{\em #1}\vspace{2mm}}
+
+\begin{sloppypar}
+\input{confer/detailed.tex}
+\end{sloppypar}
+

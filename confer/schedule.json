@@ -1,0 +1,578 @@
+schedule=[
+  {
+    "date": "08/28/2017", 
+    "day": "Monday", 
+    "slots": [
+      {
+        "sessions": [
+          {
+            "room": "Auditorium 602", 
+            "session": "FADS"
+          }, 
+          {
+            "room": "Auditorium 606", 
+            "session": "BIRTE"
+          },
+          {
+            "room": "Auditorium 601", 
+            "session": "TPCTC"
+          },
+          {
+            "room": "Auditorium 670", 
+            "session": "VLIoT"
+          },
+          {
+            "room": "Auditorium 1601", 
+            "session": "PhD Workshop"
+          }
+        ], 
+        "slot_class": "other", 
+        "slot_id": "w1", 
+        "time": "08:30-17:00"
+      },
+      {
+        "sessions": [
+          {
+            "room": "Old Townhall of Munich", 
+            "session": "Welcome"
+          } 
+        ], 
+        "slot_class": "other", 
+        "slot_id": "reception", 
+        "time": "19:00-23:00"
+      }
+    ]
+  }, 
+  {
+    "date": "08/29/2017", 
+    "day": "Tuesday", 
+    "slots": [
+      {
+        "sessions": [
+          {
+            "room": "Audimax", 
+            "session": "keynote 1"
+          } 
+        ], 
+        "slot_class": "morning1", 
+        "slot_id": "plenary 1", 
+        "time": "08:30-10:00"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "Tent", 
+            "session": "coffee"
+          } 
+        ], 
+        "slot_class": "other", 
+        "slot_id": "-1", 
+        "time": "10:00-10:30"
+      },
+      {
+        "sessions": [
+          {
+            "room": "Audimax", 
+            "session": "Panel"
+          }, 
+          {
+            "room": "Auditorium 602", 
+            "session": "Session 1b"
+          }, 
+          {
+            "room": "Auditorium 606", 
+            "session": "Session 1c"
+          },
+          {
+            "room": "Auditorium 601", 
+            "session": "Session 1d"
+          },
+          {
+            "room": "Auditorium 670", 
+            "session": "Session 1e"
+          },
+          {
+            "room": "Auditorium 1601", 
+            "session": "Tutorial 1"
+          },
+          {
+            "room": "Classrooms 2601, 2605, 2607", 
+            "session": "Demo Group A"
+          }
+        ], 
+        "slot_class": "morning2", 
+        "slot_id": "1", 
+        "time": "10:30-12:00"
+      },
+      {
+        "sessions": [
+          {
+            "room": "Tent", 
+            "session": "lunch"
+          } 
+        ], 
+        "slot_id": "1-2", 
+        "time": "12:00-13:30"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "Audimax", 
+            "session": "Session 2a"
+          }, 
+          {
+            "room": "Auditorium 602", 
+            "session": "Session 2b"
+          }, 
+          {
+            "room": "Auditorium 606", 
+            "session": "Session 2c"
+          },
+          {
+            "room": "Auditorium 601", 
+            "session": "Session 2d"
+          },
+          {
+            "room": "Auditorium 670", 
+            "session": "Session 2e"
+          },
+          {
+            "room": "Auditorium 1601", 
+            "session": "Tutorial 2"
+          },
+          {
+            "room": "Classrooms 2601, 2605, 2607", 
+            "session": "Demo Group B"
+          }
+        ], 
+        "slot_class": "afternoon1", 
+        "slot_id": "2", 
+        "time": "13:30-15:00"
+      },
+      {
+        "sessions": [
+          {
+            "room": "Tent", 
+            "session": "coffee"
+          } 
+        ], 
+        "slot_class": "Other", 
+        "slot_id": "2-3", 
+        "time": "15:00-15:30"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "Audimax", 
+            "session": "Session 3a"
+          }, 
+          {
+            "room": "Auditorium 602", 
+            "session": "Session 3b"
+          }, 
+          {
+            "room": "Auditorium 606", 
+            "session": "Session 3c"
+          },
+          {
+            "room": "Auditorium 601", 
+            "session": "Session 3d"
+          },
+          {
+            "room": "Auditorium 670", 
+            "session": "Session 3e"
+          },
+          {
+            "room": "Auditorium 1601", 
+            "session": "Tutorial 3"
+          },
+          {
+            "room": "Classrooms 2601, 2605, 2607", 
+            "session": "Demo Group C"
+          }
+        ], 
+        "slot_class": "afternoon2", 
+        "slot_id": "3", 
+        "time": "15:30-17:00"
+      },
+      {
+        "sessions": [
+          {
+            "room": "Audimax Foyer", 
+            "session": "Posters1"
+          } 
+        ], 
+        "slot_class": "afternoon2", 
+        "slot_id": "3+", 
+        "time": "17:00-18:00"
+      }
+    ]
+  }, 
+  {
+    "date": "08/30/2017", 
+    "day": "Wednesday", 
+    "slots": [
+      {
+        "sessions": [
+          {
+            "room": "Audimax", 
+            "session": "keynote 2"
+          }
+        ], 
+        "slot_class": "morning1", 
+        "slot_id": "plenary 2", 
+        "time": "08:30-10:00"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "Tent", 
+            "session": "coffee"
+          } 
+        ], 
+        "slot_class": "other", 
+        "slot_id": "plenary-4", 
+        "time": "10:00-10:30"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "Audimax", 
+            "session": "Session 4a"
+          }, 
+          {
+            "room": "Auditorium 602", 
+            "session": "Session 4b"
+          }, 
+          {
+            "room": "Auditorium 606", 
+            "session": "Session 4c"
+          },
+          {
+            "room": "Auditorium 601", 
+            "session": "Session 4d"
+          },
+          {
+            "room": "Auditorium 1601", 
+            "session": "Tutorial 4"
+          },
+          {
+            "room": "Classrooms 2601, 2605, 2607", 
+            "session": "Demo Group D"
+          }
+        ], 
+        "slot_class": "morning2", 
+        "slot_id": "4", 
+        "time": "10:30-12:00"
+      },
+      {
+        "sessions": [
+          {
+            "room": "Tent", 
+            "session": "lunch"
+          }
+        ], 
+        "slot_id": "4-5", 
+        "time": "12:00-13:30"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "Audimax", 
+            "session": "Session 5a"
+          }, 
+          {
+            "room": "Auditorium 602", 
+            "session": "Session 5b"
+          }, 
+          {
+            "room": "Auditorium 606", 
+            "session": "Session 5c"
+          },
+          {
+            "room": "Auditorium 601", 
+            "session": "Session 5d"
+          },
+          {
+            "room": "Auditorium 670", 
+            "session": "Session 5e"
+          },
+          {
+            "room": "Auditorium 1601", 
+            "session": "Tutorial 5"
+          },
+          {
+            "room": "Classrooms 2601, 2605, 2607", 
+            "session": "Demo Group C"
+          }
+        ], 
+        "slot_class": "afternoon1", 
+        "slot_id": "5", 
+        "time": "13:30-15:00"
+      },
+      {
+        "sessions": [
+          {
+            "room": "Tent", 
+            "session": "coffee"
+          } 
+        ], 
+        "slot_class": "other", 
+        "slot_id": "5-6", 
+        "time": "15:00-15:30"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "Audimax", 
+            "session": "Session 6a"
+          }, 
+          {
+            "room": "Auditorium 602", 
+            "session": "Session 6b"
+          }, 
+          {
+            "room": "Auditorium 606", 
+            "session": "Session 6c"
+          },
+          {
+            "room": "Auditorium 601", 
+            "session": "Session 6d"
+          },
+          {
+            "room": "Auditorium 670", 
+            "session": "Session 6e"
+          },
+          {
+            "room": "Auditorium 1601", 
+            "session": "Tutorial 6"
+          },
+          {
+            "room": "Classrooms 2601, 2605, 2607", 
+            "session": "Demo Group A"
+          }
+        ], 
+        "slot_class": "afternoon2", 
+        "slot_id": "6", 
+        "time": "15:30-17:00"
+      },
+      {
+        "sessions": [
+          {
+            "room": "Audimax Foyer", 
+            "session": "Posters2"
+          } 
+        ], 
+        "slot_class": "afternoon2", 
+        "slot_id": "6+", 
+        "time": "17:00-18:00"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "Hofbräuhaus", 
+            "session": "VLDB Octoberfest"
+          } 
+        ], 
+        "slot_class": "other", 
+        "slot_id": "6++", 
+        "time": "19:00-23:00"
+      } 
+    ]
+  }, 
+  {
+    "date": "08/31/2017", 
+    "day": "Thursday", 
+    "slots": [
+      {
+        "sessions": [
+          {
+            "room": "Audimax", 
+            "session": "plenary 3"
+          } 
+        ], 
+        "slot_class": "morning1", 
+        "slot_id": "plenary 3", 
+        "time": "08:30-10:30"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "Tent", 
+            "session": "coffee"
+          } 
+        ], 
+        "slot_class": "other", 
+        "slot_id": "plenary-7", 
+        "time": "10:30-10:55"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "Audimax", 
+            "session": "Session 7a"
+          }, 
+          {
+            "room": "Auditorium 602", 
+            "session": "Session 7b"
+          }, 
+          {
+            "room": "Auditorium 606", 
+            "session": "Session 7c"
+          },
+          {
+            "room": "Auditorium 601", 
+            "session": "Session 7d"
+          }
+        ], 
+        "slot_class": "morning2", 
+        "slot_id": "7", 
+        "time": "10:55-12:00"
+      },
+      {
+        "sessions": [
+          {
+            "room": "Tent", 
+            "session": "lunch"
+          } 
+        ], 
+        "slot_class": "other", 
+        "slot_id": "7-8", 
+        "time": "12:00-13:30"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "Audimax", 
+            "session": "Session 8a"
+          }, 
+          {
+            "room": "Auditorium 602", 
+            "session": "Session 8b"
+          }, 
+          {
+            "room": "Auditorium 606", 
+            "session": "Session 8c"
+          },
+          {
+            "room": "Auditorium 601", 
+            "session": "Session 8d"
+          },
+          {
+            "room": "Auditorium 670", 
+            "session": "Session 8e"
+          },
+          {
+            "room": "Auditorium 1601", 
+            "session": "Tutorial 7"
+          },
+          {
+            "room": "Classrooms 2601, 2605, 2607", 
+            "session": "Demo Group D"
+          }
+        ], 
+        "slot_class": "afternoon1", 
+        "slot_id": "8", 
+        "time": "13:30-15:00"
+      },
+      {
+        "sessions": [
+          {
+            "room": "Tent", 
+            "session": "coffee"
+          }
+        ], 
+        "slot_class": "other", 
+        "slot_id": "8-9", 
+        "time": "15:00-15:30"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "Audimax", 
+            "session": "Session 9a"
+          }, 
+          {
+            "room": "Auditorium 602", 
+            "session": "Session 9b"
+          }, 
+          {
+            "room": "Auditorium 606", 
+            "session": "Session 9c"
+          },
+          {
+            "room": "Auditorium 601", 
+            "session": "Session 9d"
+          },
+          {
+            "room": "Auditorium 670", 
+            "session": "Session 9e"
+          },
+          {
+            "room": "Auditorium 1601", 
+            "session": "Tutorial 8"
+          },
+          {
+            "room": "Classrooms 2601, 2605, 2607", 
+            "session": "Demo Group B"
+          }
+        ], 
+        "slot_class": "afternoon2", 
+        "slot_id": "9", 
+        "time": "15:30-17:00"
+      },
+      {
+        "sessions": [
+          {
+            "room": "Audimax Foyer", 
+            "session": "Posters3"
+          }
+        ], 
+        "slot_class": "afternoon2", 
+        "slot_id": "9+", 
+        "time": "17:00-18:00"
+      } 
+    ]
+  }, 
+  {
+    "date": "09/01/2017", 
+    "day": "Friday", 
+    "slots": [
+      {
+        "sessions": [
+          {
+            "room": "Auditorium 602", 
+            "session": "MATES"
+          }, 
+          {
+            "room": "Auditorium 606", 
+            "session": "ADMS"
+          },
+          {
+            "room": "Auditorium 601", 
+            "session": "DMAH"
+          },
+          {
+            "room": "Auditorium 670", 
+            "session": "DBPL"
+          },
+          {
+            "room": "Auditorium 1601", 
+            "session": "BOSS"
+          },
+          {
+            "room": "Classroom 2601", 
+            "session": "BOSS"
+          },
+          {
+            "room": "Classroom 2605", 
+            "session": "BOSS"
+          }
+        ], 
+        "slot_class": "other", 
+        "slot_id": "w5", 
+        "time": "08:30-17:00"
+      }
+    ]
+  }
+]
