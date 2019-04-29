@@ -3066,6 +3066,27 @@ entities={
   "type": "PODS",
   "id": "PODS_Research_134m"
 },
+"PODS_Research_tot": {
+  "title": "A General Datalog-based Framework for Tractable Query Answering",
+  "abstract": "",
+  "subtype": "PODS Tutorial",
+  "authors": [
+    {
+      "name": "Andrea Cali",
+      "affiliation": "Birkbeck College"
+    },
+    {
+      "name": "Georg Gottlob",
+      "affiliation": "University of Oxford"
+    },
+    {
+      "name": "Thomas Lukasiewicz",
+      "affiliation": "University of Oxford"
+    }
+   ],
+  "type": "PODS",
+  "id": "PODS_Research_tot"
+},
 "SIGMOD_Industrial_640": {
   "title": "QuickInsights: Quick and Automatic Discovery of Insights from Multi-Dimensional Data",
   "abstract": "Discovering interesting data patterns is a common and important analytical need in data, with increasing user demand for automated discovery abilities. However, automatically discovering interesting patterns from multi-dimensional data remains challenging. Existing techniques focus on mining individual types of patterns. There is a lack of unified formulation for different pattern types, as well as general mining frameworks to derive them effectively and efficiently. We present a novel technique QuickInsights, which quickly and automatically discovers interesting patterns from multi-dimensional data. QuickInsights proposes a unified formulation of interesting patterns, called insights, and designs a systematic mining framework to discover high-quality insights efficiently. We demonstrate the effectiveness and efficiency of QuickInsights through our evaluation on 447 real datasets as well as user studies on both expert users and non-expert users. QuickInsights is released in Microsoft Power BI.",
@@ -5710,7 +5731,7 @@ entities={
   "authors": [
     {
       "name": "Georg Gottlob",
-      "affiliation": "Universoty of Oxford"
+      "affiliation": "University of Oxford"
     },
     {
       "name": "Wang-Chiew Tan",

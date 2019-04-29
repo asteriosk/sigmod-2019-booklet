@@ -278,8 +278,9 @@ sessions={
     "day": "Monday",
     "s_title": "PODS Test-of-Time & Gems",
     "submissions": [  
-        "PODS_Research_122g",
-        "PODS_Research_125g"
+        "PODS_Research_tot",
+        "PODS_Research_125g",
+        "PODS_Research_122g"
     ]  
   },
   "PODS Business Meeting": {
@@ -289,59 +290,94 @@ sessions={
   },
   "PODS 1": {
     "day": "Monday",
-    "s_title": "PODS 1",
-    "submissions": [ ]
+    "chair": "Pierre Senellart",
+    "s_title": "PODS 1: Incomplete Information",
+    "submissions": [ 
+        "PODS_Research_013",
+        "PODS_Research_015",
+        "PODS_Research_063"
+    ]
   },
   "PODS 2": {
     "day": "Monday",
-    "s_title": "PODS 2",
-    "submissions": [ ]
+    "s_title": "PODS 2: Enumeration and Counting",
+    "chair": "Dirk van Gucht",
+    "submissions": [ 
+        "PODS_Research_109",
+        "PODS_Research_008",
+        "PODS_Research_098",
+        "PODS_Research_100",
+        "PODS_Research_114",
+        "PODS_Research_084"
+    ]
   },
   "PODS 3": {
     "day": "Monday",
-    "s_title": "PODS 3",
-    "submissions": [ ]
+    "s_title": "PODS 3: Information Extraction, Hashing, and Privacy",
+    "chair": "Yufei Tao",
+    "submissions": [ 
+        "PODS_Research_024",
+        "PODS_Research_060",
+        "PODS_Research_074"
+    ]
   },
   "PODS 4": {
-    "day": "Wednesday",
-    "s_title": "PODS 4",
-    "submissions": [ ]
+    "day": "Tuesday",
+    "s_title": "PODS 4: Streams",
+    "chair": "TBA",
+    "submissions": [ 
+        "PODS_Research_061",
+        "PODS_Research_075",
+        "PODS_Research_077",
+        "PODS_Research_087"
+     ]
+  },
+  "PODS 5": {
+    "day": "Tuesday",
+    "s_title": "PODS 5: Semistructured Data and Knowledge Graphs, Logic, and Verification",
+    "chair": "Pierre Bourhis",
+    "submissions": [ 
+        "PODS_Research_041",
+        "PODS_Research_030",
+        "PODS_Research_033",
+        "PODS_Research_083",
+        "PODS_Research_112",
+        "PODS_Research_064"
+    ]
   },
   "PODS 6": {
     "day": "Wednesday",
-    "s_title": "PODS 6",
-    "submissions": [ ]
+    "s_title": "PODS 6: Containment and Homomorphisms",
+    "chair": "Dan Olteanu",
+    "submissions": [ 
+        "PODS_Research_009",
+        "PODS_Research_016",
+        "PODS_Research_043"
+    ]
   },
   "PODS 7": {
     "day": "Wednesday",
-    "s_title": "PODS 7",
-    "submissions": [ ]
+    "s_title": "PODS 7: Joins, hypergraphs, and Aggregate Queries",
+    "chair": "TBA",
+    "submissions": [ 
+        "PODS_Research_072",
+        "PODS_Research_032",
+        "PODS_Research_079",
+        "PODS_Research_017"
+    ]
   },
   "PODS Tutorial 1": {
     "day": "Wednesday",
     "s_title": "PODS Tutorial 1",
     "submissions": [ 
-        "PODS_Research_128t",
-        "PODS_Research_131t",
-        "PODS_Research_134m"
+        "PODS_Research_128t"
     ]
   },
   "PODS Tutorial 2": {
     "day": "Wednesday",
     "s_title": "PODS Tutorial 2",
     "submissions": [ 
-        "PODS_Research_128t",
-        "PODS_Research_131t",
-        "PODS_Research_134m"
-    ]
-  },
-  "PODS Tutorial 3": {
-    "day": "Thursday",
-    "s_title": "PODS Tutorial 3",
-    "submissions": [ 
-        "PODS_Research_128t",
-        "PODS_Research_131t",
-        "PODS_Research_134m"
+        "PODS_Research_131t"
     ]
   },
   "SIGMOD Welcome + Keynote": {
