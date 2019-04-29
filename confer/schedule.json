@@ -1,57 +1,462 @@
 schedule=[
   {
-    "date": "08/28/2017", 
+    "date": "06/30/2019", 
+    "day": "Sunday", 
+    "slots": [
+      {
+        "sessions": [
+          {
+            "room": "Grote Zaal", 
+            "session": "Coffee + Light Breakfast"
+          } 
+        ], 
+        "slot_class": "morning1 break", 
+        "slot_id": "-w1", 
+        "time": "08:00-08:30"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "Effecten", 
+            "session": "Tutorial 1: part 1 (starts 09:00)"
+          }, 
+          {
+            "room": "Berlage", 
+            "session": "Tutorial 3: part 2 (starts 09:00)"
+          },
+          {
+            "room": "Administratie", 
+            "session": "DEEM Workshop: Session 1"
+          },
+          {
+            "room": "Veiling", 
+            "session": "GRADES-NDA Workshop: Session 1"
+          },
+          {
+            "room": "Mendes da Costa", 
+            "session": "DSMM Workshop: Session 1"
+          }
+        ], 
+        "slot_class": "morning1", 
+        "slot_id": "w1", 
+        "time": "08:30-10:30"
+      },
+      {
+        "sessions": [
+          {
+            "room": "Effecten", 
+            "session": "Tutorial 1: part 2"
+          }, 
+          {
+            "room": "Berlage", 
+            "session": "Tutorial 3: part 2"
+          },
+          {
+            "room": "Administratie", 
+            "session": "DEEM Workshop"
+          },
+          {
+            "room": "Veiling", 
+            "session": "GRADES-NDA Workshop: Session 2"
+          },
+          {
+            "room": "Mendes da Costa", 
+            "session": "DSMM Workshop: Session 2"
+          }
+        ], 
+        "slot_class": "morning2", 
+        "slot_id": "w2", 
+        "time": "11:00-12:30"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "Grote Zaal", 
+            "session": "Lunch + Workshop Posters"
+          } 
+        ], 
+        "slot_class": "afternoon1 break", 
+        "slot_id": "w2-w3", 
+        "time": "12:30-14:00"
+      },
+      {
+        "sessions": [
+          {
+            "room": "Effecten", 
+            "session": "Tutorial 2: part 1"
+          }, 
+          {
+            "room": "Berlage", 
+            "session": "PODS: Phokion Kolaitis Special Event: part 1"
+          },
+          {
+            "room": "Administratie", 
+            "session": "DEEM Workshop: Session 3"
+          },
+          {
+            "room": "Veiling", 
+            "session": "GRADES-NDA Workshop: Session 3"
+          },
+          {
+            "room": "Mendes da Costa", 
+            "session": "DSMM Workshop: Session 3"
+          }
+        ], 
+        "slot_class": "afternoon1", 
+        "slot_id": "w3", 
+        "time": "14:00-15:30"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "Grote Zaal", 
+            "session": "Coffee + Workshop Posters"
+          } 
+        ], 
+        "slot_class": "afternoon2 break", 
+        "slot_id": "w3-w4", 
+        "time": "15:30-16:30"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "Effecten", 
+            "session": "Tutorial 2: part 2 (ends 18:00)"
+          },
+          {
+            "room": "Berlage", 
+            "session": "PODS: Phokion Kolaitis Special Event: part 2 (starts 16:00)"
+          },
+          {
+            "room": "Administratie", 
+            "session": "DEEM Workshop: Session 4"
+          },
+          {
+            "room": "Veiling", 
+            "session": "GRADES-NDA Workshop: Session 4"
+          },
+          {
+            "room": "Mendes da Costa", 
+            "session": "DSMM Workshop: Session 4"
+          }
+        ], 
+        "slot_class": "afternoon2", 
+        "slot_id": "w4", 
+        "time": "16:30-18:30"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "Grote Zaal", 
+            "session": "PODS Reception"
+          } 
+        ], 
+        "slot_class": "reception", 
+        "slot_id": "reception", 
+        "time": "18:30-20:30"
+      }
+    ]
+  }, 
+  {
+    "date": "01/07/2019", 
     "day": "Monday", 
     "slots": [
       {
         "sessions": [
           {
-            "room": "Auditorium 602", 
-            "session": "FADS"
-          }, 
+            "room": "Grote Zaal", 
+            "session": "Coffee + Light Breakfast"
+          } 
+        ], 
+        "slot_class": "morning1 break", 
+        "slot_id": "-w1", 
+        "time": "08:00-08:30"
+      }, 
+      {
+        "sessions": [
           {
-            "room": "Auditorium 606", 
-            "session": "BIRTE"
-          },
-          {
-            "room": "Auditorium 601", 
-            "session": "TPCTC"
-          },
-          {
-            "room": "Auditorium 670", 
-            "session": "VLIoT"
-          },
-          {
-            "room": "Auditorium 1601", 
-            "session": "PhD Workshop"
+            "room": "Effecten", 
+            "session": "PODS Opening + Keynote"
           }
         ], 
-        "slot_class": "other", 
+        "slot_class": "morning1", 
         "slot_id": "w1", 
-        "time": "08:30-17:00"
+        "time": "08:30-10:00"
       },
       {
         "sessions": [
           {
-            "room": "Old Townhall of Munich", 
-            "session": "Welcome"
+            "room": "Effecten", 
+            "session": "PODS 1"
+          }, 
+          {
+            "room": "Berlage", 
+            "session": "DaMoN Workshop: Session 1"
+          }
+        ], 
+        "slot_class": "morning1", 
+        "slot_id": "w1a", 
+        "time": "10:00-11:00"
+      },
+      {
+        "sessions": [
+          {
+            "room": "Grote Zaal", 
+            "session": "Coffee"
           } 
         ], 
-        "slot_class": "other", 
-        "slot_id": "reception", 
-        "time": "19:00-23:00"
+        "slot_class": "morning2 break", 
+        "slot_id": "w1-w2", 
+        "time": "11:00-11:30"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "Effecten", 
+            "session": "PODS Test-of-Time & Gems"
+          }, 
+          {
+            "room": "Berlage", 
+            "session": "DaMoN Workshop: Session 2"
+          }
+        ], 
+        "slot_class": "morning2", 
+        "slot_id": "w2", 
+        "time": "11:30-13:00"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "Grote Zaal", 
+            "session": "Lunch + Posters (PODS, DaMoN, SIGMOD Student Research Competition)"
+          } 
+        ], 
+        "slot_class": "afternoon1 break", 
+        "slot_id": "w2-w3", 
+        "time": "13:00-14:30"
+      },
+      {
+        "sessions": [
+          {
+            "room": "Effecten", 
+            "session": "PODS 2"
+          }, 
+          {
+            "room": "Berlage",
+            "session": "DaMoN Workshop: Session 3"
+          }
+        ], 
+        "slot_class": "afternoon1", 
+        "slot_id": "w3", 
+        "time": "14:30-16:30"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "Grote Zaal", 
+            "session": "Coffee"
+          } 
+        ], 
+        "slot_class": "afternoon2 break", 
+        "slot_id": "w3-w4", 
+        "time": "16:30-17:00"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "Effecten", 
+            "session": "PODS 3"
+          },
+          {
+            "room": "Berlage", 
+            "session": "DaMoN Workshop: Session 4"
+          }
+        ], 
+        "slot_class": "afternoon2", 
+        "slot_id": "w4", 
+        "time": "17:00-18:00"
+      },
+      {
+        "sessions": [
+          {
+            "room": "Veiling", 
+            "session": "PODS Business Meeting"
+          },
+          {
+            "room": "Berlage", 
+            "session": "DaMoN Workshop: Session 4 (uninterrupted from 17:00)"
+          }
+        ], 
+        "slot_class": "afternoon2", 
+        "slot_id": "w4a", 
+        "time": "18:00-19:00"
       }
     ]
   }, 
   {
-    "date": "08/29/2017", 
+    "date": "02/07/2018", 
     "day": "Tuesday", 
     "slots": [
       {
         "sessions": [
           {
-            "room": "Audimax", 
-            "session": "keynote 1"
+            "room": "Grote Zaal", 
+            "session": "Coffee + Light Breakfast"
+          } 
+        ], 
+        "slot_class": "morning1 break", 
+        "slot_id": "-w1", 
+        "time": "08:00-08:30"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "Effecten", 
+            "session": "SIGMOD Welcome + Keynote"
+          } 
+        ], 
+        "slot_class": "morning1", 
+        "slot_id": "plenary 1", 
+        "time": "08:30-10:30"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "Effecten", 
+            "session": "SIGMOD Teaser Talks 1"
+          } 
+        ], 
+        "slot_class": "morning1", 
+        "slot_id": "plenary 1", 
+        "time": "10:30-11:00"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "Grote Zaal", 
+            "session": "Coffee"
+          } 
+        ], 
+        "slot_class": "morning2 break", 
+        "slot_id": "plenary-1", 
+        "time": "11:00-11:30"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "Effecten", 
+            "session": "SIGMOD Panel on Data Ethics"
+          }, 
+          {
+            "room": "Veiling", 
+            "session": "PODS 4"
+          }
+        ], 
+        "slot_class": "morning2", 
+        "slot_id": "1", 
+        "time": "11:30-12:50"
+      },
+      {
+        "sessions": [
+          {
+            "room": "Grote Zaal", 
+            "session": "Lunch"
+          } 
+        ], 
+        "slot_class": "afternoon1 break", 
+        "slot_id": "1-2", 
+        "time": "12:50-14:20"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "Effecten", 
+            "session": "SIGMOD Research 1"
+          }, 
+          {
+            "room": "Graan", 
+            "session": "SIGMOD Research 2"
+          }, 
+          {
+            "room": "Berlage", 
+            "session": "SIGMOD Research 3"
+          },
+          {
+            "room": "Administratie", 
+            "session": "SIGMOD Industry 1"
+          },
+          {
+            "room": "Veiling", 
+            "session": "PODS Tutorial 1"
+          }
+        ], 
+        "slot_class": "afternoon1", 
+        "slot_id": "2", 
+        "time": "14:20-16:20"
+      },
+      {
+        "sessions": [
+          {
+            "room": "Grote Zaal", 
+            "session": "Poster & Demo Reception 1"
+          } 
+        ], 
+        "slot_class": "afternoon2", 
+        "slot_id": "2-3", 
+        "time": "16:20-17:50"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "Effecten", 
+            "session": "New Researcher Symposium"
+          }, 
+          {
+            "room": "Graan", 
+            "session": "Student Research Competition (starts 17:20)"
+          }, 
+          {
+            "room": "Veiling", 
+            "session": "PODS 5"
+          }
+        ], 
+        "slot_class": "afternoon2", 
+        "slot_id": "3", 
+        "time": "17:50-19:50"
+      },
+      {
+        "sessions": [
+          {
+            "room": "Van Gogh Museum", 
+            "session": "SIGMOD Reception - sponsored by MonetDB"
+          } 
+        ], 
+        "slot_class": "opening reception", 
+        "slot_id": "4", 
+        "time": "20:30-23:00"
+      }
+    ]
+  }, 
+  {
+    "date": "03/07/2018", 
+    "day": "Wednesday", 
+    "slots": [
+      {
+        "sessions": [
+          {
+            "room": "Grote Zaal", 
+            "session": "Coffee + Light Breakfast"
+          } 
+        ], 
+        "slot_class": "morning1 break", 
+        "slot_id": "-w1", 
+        "time": "08:00-08:30"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "Effecten", 
+            "session": "SIGMOD Keynote"
           } 
         ], 
         "slot_class": "morning1", 
@@ -61,517 +466,387 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "Tent", 
-            "session": "coffee"
-          } 
-        ], 
-        "slot_class": "other", 
-        "slot_id": "-1", 
-        "time": "10:00-10:30"
-      },
-      {
-        "sessions": [
-          {
-            "room": "Audimax", 
-            "session": "Panel"
+            "room": "Effecten", 
+            "session": "SIGMOD Teaser Talks 2"
           }, 
           {
-            "room": "Auditorium 602", 
-            "session": "Session 1b"
-          }, 
-          {
-            "room": "Auditorium 606", 
-            "session": "Session 1c"
-          },
-          {
-            "room": "Auditorium 601", 
-            "session": "Session 1d"
-          },
-          {
-            "room": "Auditorium 670", 
-            "session": "Session 1e"
-          },
-          {
-            "room": "Auditorium 1601", 
-            "session": "Tutorial 1"
-          },
-          {
-            "room": "Classrooms 2601, 2605, 2607", 
-            "session": "Demo Group A"
-          }
-        ], 
-        "slot_class": "morning2", 
-        "slot_id": "1", 
-        "time": "10:30-12:00"
-      },
-      {
-        "sessions": [
-          {
-            "room": "Tent", 
-            "session": "lunch"
+            "room": "Veiling", 
+            "session": "PODS 6"
           } 
         ], 
-        "slot_id": "1-2", 
-        "time": "12:00-13:30"
+        "slot_class": "morning1", 
+        "slot_id": "plenary 1a", 
+        "time": "10:00-11:00"
       }, 
       {
         "sessions": [
           {
-            "room": "Audimax", 
-            "session": "Session 2a"
+            "room": "Grote Zaal", 
+            "session": "Coffee"
+          } 
+        ], 
+        "slot_class": "morning2 break", 
+        "slot_id": "plenary-1", 
+        "time": "11:00-11:30"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "Effecten", 
+            "session": "SIGMOD Research 4"
           }, 
           {
-            "room": "Auditorium 602", 
-            "session": "Session 2b"
+            "room": "Graan", 
+            "session": "SIGMOD Research 5"
           }, 
           {
-            "room": "Auditorium 606", 
-            "session": "Session 2c"
+            "room": "Berlage", 
+            "session": "SIGMOD Research 6"
           },
           {
-            "room": "Auditorium 601", 
-            "session": "Session 2d"
+            "room": "Administratie", 
+            "session": "SIGMOD Industry 2"
           },
           {
-            "room": "Auditorium 670", 
-            "session": "Session 2e"
+            "room": "Veiling", 
+            "session": "PODS 7"
+          }
+        ], 
+        "slot_class": "morning2", 
+        "slot_id": "2", 
+        "time": "11:30-12:50"
+      },
+      {
+        "sessions": [
+          {
+            "room": "Grote Zaal", 
+            "session": "Lunch"
+          } 
+        ], 
+        "slot_class": "afternoon1 break", 
+        "slot_id": "1-2", 
+        "time": "12:50-14:20"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "Effecten", 
+            "session": "SIGMOD Research 7"
+          }, 
+          {
+            "room": "Graan", 
+            "session": "SIGMOD Research 8"
+          }, 
+          {
+            "room": "Berlage", 
+            "session": "SIGMOD Research 9"
           },
           {
-            "room": "Auditorium 1601", 
-            "session": "Tutorial 2"
+            "room": "Administratie", 
+            "session": "SIGMOD Research 10"
           },
           {
-            "room": "Classrooms 2601, 2605, 2607", 
-            "session": "Demo Group B"
+            "room": "Veiling", 
+            "session": "PODS Tutorial 2"
           }
         ], 
         "slot_class": "afternoon1", 
         "slot_id": "2", 
-        "time": "13:30-15:00"
+        "time": "14:20-16:20"
       },
       {
         "sessions": [
           {
-            "room": "Tent", 
-            "session": "coffee"
+            "room": "Grote Zaal", 
+            "session": "Poster & Demo Reception 2"
           } 
         ], 
-        "slot_class": "Other", 
+        "slot_class": "afternoon2", 
         "slot_id": "2-3", 
-        "time": "15:00-15:30"
+        "time": "16:20-17:50"
       }, 
       {
         "sessions": [
           {
-            "room": "Audimax", 
-            "session": "Session 3a"
-          }, 
-          {
-            "room": "Auditorium 602", 
-            "session": "Session 3b"
-          }, 
-          {
-            "room": "Auditorium 606", 
-            "session": "Session 3c"
-          },
-          {
-            "room": "Auditorium 601", 
-            "session": "Session 3d"
-          },
-          {
-            "room": "Auditorium 670", 
-            "session": "Session 3e"
-          },
-          {
-            "room": "Auditorium 1601", 
-            "session": "Tutorial 3"
-          },
-          {
-            "room": "Classrooms 2601, 2605, 2607", 
-            "session": "Demo Group C"
-          }
+            "room": "20 boats (Rederij Stromma)",
+            "session": "Dinner Transfer incl. Canal Cruise" 
+          } 
         ], 
-        "slot_class": "afternoon2", 
-        "slot_id": "3", 
-        "time": "15:30-17:00"
+        "slot_class": "canal cruise", 
+        "slot_id": "4", 
+        "time": "17:50-20:30"
       },
       {
         "sessions": [
           {
-            "room": "Audimax Foyer", 
-            "session": "Posters1"
+            "room": "Noorderlicht Cafe", 
+            "session": "SIGMOD Dinner"
           } 
         ], 
-        "slot_class": "afternoon2", 
-        "slot_id": "3+", 
-        "time": "17:00-18:00"
+        "slot_class": "conference dinner", 
+        "slot_id": "5", 
+        "time": "20:30-23:00"
       }
     ]
   }, 
   {
-    "date": "08/30/2017", 
-    "day": "Wednesday", 
-    "slots": [
-      {
-        "sessions": [
-          {
-            "room": "Audimax", 
-            "session": "keynote 2"
-          }
-        ], 
-        "slot_class": "morning1", 
-        "slot_id": "plenary 2", 
-        "time": "08:30-10:00"
-      }, 
-      {
-        "sessions": [
-          {
-            "room": "Tent", 
-            "session": "coffee"
-          } 
-        ], 
-        "slot_class": "other", 
-        "slot_id": "plenary-4", 
-        "time": "10:00-10:30"
-      }, 
-      {
-        "sessions": [
-          {
-            "room": "Audimax", 
-            "session": "Session 4a"
-          }, 
-          {
-            "room": "Auditorium 602", 
-            "session": "Session 4b"
-          }, 
-          {
-            "room": "Auditorium 606", 
-            "session": "Session 4c"
-          },
-          {
-            "room": "Auditorium 601", 
-            "session": "Session 4d"
-          },
-          {
-            "room": "Auditorium 1601", 
-            "session": "Tutorial 4"
-          },
-          {
-            "room": "Classrooms 2601, 2605, 2607", 
-            "session": "Demo Group D"
-          }
-        ], 
-        "slot_class": "morning2", 
-        "slot_id": "4", 
-        "time": "10:30-12:00"
-      },
-      {
-        "sessions": [
-          {
-            "room": "Tent", 
-            "session": "lunch"
-          }
-        ], 
-        "slot_id": "4-5", 
-        "time": "12:00-13:30"
-      }, 
-      {
-        "sessions": [
-          {
-            "room": "Audimax", 
-            "session": "Session 5a"
-          }, 
-          {
-            "room": "Auditorium 602", 
-            "session": "Session 5b"
-          }, 
-          {
-            "room": "Auditorium 606", 
-            "session": "Session 5c"
-          },
-          {
-            "room": "Auditorium 601", 
-            "session": "Session 5d"
-          },
-          {
-            "room": "Auditorium 670", 
-            "session": "Session 5e"
-          },
-          {
-            "room": "Auditorium 1601", 
-            "session": "Tutorial 5"
-          },
-          {
-            "room": "Classrooms 2601, 2605, 2607", 
-            "session": "Demo Group C"
-          }
-        ], 
-        "slot_class": "afternoon1", 
-        "slot_id": "5", 
-        "time": "13:30-15:00"
-      },
-      {
-        "sessions": [
-          {
-            "room": "Tent", 
-            "session": "coffee"
-          } 
-        ], 
-        "slot_class": "other", 
-        "slot_id": "5-6", 
-        "time": "15:00-15:30"
-      }, 
-      {
-        "sessions": [
-          {
-            "room": "Audimax", 
-            "session": "Session 6a"
-          }, 
-          {
-            "room": "Auditorium 602", 
-            "session": "Session 6b"
-          }, 
-          {
-            "room": "Auditorium 606", 
-            "session": "Session 6c"
-          },
-          {
-            "room": "Auditorium 601", 
-            "session": "Session 6d"
-          },
-          {
-            "room": "Auditorium 670", 
-            "session": "Session 6e"
-          },
-          {
-            "room": "Auditorium 1601", 
-            "session": "Tutorial 6"
-          },
-          {
-            "room": "Classrooms 2601, 2605, 2607", 
-            "session": "Demo Group A"
-          }
-        ], 
-        "slot_class": "afternoon2", 
-        "slot_id": "6", 
-        "time": "15:30-17:00"
-      },
-      {
-        "sessions": [
-          {
-            "room": "Audimax Foyer", 
-            "session": "Posters2"
-          } 
-        ], 
-        "slot_class": "afternoon2", 
-        "slot_id": "6+", 
-        "time": "17:00-18:00"
-      }, 
-      {
-        "sessions": [
-          {
-            "room": "Hofbräuhaus", 
-            "session": "VLDB Octoberfest"
-          } 
-        ], 
-        "slot_class": "other", 
-        "slot_id": "6++", 
-        "time": "19:00-23:00"
-      } 
-    ]
-  }, 
-  {
-    "date": "08/31/2017", 
+    "date": "04/07/2018", 
     "day": "Thursday", 
     "slots": [
       {
         "sessions": [
           {
-            "room": "Audimax", 
-            "session": "plenary 3"
+            "room": "Grote Zaal", 
+            "session": "Coffee + Light Breakfast"
+          } 
+        ], 
+        "slot_class": "morning1 break", 
+        "slot_id": "-w1", 
+        "time": "08:00-08:30"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "Effecten", 
+            "session": "SIGMOD Award Talks"
           } 
         ], 
         "slot_class": "morning1", 
-        "slot_id": "plenary 3", 
-        "time": "08:30-10:30"
+        "slot_id": "plenary 1", 
+        "time": "08:30-10:00"
       }, 
       {
         "sessions": [
           {
-            "room": "Tent", 
-            "session": "coffee"
+            "room": "Effecten", 
+            "session": "SIGMOD Teaser Talks 3"
           } 
         ], 
-        "slot_class": "other", 
-        "slot_id": "plenary-7", 
-        "time": "10:30-10:55"
+        "slot_class": "morning1", 
+        "slot_id": "plenary 1a", 
+        "time": "10:00-11:00"
       }, 
       {
         "sessions": [
           {
-            "room": "Audimax", 
-            "session": "Session 7a"
+            "room": "Grote Zaal", 
+            "session": "Coffee"
+          } 
+        ], 
+        "slot_class": "morning2 break", 
+        "slot_id": "plenary-1", 
+        "time": "11:00-11:30"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "Effecten", 
+            "session": "SIGMOD Research 11"
           }, 
           {
-            "room": "Auditorium 602", 
-            "session": "Session 7b"
+            "room": "Graan", 
+            "session": "SIGMOD Research 12"
           }, 
           {
-            "room": "Auditorium 606", 
-            "session": "Session 7c"
+            "room": "Berlage", 
+            "session": "SIGMOD Research 13"
           },
           {
-            "room": "Auditorium 601", 
-            "session": "Session 7d"
+            "room": "Administratie", 
+            "session": "SIGMOD Research 14"
           }
         ], 
         "slot_class": "morning2", 
-        "slot_id": "7", 
-        "time": "10:55-12:00"
+        "slot_id": "1", 
+        "time": "11:30-12:50"
       },
       {
         "sessions": [
           {
-            "room": "Tent", 
-            "session": "lunch"
+            "room": "Grote Zaal", 
+            "session": "Lunch"
           } 
         ], 
-        "slot_class": "other", 
-        "slot_id": "7-8", 
-        "time": "12:00-13:30"
+        "slot_class": "afternoon1 break", 
+        "slot_id": "1-2", 
+        "time": "12:50-14:20"
       }, 
       {
         "sessions": [
           {
-            "room": "Audimax", 
-            "session": "Session 8a"
+            "room": "Effecten", 
+            "session": "SIGMOD Research 15"
           }, 
           {
-            "room": "Auditorium 602", 
-            "session": "Session 8b"
+            "room": "Graan", 
+            "session": "SIGMOD Research 16"
           }, 
           {
-            "room": "Auditorium 606", 
-            "session": "Session 8c"
+            "room": "Berlage", 
+            "session": "SIGMOD Research 17"
           },
           {
-            "room": "Auditorium 601", 
-            "session": "Session 8d"
-          },
-          {
-            "room": "Auditorium 670", 
-            "session": "Session 8e"
-          },
-          {
-            "room": "Auditorium 1601", 
-            "session": "Tutorial 7"
-          },
-          {
-            "room": "Classrooms 2601, 2605, 2607", 
-            "session": "Demo Group D"
+            "room": "Administratie", 
+            "session": "SIGMOD Industry 3"
           }
         ], 
         "slot_class": "afternoon1", 
-        "slot_id": "8", 
-        "time": "13:30-15:00"
+        "slot_id": "2", 
+        "time": "14:20-16:20"
       },
       {
         "sessions": [
           {
-            "room": "Tent", 
-            "session": "coffee"
-          }
-        ], 
-        "slot_class": "other", 
-        "slot_id": "8-9", 
-        "time": "15:00-15:30"
-      }, 
-      {
-        "sessions": [
-          {
-            "room": "Audimax", 
-            "session": "Session 9a"
-          }, 
-          {
-            "room": "Auditorium 602", 
-            "session": "Session 9b"
-          }, 
-          {
-            "room": "Auditorium 606", 
-            "session": "Session 9c"
-          },
-          {
-            "room": "Auditorium 601", 
-            "session": "Session 9d"
-          },
-          {
-            "room": "Auditorium 670", 
-            "session": "Session 9e"
-          },
-          {
-            "room": "Auditorium 1601", 
-            "session": "Tutorial 8"
-          },
-          {
-            "room": "Classrooms 2601, 2605, 2607", 
-            "session": "Demo Group B"
-          }
+            "room": "Grote Zaal", 
+            "session": "Poster & Demo Reception 3"
+          } 
         ], 
         "slot_class": "afternoon2", 
-        "slot_id": "9", 
-        "time": "15:30-17:00"
-      },
-      {
-        "sessions": [
-          {
-            "room": "Audimax Foyer", 
-            "session": "Posters3"
-          }
-        ], 
-        "slot_class": "afternoon2", 
-        "slot_id": "9+", 
-        "time": "17:00-18:00"
-      } 
+        "slot_id": "2-3", 
+        "time": "16:20-17:50"
+      }
     ]
   }, 
   {
-    "date": "09/01/2017", 
+    "date": "07/07/2019", 
     "day": "Friday", 
     "slots": [
       {
         "sessions": [
           {
-            "room": "Auditorium 602", 
-            "session": "MATES"
+            "room": "Grote Zaal", 
+            "session": "Coffee + Light Breakfast"
+          } 
+        ], 
+        "slot_class": "morning1 break", 
+        "slot_id": "-w1", 
+        "time": "08:00-08:30"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "Effecten", 
+            "session": "Tutorial 4: part 1 (starts 09:00)"
           }, 
           {
-            "room": "Auditorium 606", 
-            "session": "ADMS"
+            "room": "Berlage", 
+            "session": "Tutorial 6: part 1 (starts 09:00)"
           },
           {
-            "room": "Auditorium 601", 
-            "session": "DMAH"
+            "room": "Administratie", 
+            "session": "HILDA Workshop: Session 1"
           },
           {
-            "room": "Auditorium 670", 
-            "session": "DBPL"
+            "room": "Veiling", 
+            "session": "aiDM Workshop: Session 1"
           },
           {
-            "room": "Auditorium 1601", 
-            "session": "BOSS"
-          },
-          {
-            "room": "Classroom 2601", 
-            "session": "BOSS"
-          },
-          {
-            "room": "Classroom 2605", 
-            "session": "BOSS"
+            "room": "Mendes da Costa", 
+            "session": "SBD Workshop: Session 1"
           }
         ], 
-        "slot_class": "other", 
-        "slot_id": "w5", 
-        "time": "08:30-17:00"
+        "slot_class": "morning1", 
+        "slot_id": "w1", 
+        "time": "08:30-10:30"
+      },
+      {
+        "sessions": [
+          {
+            "room": "Effecten", 
+            "session": "Tutorial 4: part 2"
+          }, 
+          {
+            "room": "Berlage", 
+            "session": "Tutorial 6: part 2"
+          },
+          {
+            "room": "Administratie", 
+            "session": "HILDA Workshop: Session 2"
+          },
+          {
+            "room": "Veiling", 
+            "session": "aiDM Workshop: Session 2"
+          },
+          {
+            "room": "Mendes da Costa", 
+            "session": "SBD Workshop: Session 2"
+          }
+        ], 
+        "slot_class": "morning2", 
+        "slot_id": "w2", 
+        "time": "11:00-12:30"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "Grote Zaal", 
+            "session": "Lunch"
+          } 
+        ], 
+        "slot_class": "afternoon1 break", 
+        "slot_id": "w2-w3", 
+        "time": "12:30-14:00"
+      },
+      {
+        "sessions": [
+          {
+            "room": "Effecten", 
+            "session": "Tutorial 5: part 1"
+          }, 
+          {
+            "room": "Berlage", 
+            "session": "Tutorial 7"
+          },
+          {
+            "room": "Administratie", 
+            "session": "HILDA Workshop: Session 3"
+          },
+          {
+            "room": "Veiling", 
+            "session": "aiDM Workshop: Session 3"
+          },
+          {
+            "room": "Mendes da Costa", 
+            "session": "SBD Workshop: Session 3"
+          }
+        ], 
+        "slot_class": "afternoon1", 
+        "slot_id": "w3", 
+        "time": "14:00-15:30"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "Grote Zaal", 
+            "session": "Coffee + Workshop Posters"
+          } 
+        ], 
+        "slot_class": "afternoon2 break", 
+        "slot_id": "w3-w4", 
+        "time": "15:30-16:30"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "Effecten", 
+            "session": "Tutorial 5: part 2 (ends 18:00)"
+          },
+          {
+            "room": "Administratie", 
+            "session": "HILDA Workshop: Session 4"
+          },
+          {
+            "room": "Veiling", 
+            "session": "aiDM Workshop: Session 4"
+          },
+          {
+            "room": "Mendes da Costa", 
+            "session": "SBD Workshop: Session 4"
+          }
+        ], 
+        "slot_class": "afternoon2", 
+        "slot_id": "w4", 
+        "time": "16:30-18:30"
       }
     ]
   }

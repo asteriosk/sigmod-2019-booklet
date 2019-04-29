@@ -1,5 +1,5 @@
 rm -f papers.json schedule.json sessions.json
-wget http://confer.csail.mit.edu/static/conf/vldb2017/data/papers.json
-wget http://confer.csail.mit.edu/static/conf/vldb2017/data/schedule.json
-wget http://confer.csail.mit.edu/static/conf/vldb2017/data/sessions.json
+wget https://homepages.cwi.nl/~boncz/confer-sigmod2019/papers.json
+wget https://homepages.cwi.nl/~boncz/confer-sigmod2019/schedule.json
+wget https://homepages.cwi.nl/~boncz/confer-sigmod2019/sessions.json
 
