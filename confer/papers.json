@@ -2993,19 +2993,6 @@ entities={
   "type": "PODS",
   "id": "PODS_Research_119k"
 },
-"PODS_Research_122g": {
-  "title": "Latent Semantic Indexing: A Probabilistic Analysis",
-  "abstract": "",
-  "subtype": "Gems of PODS",
-  "authors": [
-    {
-      "name": "Christos Papadimitriou",
-      "affiliation": "Columbia University"
-    }
-   ],
-  "type": "PODS",
-  "id": "PODS_Research_122g"
-},
 "PODS_Research_125g": {
   "title": "Database Repairs and Consistent Query Answering: Origins and Further Developments",
   "abstract": "In this article we review the main concepts around database repairs and consistent query answering, with emphasis on tracing back the origin, motivation, and early developments. We also describe some research directions that has spun from those main concepts and the original line of research. We emphasize, in particular, fruitful and recent connections between repairs and causality in databases.",
@@ -3086,6 +3073,19 @@ entities={
    ],
   "type": "PODS",
   "id": "PODS_Research_tot"
+},
+"PODS_Research_122g": {
+  "title": "Remembering the Probabilistic Analysis of Latent Semantic Indexing",
+  "abstract": "",
+  "subtype": "Gems of PODS",
+  "authors": [
+    {
+      "name": "Christos Papadimitriou",
+      "affiliation": "Columbia University"
+    }
+   ],
+  "type": "PODS",
+  "id": "PODS_Research_122g"
 },
 "SIGMOD_Industrial_640": {
   "title": "QuickInsights: Quick and Automatic Discovery of Insights from Multi-Dimensional Data",
@@ -5404,47 +5404,22 @@ entities={
   "type": "SIGMOD",
   "id": "SIGMOD_Tutorial_10"
 },
-"SIGMOD_Workshop_11": {
-  "title": "NDA-GRADES 19: Second Joint International Workshop on Graph Data Management Experiences & Systems (GRADES) and Network Data Analytics (NDA)",
-  "abstract": "The goal of GRADES-NDA is to bring together researchers from academia, industry, and government, (1) to create a forum for discussing recent advances in (large-scale) graph data management and analytics systems, as well as propose and discuss novel methods and techniques towards (2) addressing domain specific challenges or (3) handling noise in real-world graphs.",
+"SIGMOD_Workshop_10": {
+  "title": "aIDM 19: Second International Workshop on Exploiting Artificial Intelligence Techniques for Data Management",
+  "abstract": "The goal of the workshop is to take a holistic view of various AI technologies and investigate how they can be applied to different component of an end-to-end data management pipeline. Special emphasis would be given to how AI techniques in data management systems, e.g., enabling natural language interfaces to relational databases and applying machine learning techniques for query optimizations. However, a lot more needs to done to fully exploit the power of AI for data management workloads.",
   "subtype": "SIGMOD Workshop",
   "authors": [
     {
-      "name": "Akhil Arora",
-      "affiliation": "EPFL"
+      "name": "Rajesh Bordawekar",
+      "affiliation": "IBM T.J. Watson Research Center"
     },
     {
-      "name": "Arnab Bhattacharya",
-      "affiliation": "IIT Kanpur"
-    },
-    {
-      "name": "George Fletcher",
-      "affiliation": "TU Eindhoven"
+      "name": "Oded Shmueli",
+      "affiliation": "Computer Science Department, Technion"
     }
    ],
   "type": "SIGMOD",
-  "id": "SIGMOD_Workshop_11"
-},
-"SIGMOD_Workshop_12": {
-  "title": "HILDA 19: Fourth International Workshop on Human-In-the-Loop Data Analytics",
-  "abstract": "HILDA is a workshop that will allow researchers and practitioners to exchange ideas and results relating to how data management can be done with awareness of the people who form part of the processes. A sample of topics that is are in the spirit of this workshop includes, but is not limited to: novel query interfaces, interactive query refinement, data exploration and analysis, data visualization, human-assisted data integration and cleaning, perception-aware data processing, database systems designed for highly interactive use cases, empirical studies of database use, and crowd-powered data infrastructure.",
-  "subtype": "SIGMOD Workshop",
-  "authors": [
-    {
-      "name": "Leilani Battle",
-      "affiliation": "Univeristy of Maryland"
-    },
-    {
-      "name": "Surajit Chaudhuri",
-      "affiliation": "Microsoft Research"
-    },
-    {
-      "name": "Arnab Nandi",
-      "affiliation": "The Ohio State University"
-    }
-   ],
-  "type": "SIGMOD",
-  "id": "SIGMOD_Workshop_12"
+  "id": "SIGMOD_Workshop_10"
 },
 "TODS_Poster_1": {
   "title": "Representations and Optimizations for Embedded Parallel Dataflow Languages",
@@ -5551,7 +5526,7 @@ entities={
   "id": "TODS_Poster_4"
 },
 "SIGMOD_Posters_1": {
-  "title": "One poster for each SIGMOD and PODS paper presented on Tuesday.",
+  "title": "One poster for each SIGMOD and PODS paper presented on Tuesday. Plus 5 Programming Contest demos.",
   "abstract": "",
   "subtype": "SIGMOD Posters",
   "authors": [

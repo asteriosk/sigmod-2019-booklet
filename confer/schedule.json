@@ -12,55 +12,66 @@ schedule=[
         ], 
         "slot_class": "morning1 break", 
         "slot_id": "-w1", 
-        "time": "08:00-08:30"
+        "time": "08:00-09:00"
       }, 
       {
         "sessions": [
           {
-            "room": "Effecten", 
-            "session": "Tutorial 1: part 1 (starts 09:00)"
+            "room": "Effectenbeurszaal", 
+            "session": "Tutorial 1: part 1"
           }, 
           {
-            "room": "Berlage", 
-            "session": "Tutorial 3: part 2 (starts 09:00)"
+            "room": "Administratiezaal", 
+            "session": "GRADES-NDA Workshop: Session 1 (starts 08:30)"
           },
           {
-            "room": "Administratie", 
+            "room": "Berlage Zaal", 
             "session": "DEEM Workshop: Session 1"
           },
           {
-            "room": "Veiling", 
-            "session": "GRADES-NDA Workshop: Session 1"
+            "room": "Veilingzaal", 
+            "session": "Tutorial 3: part 1"
           },
           {
-            "room": "Mendes da Costa", 
+            "room": "Mendes da Costa Kamer", 
             "session": "DSMM Workshop: Session 1"
           }
         ], 
         "slot_class": "morning1", 
         "slot_id": "w1", 
-        "time": "08:30-10:30"
+        "time": "09:00-10:30"
       },
       {
         "sessions": [
           {
-            "room": "Effecten", 
+            "room": "Grote Zaal", 
+            "session": "Coffee"
+          } 
+        ], 
+        "slot_class": "morning2 break", 
+        "slot_id": "w1-w2", 
+        "time": "10:30-11:00"
+      }, 
+      {
+        "sessions": [
+          {
+            "room": "Effectenbeurszaal", 
             "session": "Tutorial 1: part 2"
           }, 
           {
-            "room": "Berlage", 
-            "session": "Tutorial 3: part 2"
-          },
-          {
-            "room": "Administratie", 
-            "session": "DEEM Workshop"
-          },
-          {
-            "room": "Veiling", 
+            "room": "Administratiezaal", 
             "session": "GRADES-NDA Workshop: Session 2"
           },
           {
-            "room": "Mendes da Costa", 
+            "room": "Berlage Zaal", 
+            "session": "DEEM Workshop: Session 2"
+          },
+          {
+            "room": "Veilingzaal", 
+            "session": "Tutorial 3: part 2"
+          },
+          {
+            "room": "Mendes da Costa Kamer", 
             "session": "DSMM Workshop: Session 2"
           }
         ], 
@@ -72,7 +83,7 @@ schedule=[
         "sessions": [
           {
             "room": "Grote Zaal", 
-            "session": "Lunch + Workshop Posters"
+            "session": "Lunch"
           } 
         ], 
         "slot_class": "afternoon1 break", 
@@ -82,23 +93,23 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "Effecten", 
+            "room": "Effectenbeurszaal", 
             "session": "Tutorial 2: part 1"
           }, 
           {
-            "room": "Berlage", 
-            "session": "PODS: Phokion Kolaitis Special Event: part 1"
-          },
-          {
-            "room": "Administratie", 
-            "session": "DEEM Workshop: Session 3"
-          },
-          {
-            "room": "Veiling", 
+            "room": "Administratiezaal", 
             "session": "GRADES-NDA Workshop: Session 3"
           },
           {
-            "room": "Mendes da Costa", 
+            "room": "Berlage Zaal", 
+            "session": "DEEM Workshop: Session 3"
+          },
+          {
+            "room": "Veilingzaal", 
+            "session": "PODS: Phokion Kolaitis Special Event: part 1"
+          },
+          {
+            "room": "Mendes da Costa Kamer", 
             "session": "DSMM Workshop: Session 3"
           }
         ], 
@@ -120,29 +131,29 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "Effecten", 
-            "session": "Tutorial 2: part 2 (ends 18:00)"
+            "room": "Effectenbeurszaal", 
+            "session": "Tutorial 2: part 2"
           },
           {
-            "room": "Berlage", 
-            "session": "PODS: Phokion Kolaitis Special Event: part 2 (starts 16:00)"
-          },
-          {
-            "room": "Administratie", 
-            "session": "DEEM Workshop: Session 4"
-          },
-          {
-            "room": "Veiling", 
+            "room": "Administratiezaal", 
             "session": "GRADES-NDA Workshop: Session 4"
           },
           {
-            "room": "Mendes da Costa", 
+            "room": "Berlage Zaal", 
+            "session": "DEEM Workshop: Session 4"
+          },
+          {
+            "room": "Veilingzaal", 
+            "session": "PODS: Phokion Kolaitis Special Event: part 2 (16:00-18:15)"
+          },
+          {
+            "room": "Mendes da Costa Kamer", 
             "session": "DSMM Workshop: Session 4"
           }
         ], 
         "slot_class": "afternoon2", 
         "slot_id": "w4", 
-        "time": "16:30-18:30"
+        "time": "16:30-18:00"
       }, 
       {
         "sessions": [
@@ -153,7 +164,7 @@ schedule=[
         ], 
         "slot_class": "reception", 
         "slot_id": "reception", 
-        "time": "18:30-20:30"
+        "time": "18:15-19:45"
       }
     ]
   }, 
@@ -175,7 +186,7 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "Effecten", 
+            "room": "Effectenbeurszaal", 
             "session": "PODS Opening + Keynote"
           }
         ], 
@@ -186,11 +197,11 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "Effecten", 
+            "room": "Effectenbeurszaal", 
             "session": "PODS 1"
           }, 
           {
-            "room": "Berlage", 
+            "room": "Berlage Zaal", 
             "session": "DaMoN Workshop: Session 1"
           }
         ], 
@@ -212,11 +223,11 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "Effecten", 
+            "room": "Effectenbeurszaal", 
             "session": "PODS Test-of-Time & Gems"
           }, 
           {
-            "room": "Berlage", 
+            "room": "Berlage Zaal", 
             "session": "DaMoN Workshop: Session 2"
           }
         ], 
@@ -238,11 +249,11 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "Effecten", 
+            "room": "Effectenbeurszaal", 
             "session": "PODS 2"
           }, 
           {
-            "room": "Berlage",
+            "room": "Berlage Zaal",
             "session": "DaMoN Workshop: Session 3"
           }
         ], 
@@ -264,11 +275,11 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "Effecten", 
+            "room": "Effectenbeurszaal", 
             "session": "PODS 3"
           },
           {
-            "room": "Berlage", 
+            "room": "Berlage Zaal", 
             "session": "DaMoN Workshop: Session 4"
           }
         ], 
@@ -279,11 +290,11 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "Veiling", 
+            "room": "Effectenbeurszaal", 
             "session": "PODS Business Meeting"
           },
           {
-            "room": "Berlage", 
+            "room": "Berlage Zaal", 
             "session": "DaMoN Workshop: Session 4 (uninterrupted from 17:00)"
           }
         ], 
@@ -311,24 +322,24 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "Effecten", 
+            "room": "Effectenbeurszaal", 
             "session": "SIGMOD Welcome + Keynote"
           } 
         ], 
         "slot_class": "morning1", 
         "slot_id": "plenary 1", 
-        "time": "08:30-10:30"
+        "time": "08:30-10:20"
       }, 
       {
         "sessions": [
           {
-            "room": "Effecten", 
+            "room": "Effectenbeurszaal", 
             "session": "SIGMOD Teaser Talks 1"
           } 
         ], 
         "slot_class": "morning1", 
         "slot_id": "plenary 1", 
-        "time": "10:30-11:00"
+        "time": "10:20-11:00"
       }, 
       {
         "sessions": [
@@ -344,11 +355,11 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "Effecten", 
+            "room": "Effectenbeurszaal", 
             "session": "SIGMOD Panel on Data Ethics"
           }, 
           {
-            "room": "Veiling", 
+            "room": "Veilingzaal", 
             "session": "PODS 4"
           }
         ], 
@@ -360,7 +371,7 @@ schedule=[
         "sessions": [
           {
             "room": "Grote Zaal", 
-            "session": "Lunch"
+            "session": "Lunch + SIGMOD Awards"
           } 
         ], 
         "slot_class": "afternoon1 break", 
@@ -370,23 +381,23 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "Effecten", 
+            "room": "Effectenbeurszaal", 
             "session": "SIGMOD Research 1"
           }, 
           {
-            "room": "Graan", 
+            "room": "Graanbeurszaal", 
             "session": "SIGMOD Research 2"
           }, 
           {
-            "room": "Berlage", 
+            "room": "Administratiezaal", 
             "session": "SIGMOD Research 3"
           },
           {
-            "room": "Administratie", 
+            "room": "Berlage Zaal", 
             "session": "SIGMOD Industry 1"
           },
           {
-            "room": "Veiling", 
+            "room": "Veilingzaal", 
             "session": "PODS Tutorial 1"
           }
         ], 
@@ -408,15 +419,15 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "Effecten", 
+            "room": "Effectenbeurszaal", 
             "session": "New Researcher Symposium"
           }, 
           {
-            "room": "Graan", 
+            "room": "Graanbeurszaal", 
             "session": "Student Research Competition (starts 17:20)"
           }, 
           {
-            "room": "Veiling", 
+            "room": "Veilingzaal", 
             "session": "PODS 5"
           }
         ], 
@@ -455,7 +466,7 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "Effecten", 
+            "room": "Effectenbeurszaal", 
             "session": "SIGMOD Keynote"
           } 
         ], 
@@ -466,11 +477,11 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "Effecten", 
+            "room": "Effectenbeurszaal", 
             "session": "SIGMOD Teaser Talks 2"
           }, 
           {
-            "room": "Veiling", 
+            "room": "Veilingzaal", 
             "session": "PODS 6"
           } 
         ], 
@@ -492,23 +503,23 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "Effecten", 
+            "room": "Effectenbeurszaal", 
             "session": "SIGMOD Research 4"
           }, 
           {
-            "room": "Graan", 
+            "room": "Graanbeurszaal", 
             "session": "SIGMOD Research 5"
           }, 
           {
-            "room": "Berlage", 
+            "room": "Administratiezaal", 
             "session": "SIGMOD Research 6"
           },
           {
-            "room": "Administratie", 
+            "room": "Berlage Zaal", 
             "session": "SIGMOD Industry 2"
           },
           {
-            "room": "Veiling", 
+            "room": "Veilingzaal", 
             "session": "PODS 7"
           }
         ], 
@@ -520,7 +531,7 @@ schedule=[
         "sessions": [
           {
             "room": "Grote Zaal", 
-            "session": "Lunch"
+            "session": "Lunch + SIGMOD Business Meeting"
           } 
         ], 
         "slot_class": "afternoon1 break", 
@@ -530,23 +541,23 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "Effecten", 
+            "room": "Effectenbeurszaal", 
             "session": "SIGMOD Research 7"
           }, 
           {
-            "room": "Graan", 
+            "room": "Graanbeurszaal", 
             "session": "SIGMOD Research 8"
           }, 
           {
-            "room": "Berlage", 
+            "room": "Administratiezaal", 
             "session": "SIGMOD Research 9"
           },
           {
-            "room": "Administratie", 
+            "room": "Berlage Zaal", 
             "session": "SIGMOD Research 10"
           },
           {
-            "room": "Veiling", 
+            "room": "Veilingzaal", 
             "session": "PODS Tutorial 2"
           }
         ], 
@@ -580,7 +591,7 @@ schedule=[
         "sessions": [
           {
             "room": "Noorderlicht Cafe", 
-            "session": "SIGMOD Dinner"
+            "session": "SIGMOD Dinner - sponsored by Facebook"
           } 
         ], 
         "slot_class": "conference dinner", 
@@ -607,7 +618,7 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "Effecten", 
+            "room": "Effectenbeurszaal", 
             "session": "SIGMOD Award Talks"
           } 
         ], 
@@ -618,7 +629,7 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "Effecten", 
+            "room": "Effectenbeurszaal", 
             "session": "SIGMOD Teaser Talks 3"
           } 
         ], 
@@ -640,19 +651,19 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "Effecten", 
+            "room": "Effectenbeurszaal", 
             "session": "SIGMOD Research 11"
           }, 
           {
-            "room": "Graan", 
+            "room": "Graanbeurszaal", 
             "session": "SIGMOD Research 12"
           }, 
           {
-            "room": "Berlage", 
+            "room": "Administratiezaal", 
             "session": "SIGMOD Research 13"
           },
           {
-            "room": "Administratie", 
+            "room": "Berlage Zaal", 
             "session": "SIGMOD Research 14"
           }
         ], 
@@ -674,19 +685,19 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "Effecten", 
+            "room": "Effectenbeurszaal", 
             "session": "SIGMOD Research 15"
           }, 
           {
-            "room": "Graan", 
+            "room": "Graanbeurszaal", 
             "session": "SIGMOD Research 16"
           }, 
           {
-            "room": "Berlage", 
+            "room": "Administratiezaal", 
             "session": "SIGMOD Research 17"
           },
           {
-            "room": "Administratie", 
+            "room": "Berlage Zaal", 
             "session": "SIGMOD Industry 3"
           }
         ], 
@@ -720,55 +731,55 @@ schedule=[
         ], 
         "slot_class": "morning1 break", 
         "slot_id": "-w1", 
-        "time": "08:00-08:30"
+        "time": "08:30-09:00"
       }, 
       {
         "sessions": [
           {
-            "room": "Effecten", 
-            "session": "Tutorial 4: part 1 (starts 09:00)"
+            "room": "Effectenbeurszaal", 
+            "session": "Tutorial 4: part 1"
           }, 
           {
-            "room": "Berlage", 
-            "session": "Tutorial 6: part 1 (starts 09:00)"
+            "room": "Administratiezaal", 
+            "session": "Tutorial 6: part 1"
           },
           {
-            "room": "Administratie", 
+            "room": "Berlage Zaal", 
             "session": "HILDA Workshop: Session 1"
           },
           {
-            "room": "Veiling", 
+            "room": "Veilingzaal", 
             "session": "aiDM Workshop: Session 1"
           },
           {
-            "room": "Mendes da Costa", 
+            "room": "Mendes da Costa Kamer", 
             "session": "SBD Workshop: Session 1"
           }
         ], 
         "slot_class": "morning1", 
         "slot_id": "w1", 
-        "time": "08:30-10:30"
+        "time": "09:00-10:30"
       },
       {
         "sessions": [
           {
-            "room": "Effecten", 
+            "room": "Effectenbeurszaal", 
             "session": "Tutorial 4: part 2"
           }, 
           {
-            "room": "Berlage", 
+            "room": "Administratiezaal", 
             "session": "Tutorial 6: part 2"
           },
           {
-            "room": "Administratie", 
+            "room": "Berlage Zaal", 
             "session": "HILDA Workshop: Session 2"
           },
           {
-            "room": "Veiling", 
+            "room": "Veilingzaal", 
             "session": "aiDM Workshop: Session 2"
           },
           {
-            "room": "Mendes da Costa", 
+            "room": "Mendes da Costa Kamer", 
             "session": "SBD Workshop: Session 2"
           }
         ], 
@@ -790,23 +801,23 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "Effecten", 
+            "room": "Effectenbeurszaal", 
             "session": "Tutorial 5: part 1"
           }, 
           {
-            "room": "Berlage", 
+            "room": "Administratiezaal", 
             "session": "Tutorial 7"
           },
           {
-            "room": "Administratie", 
+            "room": "Berlage Zaal", 
             "session": "HILDA Workshop: Session 3"
           },
           {
-            "room": "Veiling", 
+            "room": "Veilingzaal", 
             "session": "aiDM Workshop: Session 3"
           },
           {
-            "room": "Mendes da Costa", 
+            "room": "Mendes da Costa Kamer", 
             "session": "SBD Workshop: Session 3"
           }
         ], 
@@ -828,25 +839,25 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "Effecten", 
-            "session": "Tutorial 5: part 2 (ends 18:00)"
+            "room": "Effectenbeurszaal", 
+            "session": "Tutorial 5: part 2"
           },
           {
-            "room": "Administratie", 
+            "room": "Berlage Zaal", 
             "session": "HILDA Workshop: Session 4"
           },
           {
-            "room": "Veiling", 
+            "room": "Veilingzaal", 
             "session": "aiDM Workshop: Session 4"
           },
           {
-            "room": "Mendes da Costa", 
+            "room": "Mendes da Costa Kamer", 
             "session": "SBD Workshop: Session 4"
           }
         ], 
         "slot_class": "afternoon2", 
         "slot_id": "w4", 
-        "time": "16:30-18:30"
+        "time": "16:30-18:00"
       }
     ]
   }
