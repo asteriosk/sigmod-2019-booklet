@@ -1,5 +1,15 @@
 \documentclass[9pt,paper=a6,twoside=true,BCOR=10mm,DIV=calc]{scrbook}
 \usepackage{incgraph,microtype,tikz,colortbl,pdflscape,moresize,lmodern}
+
+% How to use custom fonts:
+% https://www.overleaf.com/learn/latex/Questions/I_have_a_custom_font_I%27d_like_to_load_to_my_document._How_can_I_do_this%3F
+% Basically this boils down to:
+% 1. XeLaTeX
+% 2. \usepackage{fontspec}
+% 3. \setmainfont{}
+%    \setsansfont{}
+%    \setmonofont{}
+% The following three lines will not be required any more.
 \usepackage[utf8]{inputenc}
 \usepackage[tt=false]{libertine}
 \renewcommand{\ttdefault}{cmtt}
