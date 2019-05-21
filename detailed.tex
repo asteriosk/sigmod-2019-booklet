@@ -32,8 +32,10 @@
 
 \newcommand{\sessionname}[2]{\noindent\hypertarget{#1}{}\tikz{\node[headings/session]{#2};}}
 \newcommand{\sessionnamenl}[1]{\noindent\tikz{\node[headings/session]{#1};}}
-\newcommand{\sessionlocation}[1]{\noindent Location: #1}
-\newcommand{\sessionchair}[1]{\noindent Chair: #1}
+\newcommand{\sessionlocation}[1]{\noindent \textbf{Room}: #1}
+\newcommand{\sessiontime}[1]{} %\noindent \textbf{When}: #1
+
+\newcommand{\sessionchair}[1]{\noindent \textbf{Chair}: #1}
 \newcommand{\sessionsep}{\vspace{2mm}}
 
 \newcommand{\papertitle}[2]{\noindent\href{#2}{\textbf{#1}}}

@@ -109,7 +109,7 @@ static string pickSessionLabel(set<string>& sessionsSeen,string name)
    }
 }
 
-static void dumpSession(ostream& out,string room,string sessionName,string sessionLabel)
+static void dumpSession(ostream& out,string room,string sessionName,string sessionLabel, string day, string time)
 {
   auto& s=extra.get<picojson::object>()["specialsessions"].get<picojson::object>();
   if (s.count(sessionName)&&(s[sessionName].get<picojson::object>().count("detailed"))) {
@@ -120,8 +120,13 @@ static void dumpSession(ostream& out,string room,string sessionName,string sessi
      return;
   }
   auto session=sessions.get<picojson::object>()[sessionName].get<picojson::object>();
-  out << "\\sessionname{" << sessionLabel << "}{" << escapeLatex(handleHTML(session["s_title"].get<string>())) << "}\\\\\n";
+  out << "\\sessionname{" << sessionLabel << "}{" << escapeLatex(handleHTML(session["s_title"].get<string>())) 
+  << "\\hfill {\\relscale{0.7} (" << day.substr(0, 3) << " " << time << ")} "
+      << "}\\\\\n";
+
+  out << "\\sessiontime{" << day << " " << time << "}\n";
   out << "\\sessionlocation{" << escapeLatex(room) << "}\n\n";
+
   if (session.count("chair"))
      out << "\\sessionchair{" << escapeLatex(session["chair"].get<string>()) << "}\n\n";
   out << "\\sessionsep{}\n";
@@ -200,7 +205,7 @@ static void dumpDetailed(string outFile)
       for (auto& session_:slot["sessions"].get<picojson::array>()) {
 	auto session=session_.get<picojson::object>();
         auto sessionName=session["session"].get<string>();
-	dumpSession(out,session["room"].get<string>(),sessionName,pickSessionLabel(sessionsSeen,sessionName));
+	dumpSession(out,session["room"].get<string>(),sessionName,pickSessionLabel(sessionsSeen,sessionName), day["day"].get<string>(), time);
       }
 
     }

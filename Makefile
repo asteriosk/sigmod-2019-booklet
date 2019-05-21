@@ -5,8 +5,7 @@ booklet.pdf: booklet.tex confer/detailed.tex confer/overview.tex
 
 tools/convertconfer: tools/convertconfer.cpp tools/picojson.h
 #	g++ -o$@ -g $^
-	clang++ -std=c++11 -stdlib=libc++ -Weverything -g $^ -o$@
-
+	clang++ -std=c++11 -stdlib=libc++ --output tools/convertconfer -Weverything tools/convertconfer.cpp
 
 confer/detailed.tex: tools/convertconfer confer/*.json
 	tools/convertconfer detailed $@
