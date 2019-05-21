@@ -4,8 +4,9 @@
   headings/base/.style = {
     outer sep = 0pt,
     text width = {\textwidth - 0.6666em},
-    align = left,
+    align = center,
     text = white,
+    font = \sffamily\Large\bfseries
   },
   headings/slot/.style = {
     headings/base,
@@ -16,6 +17,7 @@
   headings/session/.style = {
     headings/base,
     fill = black!60,
+    align = left,
     rounded corners=.5mm,
     font = \sffamily\large
   }
@@ -28,7 +30,7 @@
     urlcolor= %{blue!80!black}
 }
 
-\newcommand{\slotheading}[1]{\noindent\tikz{\node[headings/slot]{#1};}}
+\newcommand{\slotheading}[1]{\noindent\tikz{\node[headings/slot]{\textbf{#1}};}}
 
 \newcommand{\sessionname}[2]{\noindent\hypertarget{#1}{}\tikz{\node[headings/session]{#2};}}
 \newcommand{\sessionnamenl}[1]{\noindent\tikz{\node[headings/session]{#1};}}
