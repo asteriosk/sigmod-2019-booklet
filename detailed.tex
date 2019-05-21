@@ -9,14 +9,14 @@
   },
   headings/slot/.style = {
     headings/base,
-    fill = red!50,
-    rounded corners=1mm,
+    fill = black!90,
+    rounded corners=.5mm,
     font = \sffamily\Large
   },
   headings/session/.style = {
     headings/base,
-    fill = red!25,
-    rounded corners=1mm,
+    fill = black!60,
+    rounded corners=.5mm,
     font = \sffamily\large
   }
 }
@@ -37,7 +37,7 @@
 \newcommand{\sessionsep}{\vspace{2mm}}
 
 \newcommand{\papertitle}[2]{\noindent\href{#2}{\textbf{#1}}}
-\newcommand{\paperauthors}[1]{\\{\em #1}\vspace{2mm}}
+\newcommand{\paperauthors}[1]{\\{\relscale{0.9}\em #1}\vspace{2mm}}
 
 \begin{sloppypar}
 \input{confer/detailed.tex}

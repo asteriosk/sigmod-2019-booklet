@@ -1,6 +1,8 @@
 \documentclass[9pt,paper=a6,twoside=true,BCOR=10mm,DIV=calc]{scrbook}
 \usepackage{incgraph,microtype,tikz,colortbl,pdflscape,moresize,lmodern}
 
+\usepackage{relsize}
+
 % How to use custom fonts:
 % https://www.overleaf.com/learn/latex/Questions/I_have_a_custom_font_I%27d_like_to_load_to_my_document._How_can_I_do_this%3F
 % Basically this boils down to:
@@ -11,7 +13,10 @@
 %    \setmonofont{}
 % The following three lines will not be required any more.
 \usepackage[utf8]{inputenc}
-\usepackage[tt=false]{libertine}
+% \usepackage[tt=false]{libertine}
+
+\usepackage{tgbonum}
+
 \renewcommand{\ttdefault}{cmtt}
 \areaset[10mm]{85mm}{128mm}
 \setlength{\footskip}{6mm}
@@ -41,7 +46,9 @@
 \input{sponsors.tex}
 \input{overview.tex}
 \input{detailed.tex}
-\input{workshops.tex}
+% \input{workshops.tex}
 \input{ads.tex}
+
+\incgraph[paper=document,options={width=105mm}]{images/back.pdf}
 
 \end{document} 
