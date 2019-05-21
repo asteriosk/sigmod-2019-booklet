@@ -11,7 +11,7 @@ schedule=[
           } 
         ], 
         "slot_class": "morning1 break", 
-        "slot_id": "-w1", 
+        "slot_id": "SundayBreakfast", 
         "time": "08:00-09:00"
       }, 
       {
@@ -38,7 +38,7 @@ schedule=[
           }
         ], 
         "slot_class": "morning1", 
-        "slot_id": "w1", 
+        "slot_id": "SundayMorning1", 
         "time": "09:00-10:30"
       },
       {
@@ -49,7 +49,7 @@ schedule=[
           } 
         ], 
         "slot_class": "morning2 break", 
-        "slot_id": "w1-w2", 
+        "slot_id": "SundayBreak", 
         "time": "10:30-11:00"
       }, 
       {
@@ -76,7 +76,7 @@ schedule=[
           }
         ], 
         "slot_class": "morning2", 
-        "slot_id": "w2", 
+        "slot_id": "SundayMorning2", 
         "time": "11:00-12:30"
       }, 
       {
@@ -87,7 +87,7 @@ schedule=[
           } 
         ], 
         "slot_class": "afternoon1 break", 
-        "slot_id": "w2-w3", 
+        "slot_id": "SundayLunch", 
         "time": "12:30-14:00"
       },
       {
@@ -114,7 +114,7 @@ schedule=[
           }
         ], 
         "slot_class": "afternoon1", 
-        "slot_id": "w3", 
+        "slot_id": "SundayAfternoon", 
         "time": "14:00-15:30"
       }, 
       {
@@ -125,7 +125,7 @@ schedule=[
           } 
         ], 
         "slot_class": "afternoon2 break", 
-        "slot_id": "w3-w4", 
+        "slot_id": "SundayCoffee", 
         "time": "15:30-16:30"
       }, 
       {
@@ -152,7 +152,7 @@ schedule=[
           }
         ], 
         "slot_class": "afternoon2", 
-        "slot_id": "w4", 
+        "slot_id": "SundayAfternoon2", 
         "time": "16:30-18:00"
       }, 
       {
@@ -163,7 +163,7 @@ schedule=[
           } 
         ], 
         "slot_class": "reception", 
-        "slot_id": "reception", 
+        "slot_id": "SundayReception", 
         "time": "18:15-19:45"
       }
     ]
@@ -180,7 +180,7 @@ schedule=[
           } 
         ], 
         "slot_class": "morning1 break", 
-        "slot_id": "-w1", 
+        "slot_id": "MondayBreakfast", 
         "time": "08:00-08:30"
       }, 
       {
@@ -191,7 +191,7 @@ schedule=[
           }
         ], 
         "slot_class": "morning1", 
-        "slot_id": "w1", 
+        "slot_id": "MondayPlenary", 
         "time": "08:30-10:00"
       },
       {
@@ -206,7 +206,7 @@ schedule=[
           }
         ], 
         "slot_class": "morning1", 
-        "slot_id": "w1a", 
+        "slot_id": "MondayMorning1", 
         "time": "10:00-11:00"
       },
       {
@@ -217,7 +217,7 @@ schedule=[
           } 
         ], 
         "slot_class": "morning2 break", 
-        "slot_id": "w1-w2", 
+        "slot_id": "MondayBreak", 
         "time": "11:00-11:30"
       }, 
       {
@@ -232,7 +232,7 @@ schedule=[
           }
         ], 
         "slot_class": "morning2", 
-        "slot_id": "w2", 
+        "slot_id": "MondayMorning2", 
         "time": "11:30-13:00"
       }, 
       {
@@ -243,7 +243,7 @@ schedule=[
           } 
         ], 
         "slot_class": "afternoon1 break", 
-        "slot_id": "w2-w3", 
+        "slot_id": "MondayLunch", 
         "time": "13:00-14:30"
       },
       {
@@ -258,7 +258,7 @@ schedule=[
           }
         ], 
         "slot_class": "afternoon1", 
-        "slot_id": "w3", 
+        "slot_id": "MondayAfternoon1", 
         "time": "14:30-16:30"
       }, 
       {
@@ -269,7 +269,7 @@ schedule=[
           } 
         ], 
         "slot_class": "afternoon2 break", 
-        "slot_id": "w3-w4", 
+        "slot_id": "MondayCoffee", 
         "time": "16:30-17:00"
       }, 
       {
@@ -284,7 +284,7 @@ schedule=[
           }
         ], 
         "slot_class": "afternoon2", 
-        "slot_id": "w4", 
+        "slot_id": "MondayAfternoon2", 
         "time": "17:00-18:00"
       },
       {
@@ -299,7 +299,7 @@ schedule=[
           }
         ], 
         "slot_class": "afternoon2", 
-        "slot_id": "w4a", 
+        "slot_id": "MondayAfternoon3", 
         "time": "18:00-19:00"
       }
     ]
@@ -316,7 +316,7 @@ schedule=[
           } 
         ], 
         "slot_class": "morning1 break", 
-        "slot_id": "-w1", 
+        "slot_id": "TuesdayBreakfast", 
         "time": "08:00-08:30"
       }, 
       {
@@ -327,7 +327,7 @@ schedule=[
           } 
         ], 
         "slot_class": "morning1", 
-        "slot_id": "plenary 1", 
+        "slot_id": "TuesdayPlenary", 
         "time": "08:30-10:20"
       }, 
       {
@@ -338,7 +338,7 @@ schedule=[
           } 
         ], 
         "slot_class": "morning1", 
-        "slot_id": "plenary 1", 
+        "slot_id": "TuesdayMorning1", 
         "time": "10:20-11:00"
       }, 
       {
@@ -349,7 +349,7 @@ schedule=[
           } 
         ], 
         "slot_class": "morning2 break", 
-        "slot_id": "plenary-1", 
+        "slot_id": "TuesdayBreak", 
         "time": "11:00-11:30"
       }, 
       {
@@ -364,7 +364,7 @@ schedule=[
           }
         ], 
         "slot_class": "morning2", 
-        "slot_id": "1", 
+        "slot_id": "TuesdayMorning2", 
         "time": "11:30-12:50"
       },
       {
@@ -375,7 +375,7 @@ schedule=[
           } 
         ], 
         "slot_class": "afternoon1 break", 
-        "slot_id": "1-2", 
+        "slot_id": "TuesdayLunch", 
         "time": "12:50-14:20"
       }, 
       {
@@ -402,7 +402,7 @@ schedule=[
           }
         ], 
         "slot_class": "afternoon1", 
-        "slot_id": "2", 
+        "slot_id": "TuesdayAfternoon1", 
         "time": "14:20-16:20"
       },
       {
@@ -413,7 +413,7 @@ schedule=[
           } 
         ], 
         "slot_class": "afternoon2", 
-        "slot_id": "2-3", 
+        "slot_id": "TuesdayPosters", 
         "time": "16:20-17:50"
       }, 
       {
@@ -432,7 +432,7 @@ schedule=[
           }
         ], 
         "slot_class": "afternoon2", 
-        "slot_id": "3", 
+        "slot_id": "TuesdayAfternoon2", 
         "time": "17:50-19:50"
       },
       {
@@ -443,7 +443,7 @@ schedule=[
           } 
         ], 
         "slot_class": "opening reception", 
-        "slot_id": "4", 
+        "slot_id": "TuesdayReception", 
         "time": "20:30-23:00"
       }
     ]
@@ -460,7 +460,7 @@ schedule=[
           } 
         ], 
         "slot_class": "morning1 break", 
-        "slot_id": "-w1", 
+        "slot_id": "WednesdayBreakfast", 
         "time": "08:00-08:30"
       }, 
       {
@@ -471,7 +471,7 @@ schedule=[
           } 
         ], 
         "slot_class": "morning1", 
-        "slot_id": "plenary 1", 
+        "slot_id": "WednesdayPlenary", 
         "time": "08:30-10:00"
       }, 
       {
@@ -486,7 +486,7 @@ schedule=[
           } 
         ], 
         "slot_class": "morning1", 
-        "slot_id": "plenary 1a", 
+        "slot_id": "WednesdayMorning1", 
         "time": "10:00-11:00"
       }, 
       {
@@ -497,7 +497,7 @@ schedule=[
           } 
         ], 
         "slot_class": "morning2 break", 
-        "slot_id": "plenary-1", 
+        "slot_id": "WednesdayBreak", 
         "time": "11:00-11:30"
       }, 
       {
@@ -524,7 +524,7 @@ schedule=[
           }
         ], 
         "slot_class": "morning2", 
-        "slot_id": "2", 
+        "slot_id": "WednesdayMorning2", 
         "time": "11:30-12:50"
       },
       {
@@ -535,7 +535,7 @@ schedule=[
           } 
         ], 
         "slot_class": "afternoon1 break", 
-        "slot_id": "1-2", 
+        "slot_id": "WednesdayLunch", 
         "time": "12:50-14:20"
       }, 
       {
@@ -562,7 +562,7 @@ schedule=[
           }
         ], 
         "slot_class": "afternoon1", 
-        "slot_id": "2", 
+        "slot_id": "WednesdayAfternoon1", 
         "time": "14:20-16:20"
       },
       {
@@ -573,7 +573,7 @@ schedule=[
           } 
         ], 
         "slot_class": "afternoon2", 
-        "slot_id": "2-3", 
+        "slot_id": "WednesdayPosters", 
         "time": "16:20-17:50"
       }, 
       {
@@ -584,7 +584,7 @@ schedule=[
           } 
         ], 
         "slot_class": "canal cruise", 
-        "slot_id": "4", 
+        "slot_id": "WednesdayCruise", 
         "time": "17:50-20:30"
       },
       {
@@ -595,7 +595,7 @@ schedule=[
           } 
         ], 
         "slot_class": "conference dinner", 
-        "slot_id": "5", 
+        "slot_id": "WednesdayDinner", 
         "time": "20:30-23:00"
       }
     ]
@@ -612,7 +612,7 @@ schedule=[
           } 
         ], 
         "slot_class": "morning1 break", 
-        "slot_id": "-w1", 
+        "slot_id": "ThursdayBreakfast", 
         "time": "08:00-08:30"
       }, 
       {
@@ -623,7 +623,7 @@ schedule=[
           } 
         ], 
         "slot_class": "morning1", 
-        "slot_id": "plenary 1", 
+        "slot_id": "ThursdayPlenary", 
         "time": "08:30-10:00"
       }, 
       {
@@ -634,7 +634,7 @@ schedule=[
           } 
         ], 
         "slot_class": "morning1", 
-        "slot_id": "plenary 1a", 
+        "slot_id": "ThursdayMorning1", 
         "time": "10:00-11:00"
       }, 
       {
@@ -645,7 +645,7 @@ schedule=[
           } 
         ], 
         "slot_class": "morning2 break", 
-        "slot_id": "plenary-1", 
+        "slot_id": "ThursdayBreak", 
         "time": "11:00-11:30"
       }, 
       {
@@ -668,7 +668,7 @@ schedule=[
           }
         ], 
         "slot_class": "morning2", 
-        "slot_id": "1", 
+        "slot_id": "ThursdayMorning2", 
         "time": "11:30-12:50"
       },
       {
@@ -679,7 +679,7 @@ schedule=[
           } 
         ], 
         "slot_class": "afternoon1 break", 
-        "slot_id": "1-2", 
+        "slot_id": "ThursdayLunch", 
         "time": "12:50-14:20"
       }, 
       {
@@ -702,7 +702,7 @@ schedule=[
           }
         ], 
         "slot_class": "afternoon1", 
-        "slot_id": "2", 
+        "slot_id": "ThursdayAfternoon1", 
         "time": "14:20-16:20"
       },
       {
@@ -713,8 +713,41 @@ schedule=[
           } 
         ], 
         "slot_class": "afternoon2", 
-        "slot_id": "2-3", 
+        "slot_id": "ThursdayPosters", 
         "time": "16:20-17:50"
+      },
+      {
+        "sessions": [
+          {
+            "room": "Effectenbeurszaal", 
+            "session": "ADS Reception 1"
+          } 
+        ], 
+        "slot_class": "afternoon2a", 
+        "slot_id": "ThursdayReception1", 
+        "time": "17:30-18:00"
+      },
+      {
+        "sessions": [
+          {
+            "room": "Graanbeurszaal", 
+            "session": "ADS Event"
+          } 
+        ], 
+        "slot_class": "afternoon2b", 
+        "slot_id": "ThursdayADS", 
+        "time": "18:00-19:30"
+      },
+      {
+        "sessions": [
+          {
+            "room": "Effectenbeurszaal", 
+            "session": "ADS Reception 2"
+          } 
+        ], 
+        "slot_class": "afternoon2c", 
+        "slot_id": "ThursdayReception2", 
+        "time": "19:30-20:00"
       }
     ]
   }, 
@@ -730,7 +763,7 @@ schedule=[
           } 
         ], 
         "slot_class": "morning1 break", 
-        "slot_id": "-w1", 
+        "slot_id": "FridayBreakfast", 
         "time": "08:30-09:00"
       }, 
       {
@@ -757,9 +790,20 @@ schedule=[
           }
         ], 
         "slot_class": "morning1", 
-        "slot_id": "w1", 
+        "slot_id": "FridayMorning1", 
         "time": "09:00-10:30"
       },
+      {
+        "sessions": [
+          {
+            "room": "Grote Zaal", 
+            "session": "Coffee"
+          } 
+        ], 
+        "slot_class": "morning2 break", 
+        "slot_id": "FridayBreak", 
+        "time": "10:30-11:00"
+      }, 
       {
         "sessions": [
           {
@@ -781,10 +825,14 @@ schedule=[
           {
             "room": "Mendes da Costa Kamer", 
             "session": "SBD Workshop: Session 2"
+          },
+          {
+            "room": "Ontvangkamer", 
+            "session": "LDBC TUC Meeting 1"
           }
         ], 
         "slot_class": "morning2", 
-        "slot_id": "w2", 
+        "slot_id": "FridayMorning2", 
         "time": "11:00-12:30"
       }, 
       {
@@ -795,7 +843,7 @@ schedule=[
           } 
         ], 
         "slot_class": "afternoon1 break", 
-        "slot_id": "w2-w3", 
+        "slot_id": "FridayLunch", 
         "time": "12:30-14:00"
       },
       {
@@ -819,10 +867,14 @@ schedule=[
           {
             "room": "Mendes da Costa Kamer", 
             "session": "SBD Workshop: Session 3"
+          },
+          {
+            "room": "Ontvangkamer", 
+            "session": "LDBC TUC Meeting 2"
           }
         ], 
         "slot_class": "afternoon1", 
-        "slot_id": "w3", 
+        "slot_id": "FridayAfternoon1", 
         "time": "14:00-15:30"
       }, 
       {
@@ -833,7 +885,7 @@ schedule=[
           } 
         ], 
         "slot_class": "afternoon2 break", 
-        "slot_id": "w3-w4", 
+        "slot_id": "FridayCoffee", 
         "time": "15:30-16:30"
       }, 
       {
@@ -853,10 +905,14 @@ schedule=[
           {
             "room": "Mendes da Costa Kamer", 
             "session": "SBD Workshop: Session 4"
+          },
+          {
+            "room": "Ontvangkamer", 
+            "session": "LDBC TUC Meeting 3"
           }
         ], 
         "slot_class": "afternoon2", 
-        "slot_id": "w4", 
+        "slot_id": "FridayAfternoon2", 
         "time": "16:30-18:00"
       }
     ]

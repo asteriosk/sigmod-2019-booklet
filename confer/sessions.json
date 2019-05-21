@@ -1,4 +1,34 @@
 sessions={
+  "ADS Reception 1": {
+    "day": "Thursday",
+    "s_title": "ADS Reception 1 - sponsored by Elsevier",
+    "submissions": [ ]
+  },
+  "ADS Reception 2": {
+    "day": "Thursday",
+    "s_title": "ADS Reception 2 - sponsored by Elsevier",
+    "submissions": [ ]
+  },
+  "ADS Event": {
+    "day": "Thursday",
+    "s_title": "ADS Event",
+    "submissions": [ "ADS__Event" ]
+  },
+  "LDBC TUC Meeting 1": {
+    "day": "Friday",
+    "s_title": "LDBC Technical User Community Meeting: session 1",
+    "submissions": [ "LDBC_TUC_Meeting" ]
+  },
+  "LDBC TUC Meeting 2": {
+    "day": "Friday",
+    "s_title": "LDBC Technical User Community Meeting: session 2",
+    "submissions": [ "LDBC_TUC_Meeting" ]
+  },
+  "LDBC TUC Meeting 3": {
+    "day": "Friday",
+    "s_title": "LDBC Technical User Community Meeting: session 3",
+    "submissions": [ "LDBC_TUC_Meeting" ]
+  },
   "Coffee + Workshop Posters": {
     "day": "Sunday and Friday",
     "s_title": "Coffee + Workshop Posters",
@@ -277,7 +307,7 @@ sessions={
   "PODS Opening + Keynote": {
     "day": "Monday",
     "chair": "Christoph Koch",
-    "s_title": "PODS Keynote",
+    "s_title": "PODS Opening & Keynote",
     "submissions": [  "PODS_Research_119k" ]  
   },
   "PODS Test-of-Time & Gems": {
@@ -383,7 +413,7 @@ sessions={
   },
   "PODS Invited Tutorial 2": {
     "day": "Wednesday",
-    "s_title": "PODS Tutorial 2",
+    "s_title": "PODS Invited Tutorial 2",
     "chair": "Christoph Koch",
     "submissions": [ 
         "PODS_Research_131t"
@@ -401,7 +431,7 @@ sessions={
   },
   "SIGMOD Award Talks" : {
     "day": "Thursday",
-    "s_title": "Award Talks",
+    "s_title": "SIGMOD Award Talks",
     "submissions": [  ]
   },
   "SIGMOD Panel on Data Ethics": {
@@ -426,8 +456,8 @@ sessions={
   },
   "SIGMOD Research 1": {
     "day": "Tuesday",
-    "s_title": "SIGMOD Research 1: Query Processing & Optimization 1",
-    "chair": "TBD",
+    "s_title": "SIGMOD Research 1: Query Processing & Optimization 1 - sponsored by Tableau",
+    "chair": "Wolfgang Lehner",
     "submissions": [ 
       "SIGMOD_Research_202",
       "SIGMOD_Research_576",
@@ -440,7 +470,7 @@ sessions={
   "SIGMOD Research 2": {
     "day": "Wednesday",
     "s_title": "SIGMOD Research 2: Privacy/Blockchain",
-    "chair": "TBD",
+    "chair": "Raghav Kaushik",
     "submissions": [
       "SIGMOD_Research_485",
       "SIGMOD_Research_543",
@@ -453,7 +483,7 @@ sessions={
   "SIGMOD Research 3": {
     "day": "Wednesday",
     "s_title": "SIGMOD Research 3: Information Extraction",
-    "chair": "TBD",
+    "chair": "Guoliang Li",
     "submissions": [
       "SIGMOD_Research_279",
       "SIGMOD_Research_595",
@@ -466,7 +496,7 @@ sessions={
   "SIGMOD Research 4": {
     "day": "Wednesday",
     "s_title": "SIGMOD Research 4: Distributed Data Management",
-    "chair": "TBD",
+    "chair": "Holger Pirk",
     "submissions": [
       "SIGMOD_Research_193",
       "SIGMOD_Research_057",
@@ -477,7 +507,7 @@ sessions={
   "SIGMOD Research 5": {
     "day": "Wednesday",
     "s_title": "SIGMOD Research 5: Provenance",
-    "chair": "TBD",
+    "chair": "Alexandra Meliou",
     "submissions": [
       "SIGMOD_Research_050",
       "SIGMOD_Research_361",
@@ -488,7 +518,7 @@ sessions={
   "SIGMOD Research 6": {
     "day": "Wednesday",
     "s_title": "SIGMOD Research 6: Streams",
-    "chair": "TBD",
+    "chair": "Jonathan Goldstein",
     "submissions": [
       "SIGMOD_Research_295",
       "SIGMOD_Research_380",
@@ -499,7 +529,8 @@ sessions={
   "SIGMOD Research 7": {
     "day": "Wednesday",
     "s_title": "SIGMOD Research 7: Modern Hardware",
-    "chair": "TBD",
+    "s_title": "Research 7",
+    "chair": "Justin Levandoski",
     "submissions": [
       "SIGMOD_Research_223",
       "SIGMOD_Research_052",
@@ -512,7 +543,7 @@ sessions={
   "SIGMOD Research 8": {
     "day": "Wednesday",
     "s_title": "SIGMOD Research 8: Data Integration/Cleaning",
-    "chair": "TBD",
+    "chair": "Paolo Papotti",
     "submissions": [
       "SIGMOD_Research_604",
       "SIGMOD_Research_267",
@@ -525,7 +556,7 @@ sessions={
   "SIGMOD Research 9": {
     "day": "Wednesday",
     "s_title": "SIGMOD Research 9: Query Processing & Optimization 2",
-    "chair": "TBD",
+    "chair": "Jun Yang",
     "submissions": [
       "SIGMOD_Research_110",
       "SIGMOD_Research_626",
@@ -538,7 +569,7 @@ sessions={
   "SIGMOD Research 10": {
     "day": "Wednesday",
     "s_title": "SIGMOD Research 10: Graphs 1",
-    "chair": "TBD",
+    "chair": "Angela Bonifati",
     "submissions": [
       "SIGMOD_Research_573",
       "SIGMOD_Research_166",
@@ -551,7 +582,7 @@ sessions={
   "SIGMOD Research 11": {
     "day": "Thursday",
     "s_title": "SIGMOD Research 11: Systems & Machine Learning",
-    "chair": "TBD",
+    "chair": "Matthias Boehm",
     "submissions": [
       "SIGMOD_Research_118",
       "SIGMOD_Research_131",
@@ -562,7 +593,7 @@ sessions={
   "SIGMOD Research 12": {
     "day": "Thursday",
     "s_title": "SIGMOD Research 12: Indexing",
-    "chair": "TBD",
+    "chair": "Stratos Idreos",
     "submissions": [
       "SIGMOD_Research_289",
       "SIGMOD_Research_392",
@@ -573,7 +604,7 @@ sessions={
   "SIGMOD Research 13": {
     "day": "Thursday",
     "s_title": "SIGMOD Research 13: Fairness, Uncertainty",
-    "chair": "TBD",
+    "chair": "Ke Yi",
     "submissions": [
       "SIGMOD_Research_147",
       "SIGMOD_Research_436",
@@ -584,7 +615,7 @@ sessions={
   "SIGMOD Research 14": {
     "day": "Thursday",
     "s_title": "SIGMOD Research 14: Graphs 2",
-    "chair": "TBD",
+    "chair": "Sourav S Bhowmick",
     "submissions": [
       "SIGMOD_Research_531",
       "SIGMOD_Research_432",
@@ -595,7 +626,7 @@ sessions={
   "SIGMOD Research 15": {
     "day": "Thursday",
     "s_title": "SIGMOD Research 15: Graphs 3",
-    "chair": "TBD",
+    "chair": "Xuemin Lin",
     "submissions": [
       "SIGMOD_Research_033",
       "SIGMOD_Research_450",
@@ -608,7 +639,7 @@ sessions={
   "SIGMOD Research 16": {
     "day": "Thursday",
     "s_title": "SIGMOD Research 16: Machine Learning",
-    "chair": "TBD",
+    "chair": "Theodoros Rekatsinas",
     "submissions": [
       "SIGMOD_Research_072",
       "SIGMOD_Research_135",
@@ -621,7 +652,7 @@ sessions={
   "SIGMOD Research 17": {
     "day": "Thursday",
     "s_title": "SIGMOD Research 17: Scalability",
-    "chair": "TBD",
+    "chair": "Norman May",
     "submissions": [
       "SIGMOD_Research_567",
       "SIGMOD_Research_560",
@@ -634,6 +665,7 @@ sessions={
   "SIGMOD Industry 1": {
     "day": "Wednesday",
     "s_title": "SIGMOD Industry 1: Data Applications",
+    "chair": "Marco Serafini",
     "submissions": [
         "SIGMOD_Industrial_640",
         "SIGMOD_Industrial_649",
@@ -646,6 +678,7 @@ sessions={
   "SIGMOD Industry 2": {
     "day": "Wednesday",
     "s_title": "SIGMOD Industry 2: Storage and Indexing",
+    "chair": "Alexander Shraer",
     "submissions": [
         "SIGMOD_Industrial_657",
         "SIGMOD_Industrial_655",
@@ -656,6 +689,7 @@ sessions={
   "SIGMOD Industry 3": {
     "day": "Thursday",
     "s_title": "SIGMOD Industry 3: Data Platforms",
+    "chair": "Ying Zhang",
     "submissions": [
         "SIGMOD_Industrial_642",
         "SIGMOD_Industrial_653",
@@ -672,7 +706,7 @@ sessions={
   },
   "Student Research Competition (starts 17:20)": {
     "day": "Wednesday",
-    "s_title": "Student Research Competition (starts 17:20)",
+    "s_title": "Student Research Competition",
     "submissions": [
         "SIGMOD_Research Competition_01",
         "SIGMOD_Research Competition_02",

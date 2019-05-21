@@ -5715,4 +5715,36 @@ entities={
    ],
   "type": "PODS",
   "id": "PODS_Special_Event_for_Phokion_Kolaitis"
+},
+"ADS__Event": {
+  "title": "ADS Event",
+  "acm_link": "https://amsterdamdatascience.nl",
+  "abstract": "Amsterdam Data Science (ADS) is a virtual organization founded by CWI and the two Amsterdam universities (.vu.nl .uva.nl) to further research, education, and application of data science in the Amsterdam area. ADS regularly organizes meetups that draw researchers, educators, but most prominently practitioners. This event will bring the local ADS community into contact with data management research. This meetup will be open to the ADS community as well as to the whole SIGMOD/PODS audience.",
+  "subtype": "ADS",
+  "authors": [
+    {
+      "name": "Jeanne Kroeger",
+      "affiliation": "ADS"
+    }
+   ],
+  "type": "ADS",
+  "id": "ADS__Event"
+},
+"LDBC_TUC_Meeting": {
+  "title": "LDBC Technical User Community Meeting",
+  "acm_link": "http://wiki.ldbcouncil.org/pages/viewpage.action?pageId=106233859",
+  "abstract": "The Linkded Data Benchmark Council (ldbcouncil.org) is a non-profit organization furthering graph data management, whose members are primarily graph data management software companies. LDBC has defined a number of graph benchmarks (the Social Network Benchmark, and Graphalytics), but has recently also ventured in the area of collaboration towards a standard property graph data model and query language. Technical Community Meetings such as these are open to everyone (though prior registration is required, see the link). In these meetings, LDBC members present the latest developments on LDBC activities and obtain feedback from practitioners; graph data management companies present obout their products and users present about their challenges.",
+  "subtype": "LDBC TUC",
+  "authors": [
+    {
+      "name": "Peter Boncz",
+      "affiliation": "LDBC (CWI)"
+    },
+    {
+      "name": "Alastair Green",
+      "affiliation": "LDBC (Neo4j)"
+    }
+   ],
+  "type": "LDBC",
+  "id": "LDBC_TUC_Meeting"
 }}
