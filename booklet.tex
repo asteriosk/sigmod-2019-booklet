@@ -1,3 +1,5 @@
+%!TEX TS-program = xelatex
+
 \documentclass[9pt,paper=a6,twoside=true,BCOR=10mm,DIV=calc]{scrbook}
 \usepackage{incgraph,microtype,tikz,colortbl,pdflscape,moresize,lmodern}
 
@@ -11,13 +13,17 @@
 % 3. \setmainfont{}
 %    \setsansfont{}
 %    \setmonofont{}
+\usepackage{fontspec}
+\setmainfont[BoldFont={GT-America-Mono-Bold.OTF}]{GT-America-Mono-Regular.OTF}
+\setsansfont{GT-America-Mono-Regular.OTF}
+\setmonofont{GT-America-Mono-Regular.OTF}
+
 % The following three lines will not be required any more.
-\usepackage[utf8]{inputenc}
+% \usepackage[utf8]{inputenc}
 % \usepackage[tt=false]{libertine}
+% \usepackage{tgbonum}
+% \renewcommand{\ttdefault}{cmtt}
 
-\usepackage{tgbonum}
-
-\renewcommand{\ttdefault}{cmtt}
 \areaset[10mm]{85mm}{128mm}
 \setlength{\footskip}{6mm}
 
@@ -36,6 +42,8 @@
 \title{SIGMOD 2019}
 
 \begin{document}
+
+% normal \emph{italic}, \textbf{bold} and \textbf{\emph{bold italic}}
 
 \incgraph[paper=document,options={width=105mm}]{images/cover.pdf}
 \setlength\parindent{0pt}
