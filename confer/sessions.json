@@ -403,7 +403,7 @@ sessions={
         "PODS_Research_017"
     ]
   },
-  "PODS Tutorial 1": {
+  "PODS Invited Tutorial 1": {
     "day": "Wednesday",
     "s_title": "PODS Invited Tutorial 1",
     "chair": "Pierre Bourhis",
@@ -421,36 +421,46 @@ sessions={
   },
   "SIGMOD Welcome + Keynote": {
     "day": "Tuesday",
+    "chair": "Peter Boncz",
     "s_title": "SIGMOD Welcome + Keynote",
     "submissions": [  "SIGMOD_Keynote_025" ]
   },
   "SIGMOD Keynote": {
     "day": "Wednesday",
+    "chair": "Stefan Manegold",
     "s_title": "SIGMOD Keynote",
     "submissions": [  "SIGMOD_Keynote_015" ]
   },
   "SIGMOD Award Talks" : {
     "day": "Thursday",
+    "chair": "Anastasia Ailamaki",
     "s_title": "SIGMOD Award Talks",
-    "submissions": [  ]
+    "submissions": [
+        "SIGMOD_Award Talk_35",
+        "SIGMOD_Award Talk_45"
+     ]
   },
   "SIGMOD Panel on Data Ethics": {
     "day": "Wednesday",
+    "chair": "H.V. Jagadish",
     "s_title": "SIGMOD Panel on Data Ethics",
-    "submissions": [  ] 
+    "submissions": [ "SIGMOD_Panel_2019" ] 
   },
   "SIGMOD Teaser Talks 1": {
     "day": "Tuesday",
+    "chair": "Peter Boncz",
     "s_title": "Teaser Talks for all Tuesday SIGMOD Research, Industrial Papers and TODS Posters",
     "submissions": [  ] 
   },
   "SIGMOD Teaser Talks 2": {
     "day": "Wednesday",
+    "chair": "Stefan Manegold",
     "s_title": "Teaser Talks for all Wednesday SIGMOD Research and Industrial Papers",
     "submissions": [  ] 
   },
   "SIGMOD Teaser Talks 3": {
     "day": "Thursday",
+    "chair": "Anastasia Ailamaki",
     "s_title": "Teaser Talks for all Thursday SIGMOD Research and Industrial Papers",
     "submissions": [  ] 
   },
@@ -529,7 +539,6 @@ sessions={
   "SIGMOD Research 7": {
     "day": "Wednesday",
     "s_title": "SIGMOD Research 7: Modern Hardware",
-    "s_title": "Research 7",
     "chair": "Justin Levandoski",
     "submissions": [
       "SIGMOD_Research_223",
