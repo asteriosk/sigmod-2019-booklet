@@ -1,7 +1,7 @@
 %!TEX TS-program = xelatex
 
 \documentclass[9pt,paper=a6,twoside=true,BCOR=10mm,DIV=calc]{scrbook}
-\usepackage{incgraph,microtype,tikz,colortbl,pdflscape,moresize,lmodern}
+\usepackage{incgraph,microtype,tikz,colortbl,pdflscape,moresize,lmodern,enumitem}
 
 \usepackage{relsize}
 
@@ -49,10 +49,13 @@
 \setlength\parindent{0pt}
 
 \input{welcome.tex}
-% \input{plans.tex}
 % \input{wlan.tex}
 \input{sponsors.tex}
+\input{plans.tex}
+\input{reception.tex}
 \input{overview.tex}
+\newpage
+\section*{Detailed Schedule}
 \input{detailed.tex}
 % \input{workshops.tex}
 \input{ads.tex}
