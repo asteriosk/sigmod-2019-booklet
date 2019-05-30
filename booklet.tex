@@ -32,6 +32,24 @@
 \newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
 \newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
 
+\usepackage{ifoddpage}
+\newcommand{\startonleftevenpage}{
+\clearpage
+\checkoddpage
+\ifoddpage
+\else
+\newpage
+\fi
+}
+\newcommand{\startonrightoddpage}{
+\clearpage
+\checkoddpage
+\ifoddpage
+\newpage
+\else
+\fi
+}
+
 \hypersetup{
     colorlinks,
     linkcolor=, %linkcolor={red!50!black},
@@ -54,7 +72,6 @@
 \input{plans.tex}
 \input{reception.tex}
 \input{overview.tex}
-\newpage
 \section*{Detailed Schedule}
 \input{detailed.tex}
 % \input{workshops.tex}
