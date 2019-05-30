@@ -1,6 +1,10 @@
 \clearpage
-\ifodd\value{page}\hbox{}\newpage\fi
+% start with Diamond sponsor on odd (right) page
+% such that all Platinum sponsors appear on two
+% adjacent / facing pages
+\ifodd\value{page}\else\hbox{}\newpage\fi
 
+\centering
 
 % Diamond: Facebook
 
@@ -12,101 +16,78 @@
 
 \incgraph[paper=document,options={width=120mm},a6paper]{ads/microsoft.pdf}
 
-\incgraph[paper=document,options={width=110mm},a6paper]{ads/morgan-claypool.png}
-
-\incgraph[paper=document,options={width=100mm},a6paper]{ads/springer.eps}
-
 \incgraph[paper=document,options={width=120mm},a6paper]{ads/oracle.pdf}
 
-\incgraph[paper=document,options={width=110mm},a6paper]{ads/tableau.pdf}
+\incgraph[paper=document,options={width=105mm},a6paper]{ads/tableau.pdf}
 
 % Gold
 
-\begin{tabular}{C{\linewidth}}
-% \sponsoricon{sponsoricons/facebook}
-\includegraphics[width=80mm]{ads/alibaba.jpg} \\ ~ \\
-\includegraphics[width=80mm]{ads/amazon.jpg}
-
-\end{tabular}
-
+\includegraphics[height=.49\textheight,width=\textwidth,keepaspectratio]{ads/alibaba.jpg}
+\vfill
+\includegraphics[height=.49\textheight,width=\textwidth,keepaspectratio]{ads/amazon.jpg}
 \pagebreak
 
-\begin{tabular}{C{\linewidth}}
-% \sponsoricon{sponsoricons/facebook}
-\includegraphics[width=80mm]{ads/baidu.jpg} \\ ~ \\
-\includegraphics[width=80mm]{ads/couchbase.eps}
+\includegraphics[height=.49\textheight,width=\textwidth,keepaspectratio]{ads/baidu.jpg}
+\vfill
+\includegraphics[height=.49\textheight,width=\textwidth,keepaspectratio]{ads/couchbase.eps}
+\pagebreak
 
-\end{tabular}
+\includegraphics[height=.49\textheight,width=\textwidth,keepaspectratio]{ads/databricks.eps}
+\vfill
+\includegraphics[height=.49\textheight,width=\textwidth,keepaspectratio]{ads/google.eps}
+\pagebreak
 
+\includegraphics[height=.49\textheight,width=\textwidth,keepaspectratio]{ads/huawei.jpg}
+\vfill
+\includegraphics[height=.49\textheight,width=\textwidth,keepaspectratio]{ads/ibm.pdf}
+\pagebreak
 
-\begin{tabular}{C{\linewidth}}
-% \sponsoricon{sponsoricons/facebook}
-\includegraphics[width=80mm]{ads/databricks.eps} \\ ~ \\
-\includegraphics[width=80mm]{ads/google.eps}
+\includegraphics[height=.49\textheight,width=\textwidth,keepaspectratio]{ads/intel.jpg}
+\vfill
+\includegraphics[height=.49\textheight,width=\textwidth,keepaspectratio]{ads/megagon-cropped.pdf}
+\pagebreak
 
-\end{tabular}
+\includegraphics[height=.49\textheight,width=\textwidth,keepaspectratio]{ads/monetdb.png}
+\vfill
+\includegraphics[height=.49\textheight,width=\textwidth,keepaspectratio]{ads/sap.pdf}
+\pagebreak
 
-\begin{tabular}{C{\linewidth}}
-% \sponsoricon{sponsoricons/facebook}
-\includegraphics[width=80mm]{ads/huawei.jpg} \\ ~ \\
-\includegraphics[width=80mm]{ads/ibm.pdf}
-\end{tabular}
+\includegraphics[height=.49\textheight,width=\textwidth,keepaspectratio]{ads/snowflake.pdf}
+\vfill
+%\includegraphics[height=.49\textheight,width=\textwidth,keepaspectratio]{ads/apple.pdf}
+\pagebreak
 
-\begin{tabular}{C{\linewidth}}
-% \sponsoricon{sponsoricons/facebook}
-\includegraphics[width=80mm]{ads/intel.jpg} \\ ~ \\
-\includegraphics[width=80mm]{ads/megagon.pdf}
-\end{tabular}
+% Silver
 
+%% landscape
+\ifodd\value{page}
+$\vcenter{\hbox{\includegraphics[keepaspectratio,width=.49\textheight,height=.49\textwidth,angle=90]{ads/mongodb.pdf}}}$
+\hfill
+$\vcenter{\hbox{\includegraphics[keepaspectratio,width=.49\textheight,height=.49\textwidth,angle=90]{ads/undo.jpg}}}$
+\vfill
+$\vcenter{\hbox{\includegraphics[keepaspectratio,width=.49\textheight,height=.49\textwidth,angle=90]{ads/ebay.png}}}$
+\hfill
+$\vcenter{\hbox{\includegraphics[keepaspectratio,width=.49\textheight,height=.49\textwidth,angle=90]{ads/tigergraph.eps}}}$
+\else
+$\vcenter{\hbox{\includegraphics[keepaspectratio,width=.49\textheight,height=.49\textwidth,angle=270]{ads/tigergraph.eps}}}$
+\hfill
+$\vcenter{\hbox{\includegraphics[keepaspectratio,width=.49\textheight,height=.49\textwidth,angle=270]{ads/ebay.png}}}$
+\vfill
+$\vcenter{\hbox{\includegraphics[keepaspectratio,width=.49\textheight,height=.49\textwidth,angle=270]{ads/undo.jpg}}}$
+\hfill
+$\vcenter{\hbox{\includegraphics[keepaspectratio,width=.49\textheight,height=.49\textwidth,angle=270]{ads/mongodb.pdf}}}$
+\fi
+\pagebreak
 
-
-\begin{tabular}{C{\linewidth}}
-% \sponsoricon{sponsoricons/facebook}
-\includegraphics[width=80mm]{ads/sap.pdf} \\ ~ \\
-\includegraphics[width=80mm]{ads/monetdb.png}
-\end{tabular}
-
-
-
-\begin{tabular}{C{\linewidth}}
-% \sponsoricon{sponsoricons/facebook}
-\includegraphics[width=80mm]{ads/snowflake.pdf} \\ ~ \\
-% \includegraphics[width=80mm]{ads/megagon.pdf}
-\end{tabular}
-
-
-
-
-\begin{tabular}{C{\linewidth}}
-% \sponsoricon{sponsoricons/facebook}
-\includegraphics[height=25mm,width=80mm,keepaspectratio]{ads/actian.pdf} \\ 
-\includegraphics[height=25mm,width=80mm,keepaspectratio]{ads/cambridge.jpg}
-\\ 
-\includegraphics[height=25mm,width=80mm,keepaspectratio]{ads/ebay.png}
-\\ 
-\includegraphics[height=25mm,width=80mm,keepaspectratio]{ads/leanxscale.eps}
-\end{tabular}
-
-
-\begin{tabular}{C{\linewidth}}
-% \sponsoricon{sponsoricons/facebook}
-\includegraphics[height=25mm,width=80mm,keepaspectratio]{ads/mongodb.pdf} \\ 
-\includegraphics[height=25mm,width=80mm,keepaspectratio]{ads/now.png}
-\\ 
-\includegraphics[height=25mm,width=80mm,keepaspectratio]{ads/tigergraph.eps}
-\\ 
-\includegraphics[height=25mm,width=80mm,keepaspectratio]{ads/undo.jpg}
-\end{tabular}
-
-
-
-
-
-% \incgraph[paper=document,options={width=110mm},a6paper]{ads/alibaba.jpg}
-% \incgraph[paper=document,options={width=110mm},a6paper]{ads/amazon.jpg}
-
-
-
+%% portrait
+$\vcenter{\hbox{\includegraphics[keepaspectratio,width=.49\textheight,height=.49\textwidth,angle=270]{ads/actian.pdf}}}$
+\hfill
+~
+\vfill
+~
+\hfill
+~
+\pagebreak
 
 
 
