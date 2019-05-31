@@ -58,6 +58,10 @@
 % \input{workshops.tex}
 \input{ads.tex}
 
+\clearpage
+% back-cover need to be on even page
+\ifodd\value{page}\hbox{}\newpage\fi
+
 \incgraph[paper=document,options={width=105mm}]{images/back.pdf}
 
 \end{document} 
