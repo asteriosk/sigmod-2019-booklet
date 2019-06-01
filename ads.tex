@@ -44,7 +44,11 @@
 
 \includegraphics[height=.49\textheight,width=\textwidth,keepaspectratio]{ads/intel.jpg}
 \vfill
-\includegraphics[height=.49\textheight,width=\textwidth,keepaspectratio]{ads/megagon-cropped.pdf}
+\ifodd\value{page}
+\includegraphics[keepaspectratio,width=.49\textheight,height=\textwidth,angle=90]{ads/megagon-cropped.pdf}
+\else
+\includegraphics[keepaspectratio,width=.49\textheight,height=\textwidth,angle=270]{ads/megagon-cropped.pdf}
+\fi
 \pagebreak
 
 \includegraphics[height=.49\textheight,width=\textwidth,keepaspectratio]{ads/monetdb.png}
@@ -57,7 +61,7 @@
 %% In case we DO get an Apple (Gold) add, please active this
 %\includegraphics[height=.49\textheight,width=\textwidth,keepaspectratio]{ads/apple.pdf}
 %% In case we do get NO Apple (Gold) add, let's use this space for Actian (Silver)
-$\vcenter{\hbox{\includegraphics[keepaspectratio,width=.49\textheight,height=.49\textwidth,angle=270]{ads/actian.pdf}}}$
+$\vcenter{\hbox{\includegraphics[keepaspectratio,width=.49\textheight,height=.49\textwidth,angle=270]{ads/actian-cropped.pdf}}}$
 \hfill
 ~
 \pagebreak
@@ -86,7 +90,7 @@ $\vcenter{\hbox{\includegraphics[keepaspectratio,width=.49\textheight,height=.49
 
 %% portrait
 %% In case we DO get an Apple (Gold) add, please active this
-%$\vcenter{\hbox{\includegraphics[keepaspectratio,width=.49\textheight,height=.49\textwidth,angle=270]{ads/actian.pdf}}}$
+%$\vcenter{\hbox{\includegraphics[keepaspectratio,width=.49\textheight,height=.49\textwidth,angle=270]{ads/actian-cropped.pdf}}}$
 %\hfill
 %~
 %\vfill
