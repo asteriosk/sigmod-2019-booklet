@@ -1,128 +1,182 @@
-\newcommand{\sponsoricon}[1]{{\includegraphics[width=2cm,height=10mm,keepaspectratio]{#1}}}
+\newcommand{\sponsoriconS}[1]{{\includegraphics[width=15mm,height=6mm,keepaspectratio]{#1}}}
+\newcommand{\sponsoriconM}[1]{{\includegraphics[width=20mm,height=8mm,keepaspectratio]{#1}}}
+\newcommand{\sponsoriconL}[1]{{\includegraphics[width=30mm,height=12mm,keepaspectratio]{#1}}}
+\newcommand{\sponsoriconX}[1]{{\includegraphics[width=40mm,height=16mm,keepaspectratio]{#1}}}
 
 \clearpage
+% start even (left) page
+% such that the two sponsor pages are adjacent to / facing eachother
+\ifodd\value{page}\hbox{}\newpage\fi
 \section*{SIGMOD 2019 Sponsors \& Supporters}
+
+{
+\setlength{\tabcolsep}{0pt}
 
 \subsection*{Supporters}
 
-\begin{tabular}{C{.3\textwidth}C{.3\textwidth}C{.3\textwidth}}
-\sponsoricon{sponsoricons/sigmod}
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lcccr}
 &
-\sponsoricon{sponsoricons/acm}
+$\vcenter{\hbox{\sponsoriconM{sponsoricons/sigmod}}}$
 &
-\sponsoricon{sponsoricons/cwi}
-\end{tabular}
-    
+$\vcenter{\hbox{\sponsoriconM{sponsoricons/acm}}}$
+&
+$\vcenter{\hbox{\sponsoriconM{sponsoricons/cropped/cwi}}}$
+&
+\end{tabular*}
+
+\vfill
+
 \subsection*{Diamond Sponsor}
 
-\renewcommand{\arraystretch}{1.3}
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lcr}
+&
+$\vcenter{\hbox{\sponsoriconX{sponsoricons/cropped/facebook}}}$
+&
+\end{tabular*}
 
-\begin{tabular}{C{\linewidth}}
-% \sponsoricon{sponsoricons/facebook}
-\includegraphics[width=3cm,height=2cm,keepaspectratio]{sponsoricons/facebook}
-\end{tabular}
+\renewcommand{\arraystretch}{3}
 
 \subsection*{Platinum Sponsors}
 
-\begin{tabular}{C{.45\textwidth}C{.45\textwidth}}
-\sponsoricon{sponsoricons/elsevier}
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lccr}
 &
-\sponsoricon{sponsoricons/microsoft}
+$\vcenter{\hbox{\sponsoriconL{sponsoricons/cropped/elsevier}}}$
+&
+$\vcenter{\hbox{\sponsoriconL{sponsoricons/cropped/microsoft}}}$
+&
 \\
-\sponsoricon{sponsoricons/oracle}
 &
-\sponsoricon{sponsoricons/tableau}
-\end{tabular}
+$\vcenter{\hbox{\sponsoriconL{sponsoricons/cropped/oracle}}}$
+&
+$\vcenter{\hbox{\sponsoriconL{sponsoricons/cropped/tableau}}}$
+&
+\end{tabular*}
 
+\renewcommand{\arraystretch}{2.2}
 
 \subsection*{Gold Sponsors}
 
-\begin{tabular}{C{.3\textwidth}C{.3\textwidth}C{.3\textwidth}}
-\sponsoricon{sponsoricons/alibaba}
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lcccr}
 &
-\sponsoricon{sponsoricons/aws}
+$\vcenter{\hbox{\sponsoriconM{sponsoricons/cropped/alibaba}}}$
 &
-\sponsoricon{sponsoricons/baidu}
+$\vcenter{\hbox{\sponsoriconM{sponsoricons/aws}}}$
+&
+$\vcenter{\hbox{\sponsoriconM{sponsoricons/cropped/baidu}}}$
+&
 \\
-\sponsoricon{sponsoricons/couchbase}
 &
-\sponsoricon{sponsoricons/databricks}
+$\vcenter{\hbox{\sponsoriconM{sponsoricons/cropped/couchbase}}}$
 &
-\sponsoricon{sponsoricons/google}
+$\vcenter{\hbox{\sponsoriconM{sponsoricons/cropped/databricks}}}$
+&
+$\vcenter{\hbox{\sponsoriconM{sponsoricons/cropped/google}}}$
+&
 \\
-\sponsoricon{sponsoricons/huawei}
 &
-\sponsoricon{sponsoricons/ibm}
+$\vcenter{\hbox{\sponsoriconM{sponsoricons/huawei}}}$
 &
-\sponsoricon{sponsoricons/intel}
+$\vcenter{\hbox{\sponsoriconM{sponsoricons/cropped/ibm}}}$
+&
+$\vcenter{\hbox{\sponsoriconM{sponsoricons/intel}}}$
+&
 \\
-\sponsoricon{sponsoricons/megagon}
 &
-\sponsoricon{sponsoricons/monetdb}
+$\vcenter{\hbox{\sponsoriconM{sponsoricons/cropped/megagon}}}$
 &
-\sponsoricon{sponsoricons/sap}
+$\vcenter{\hbox{\sponsoriconM{sponsoricons/monetdb}}}$
+&
+$\vcenter{\hbox{\sponsoriconM{sponsoricons/sap}}}$
+&
 \\
-\sponsoricon{sponsoricons/snowflake}
 &
 ~
 &
+$\vcenter{\hbox{\sponsoriconM{sponsoricons/snowflake}}}$
+&
 ~
-\end{tabular}
+&
+\end{tabular*}
 
+\pagebreak
+
+~
+
+\renewcommand{\arraystretch}{2}
 
 \subsection*{Silver Sponsors}
 
-\begin{tabular}{C{.3\textwidth}C{.3\textwidth}C{.3\textwidth}}
-\sponsoricon{sponsoricons/actian}
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lcccr}
 &
-\sponsoricon{sponsoricons/ebay}
+$\vcenter{\hbox{\sponsoriconS{sponsoricons/actian}}}$
 &
-\sponsoricon{sponsoricons/mongodb}
+$\vcenter{\hbox{\sponsoriconS{sponsoricons/cropped/ebay}}}$
+&
+$\vcenter{\hbox{\sponsoriconS{sponsoricons/cropped/mongodb}}}$
+&
 \\
-\sponsoricon{sponsoricons/tigergraph}
 &
-\sponsoricon{sponsoricons/undo}
+$\vcenter{\hbox{\sponsoriconS{sponsoricons/cropped/tigergraph}}}$
+&
+$\vcenter{\hbox{\sponsoriconS{sponsoricons/undo}}}$
 &
 ~
-\end{tabular}
+&
+\end{tabular*}
+
+\renewcommand{\arraystretch}{1}
 
 \subsection*{Startup Sponsor}
 
-\begin{tabular}{C{\linewidth}}
-\includegraphics[width=3cm,height=2cm,keepaspectratio]{sponsoricons/leanxscale}
-\end{tabular}
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lcr}
+&
+$\vcenter{\hbox{\sponsoriconS{sponsoricons/cropped/leanxscale}}}$
+&
+\end{tabular*}
+
+\vfill
 
 \subsection*{Platinum Publisher}
 
-\begin{tabular}{C{\linewidth}}
-\includegraphics[width=3cm,height=2cm,keepaspectratio]{sponsoricons/morgan-claypool}
-\end{tabular}
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lcr}
+&
+$\vcenter{\hbox{\sponsoriconL{sponsoricons/morgan-claypool}}}$
+&
+\end{tabular*}
 
 \subsection*{Gold Publisher}
 
-\begin{tabular}{C{\linewidth}}
-\includegraphics[width=3cm,height=2cm,keepaspectratio]{sponsoricons/springer}
-\end{tabular}
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lcr}
+&
+$\vcenter{\hbox{\sponsoriconM{sponsoricons/cropped/springer}}}$
+&
+\end{tabular*}
 
 \subsection*{Silver Publishers}
 
-\begin{tabular}{C{.45\textwidth}C{.45\textwidth}}
-\sponsoricon{sponsoricons/cambridge}
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lccr}
 &
-\sponsoricon{sponsoricons/now}
-\end{tabular}
+$\vcenter{\hbox{\sponsoriconS{sponsoricons/cambridge}}}$
+&
+$\vcenter{\hbox{\sponsoriconS{sponsoricons/now}}}$
+&
+\end{tabular*}
+
+\vfill
 
 \subsection*{Student support}
 
-\begin{tabular}{C{.45\textwidth}C{.45\textwidth}}
-\sponsoricon{sponsoricons/aws}
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lccccr}
 &
-\sponsoricon{sponsoricons/intel}
-\\
-\sponsoricon{sponsoricons/tableau}
+$\vcenter{\hbox{\sponsoriconS{sponsoricons/aws}}}$
 &
-\sponsoricon{sponsoricons/undo}
-\end{tabular}
+$\vcenter{\hbox{\sponsoriconS{sponsoricons/intel}}}$
+&
+$\vcenter{\hbox{\sponsoriconS{sponsoricons/cropped/tableau}}}$
+&
+$\vcenter{\hbox{\sponsoriconS{sponsoricons/undo}}}$
+&
+\end{tabular*}
 
 
 % \subsection*{Silver Sponsors}
@@ -162,3 +216,4 @@
 % \end{tabular}
 
 \renewcommand{\arraystretch}{1}
+}
