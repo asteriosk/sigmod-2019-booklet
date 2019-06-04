@@ -1,7 +1,7 @@
 %!TEX root = booklet.tex
 
 \newcommand{\personphoto}[1]{{\includegraphics[width=21mm,height=25mm,keepaspectratio]{#1}}}
-\newcommand{\award}[2]{``#1'': #2}
+\newcommand{\awardedpaper}[2]{ {\centering \textbf{``#1''}}: {\centering #2.}}
 \newcommand{\quot}[2]{{\vspace{2mm}``\emph{#1}''}}
 \newcommand{\person}[4]{~\\~
 \begin{minipage}{\textwidth}
@@ -13,16 +13,21 @@
 \end{minipage}
 }
 
-\section*{SIGMOD Awards}
+\ifodd\value{page}\hbox{}\newpage\fi
+
+
+\section{SIGMOD Awards}
 
 \subsection*{SIGMOD Test of Time Award}
 
-\award{Privacy integrated queries: an extensible platform for privacy-preserving data analysis}{Frank McSherry (Microsoft Research, Silicon Valley Lab)}
+\awardedpaper{Privacy integrated queries: an extensible platform for privacy-preserving data analysis}{Frank McSherry (Microsoft Research, Silicon Valley Lab)}
 
-\quot{The awards committee considers this paper a major scholastic contribution
+~\\~
+
+The awards committee considers this paper a major scholastic contribution
 in the way we should handle one of the core challenges in  data management. The paper
 has become a landmark reference for research on a privacy preservation in these modern
-times geared at automated data analysis with privacy implications.}
+times geared at automated data analysis with privacy implications.
 
 
 \person{Frank McSherry}{Materialize, Inc.}{\textbf{Frank McSherry} is the Chief Scientist at Materialize, Inc., where he works on interactive and incremental data processing. Frank was previously at the Systems Group at ETH Z\"urich where he worked with students on timely and differential dataflow, and even further back at MSR Silicon Valley where he worked on the Naiad project and on Differential Privacy. Frank is perhaps best known for applying his undergraduate education to big data problems.}{images/awards/mcsherry.jpg}
@@ -39,8 +44,7 @@ The committee reached an unanimous decision to  grant the SIGMOD Contribution Aw
 
 \subsection*{SIGMOD E.F. Codd Innovation Award}
 
-\textbf{Anastasia Ailamaki} is the recipient of the 2019 ACM SIGMOD Edgar F. Codd Innovations Award
-for her pioneering work on the architecture of database systems, its interaction with computer architecture, and scientific data management.
+The awards committee selected \textbf{Anastasia Ailamaki} as the recipient of the 2019 ACM SIGMOD Edgar F. Codd Innovations Award for her pioneering work on the architecture of database systems, its interaction with computer architecture, and scientific data management.
 
 
 \person{Anastasia Ailamaki}{Ecole Polytechnique Fédérale de Lausanne (EPFL) and RAW Labs SA}{\textbf{Anastasia Ailamaki} received her Ph.D. in Computer Science from the University of Wisconsin-Madison in 2000, was on the faculty of the School of Computer Science at Carnegie Mellon until 2008, and is currently a Professor of Computer and Communication Sciences at Ecole Polytechnique Fédérale de Lausanne (EPFL) in Switzerland.  In 2015, she co-founded RAW Labs SA, a swiss company that develops a real-time analytical engines that processes heterogeneous big data. Her research interests are in data-intensive systems and applications, and in particular (a) in strengthening the interaction between the database software and emerging hardware and I/O devices, and (b) in automating data management to support computationally-demanding, data-intensive scientific applications. She has received the Finmeccanica endowed chair from the Computer Science Department at Carnegie Mellon University (2007), an Alfred P. Sloan Research Fellowship (2005), and ten best-paper awards in database, storage, and computer architecture conferences. She has also received an ERC Consolidator Award (2013), a European Young Investigator Award from the European Science Foundation (2007), and an NSF CAREER award (2002). She is an ACM fellow, an IEEE fellow, the Laureate for the 2018 Nemitsas Prize in Computer Science, and an elected member of the Swiss, the Belgian, and the Cypriot National Research Councils.}{images/awards/ailamaki.jpg}
@@ -63,7 +67,7 @@ for her pioneering work on the architecture of database systems, its interaction
 \clearpage
 
 \subsection*{SIGMOD Best Paper Award}
-\award{Interventional Fairness : Causal Database Repair for Algorithmic Fairness}{Babak Salimi (University of Washington), Luke Rodriguez (University of Washington), Bill Howe (University of Washington), Dan Suciu (University of Washington)}
+\awardedpaper{Interventional Fairness : Causal Database Repair for Algorithmic Fairness}{Babak Salimi (University of Washington), Luke Rodriguez (University of Washington), Bill Howe (University of Washington), Dan Suciu (University of Washington)}
 
 
 \person{Babak Salimi}{University of Washington}{\textbf{Babak Salimi} is a postdoctoral research associate at University of Washington, where he works with Professor Dan Suciu. He received his Ph.D. from Carleton University, where he worked with Professor Leopoldo Bertossi. His research interests cover data management, decision making systems, causal inference and algorithmic fairness.}{images/awards/salimi.jpg}
@@ -85,23 +89,69 @@ for her pioneering work on the architecture of database systems, its interaction
 \clearpage
 
 
-\section*{PODS Awards}
+\section{PODS Awards}
 
 \subsection*{PODS Albert O. Mendelzon Test of Time Award}
 
-\award{A General Datalog-Based Framework for Tractable Query Answering over Ontologies}{Andrea Cali, Georg Gottlob, Thomas Lukasiewicz}
+
+The ACM PODS Alberto O. Mendelzon Test-of-Time Award is awarded every year to a paper or a small number of papers published in the PODS proceedings ten years prior that had the most impact in terms of research, methodology, or transfer to practice over the intervening decade. After careful consideration and having solicited external nominations and advice, we have selected the following paper as the award winner for 2019:
+
+\vspace{1mm}
+\awardedpaper{A General Datalog-Based Framework for Tractable Query Answering over Ontologies}{Andrea Cali, Georg Gottlob, Thomas Lukasiewicz}
+\vspace{1mm}
+
+This paper introduces and studies the Datalog+/- framework for query answering over ontologies, which subsequently became highly influential in both the database and knowledge representation communities. Its main contribution is an in-depth study of the data complexity of Datalog+/-, and several extensions and restrictions tailored to ontologies. The paper identifies a tractable family of Datalog+/- formalisms, based on linear tuple-generating dependencies, that generalizes description logics of the DL-Lite family. Extensions with keys and stratified negation are also studied. Other technical results of the paper concerning the chase have been fundamental to further developments in the field. The paper received over 450 citations, evidencing its significant impact.
+
+\person{Andrea Cali}{University of London, Birkbeck College}{\textbf{Andrea Cali} is a Senior Lecturer at the Department of Computer Science and Information Systems of the University of London, Birkbeck College. He holds a MEng in Electronic Engineering and a PhD in Computer Engineering, both from the University of Rome "La Sapienza". His research interests include Database Theory, Deep Web, Semantic Web and Ontology Reasoning, Information Integration and Linked Data querying. Among other interests, he investigates the computational complexity of fundamental problems in data processing under knowledge bases. His is currently researching how to automatically integrate Web data in decision support and matchmaking systems.}{images/awards/cali.jpg}
+
+
+
+\person{Georg Gottlob}{University of Oxford and TU Wien}{\textbf{Georg Gottlob} is Professor of Informatics at Oxford and at TU Wien. His interests include database theory, AI, knowledge representation, logic and complexity, 
+problem decompositions, and, on the more applied side, web data extraction, 
+and practical database query processing. Gottlob has received the Wittgenstein Award 
+(Austria)  and  the Ada Lovelace Medal (UK)., He   is an ACM Fellow, an ECCAI 
+Fellow, a  Fellow of the Royal Society,  and a member of the Austrian and the German 
+academies of  of Sciences, and the Academia Europaea.  He chaired the Program 
+Committees of IJCAI 2003 and ACM PODS 2000. He was the main founder of Lixto, 
+a web data extraction software company, which was acquired by McKinsey  
+in 2013. Gottlob was awarded an ERC Advanced Investigator's Grant for the project 
+"DIADEM: Domain-centric Intelligent Automated Data Extraction Methodology". Based 
+on results of this project, he co-founded Wrapidity Ltd, a company that specialises 
+in fully automated web data extraction that was recently acquired by the Meltwater
+Media Intelligence corporation.}{images/awards/gottlob.jpg}
+
+\person{Thomas Lukasiewicz}{University of Oxford}{\textbf{Thomas Lukasiewicz} is a Professor at the University of Oxford where he carries out research in the area of automatic web data extraction, such as the development of a general model of knowledge representation and reasoning for integrating different sources on the web. The work is directed towards possible key technologies for the future web, such as semantic searching. }{images/awards/lukasiewicz.jpg}
+
+
+
 
 \clearpage
 
 \subsection*{PODS Best Paper Award}
 
-\award{Efficient Logspace Classes for Enumeration, Counting, and Uniform Generation}{Marcelo Arenas,Luis Alberto Croqueviell, Rajesh Jayaram, Cristian Riveros}
+\awardedpaper{Efficient Logspace Classes for Enumeration, Counting, and Uniform Generation}{Marcelo Arenas,Luis Alberto Croqueviell, Rajesh Jayaram, Cristian Riveros}
+
+
+\person{Marcelo Arenas}{Pontificia Universidad Catolica de Chile and Millennium Institute for Foundational Research on Data}{\textbf{Marcelo Arenas} is a Professor at the Department of Computer Science at the Pontificia Universidad Catolica de Chile, and the director of the Millennium Institute for Foundational Research on Data. He received a Ph.D. from the University of Toronto in 2005. His research interests are in the areas of data management, applications of logic in computer science and Semantic Web. Marcelo Arenas has received an IBM Ph.D. Fellowship (2004), a SIGMOD Jim Gray Doctoral Dissertation Award Honorable Mention in 2006 for his Ph.D. dissertation "Design Principles for XML Data", the 2016 Semantic Web Science Association (SWSA) Ten-Year Award for the article "Semantics and Complexity of SPARQL" and eight best paper awards (PODS 2003, PODS 2005, ISWC 2006, ICDT 2010, ESWC 2011, PODS 2011, WWW 2012 and ISWC 2014). He has served on multiple program committees and editorial boards, and he has chaired the program committees of ICDT 2015, ISWC 2015 and PODS 2018. }{images/awards/arenas.png}
+
+\person{Luis Alberto Croqueviell}{Pontificia Universidad Catolica de Chile and Millennium Institute for Foundational Research on Data}{\textbf{Luis Alberto Croquevielle} is a student at Pontificia Universidad Católica de Chile, where he has just finished his Master of Science, advised by Marcelo Arenas. His master's research focused on the study of enumeration problems, and its relation to other questions such as counting and uniform generation. His work was supported by the Instituto Milenio de Investigación sobre los Fundamentos de los Datos (IMFD), and conducted in collaboration with other researchers of IMFD.}{images/awards/rendic.png}
+
+\person{Rajesh Jayaram}{Pontificia Universidad Catolica de Chile and Millennium Institute for Foundational Research on Data}{\textbf{Rajesh Jayaram} is a PhD student in theoretical computer science at Carnegie Mellon University, advised by David Woodruff. Prior to beginning his PhD in 2017, Rajesh received his B.S. in Mathematics and Computer Science from Brown University. His research focuses primarily on streaming and sketching algorithms for problems in big-data, as well as lower bounds for these problems. In particular, his work frequently involves applying techniques from dimensionality reduction and the randomized analysis of algorithms to obtain efficient algorithms for big data-sets.
+}{images/awards/jayaram.jpg}
+
+
+\person{Rajesh Jayaram}{Pontificia Universidad Catolica de Chile and Millennium Institute for Foundational Research on Data}{\textbf{Cristian Riveros} is an assistant professor at the Department of Computer Science at PUC Chile and a young researcher at the Millenium Institute on Foundational Research on Data (IMFD). He received his D.Phil degree from the University of Oxford in 2013. Previously, he did his undergraduate studies at PUC Chile. His research interests are in database theory and data management systems, specifically, in data stream management systems, information extraction, and graph data. }{images/awards/riveros.jpg}
 
 \clearpage
 
 \subsection*{PODS Best Student Paper Award}
-\award{On the Enumeration Complexity of Unions of Conjunctive Queries}{Nofar Carmeli, Markus Kr\"{o}ll}
+\awardedpaper{On the Enumeration Complexity of Unions of Conjunctive Queries}{Nofar Carmeli, Markus Kr\"{o}ll}
 
+\person{Nofar Carmeli}{Technion, Israel Institute of Technology}{\textbf{Nofar Carmeli} is a PhD student in the Data and Knowledge group at Technion, Israel Institute of Technology, advised by Prof. Benny Kimelfeld.
+Her research focuses on query optimization with guarantees using enumeration techniques.
+Nofar completed her BSc in 2015 in the Lapidim excellence program of the Computer Science department of Technion.}{images/awards/carmeli.jpg}
+
+\person{Markus Kr\"oll}{TU Wien}{\textbf{Markus Kr\"oll} is a pre-doctoral researcher at the TU Wien. In his research he focuses on database theory and lower bounds in enumeration complexity.}{images/awards/krol.jpg}
 
 
 

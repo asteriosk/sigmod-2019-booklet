@@ -4,6 +4,13 @@
 \usepackage{relsize}
 \usepackage[sfdefault,scaled=.75]{FiraSans}
 
+
+\setcounter{secnumdepth}{0}
+\renewcommand{\contentsname}{Table of Contents}
+
+ \pagestyle{plain}
+
+
 \usepackage{setspace}
 \setstretch{0.8}
 
@@ -51,6 +58,11 @@
 \setlength\parindent{0pt}
 
 \input{welcome.tex}
+
+\tableofcontents
+
+\clearpage
+
 \input{officers.tex}
 \input{DBCares.tex}
 % \input{wlan.tex}
