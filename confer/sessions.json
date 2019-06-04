@@ -711,7 +711,14 @@ sessions={
   "New Researcher Symposium": {
     "day": "Wednesday",
     "s_title": "New Researcher Symposium",
-    "submissions": [ ]
+    "submissions": [ 
+        "SIGMOD_New Researcher Symposium_0",
+        "SIGMOD_New Researcher Symposium_1",
+        "SIGMOD_New Researcher Symposium_2",
+        "SIGMOD_New Researcher Symposium_3",
+        "SIGMOD_New Researcher Symposium_4",
+        "SIGMOD_New Researcher Symposium_5" 
+    ]
   },
   "Student Research Competition (starts 17:20)": {
     "day": "Wednesday",
