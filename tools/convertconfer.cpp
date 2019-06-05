@@ -121,10 +121,10 @@ static void dumpSession(ostream& out,string room,string sessionName,string sessi
   }
   auto session=sessions.get<picojson::object>()[sessionName].get<picojson::object>();
   out << "\\sessionname{" << sessionLabel << "}{" << escapeLatex(handleHTML(session["s_title"].get<string>())) 
-  << "\\hfill {\\relscale{0.7} (" << day.substr(0, 3) << " " << time << ")} "
+  // << "\\hfill {\\relscale{0.7} (" << day.substr(0, 3) << " " << time << ")} "
       << "}\\\\\n";
 
-  out << "\\sessiontime{" << day << " " << time << "}\n";
+  out << "\\sessiontimeloc{" << day << " " << time << "}{" << escapeLatex(room) << "}\n";
   out << "\\sessionlocation{" << escapeLatex(room) << "}\n\n";
 
   if (session.count("chair"))
@@ -195,7 +195,13 @@ static void dumpDetailed(string outFile)
     auto day=day_.get<picojson::object>();
     if (ignoreDays.count(day["date"].get<string>()))
        continue;
-    string dayDate=day["day"].get<string>()+" "+day["date"].get<string>();
+
+    string dayname = day["day"].get<string>();
+    string date = day["date"].get<string>();
+    date = date.substr(0, date.size()-5);
+
+
+    string dayDate=dayname +" "+ date;
     for (auto& slot_:day["slots"].get<picojson::array>()) {
       auto slot=slot_.get<picojson::object>();
       string time=slot["time"].get<string>();
