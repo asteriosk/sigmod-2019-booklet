@@ -48,6 +48,19 @@
     urlcolor={blue!80!black}
 }
 
+
+\newcommand{\person}[4]{~\\~
+\begin{minipage}{\textwidth}
+\begin{wrapfigure}[8]{l}{2.15cm}
+\vspace*{-1.2\baselineskip}%
+\centering
+\personphoto{#4}
+\end{wrapfigure}
+\emph{\relscale{0.9}#3}
+\end{minipage}
+}
+
+
 \title{SIGMOD 2019}
 
 \begin{document}
@@ -65,11 +78,12 @@
 
 \input{officers.tex}
 \input{DBCares.tex}
-% \input{wlan.tex}
 \input{sponsors.tex}
 \input{plans.tex}
 \input{reception.tex}
+\input{banquet.tex}
 \input{awards.tex}
+\input{keynotes.tex}
 \input{overview.tex}
 \input{detailed.tex}
 % \input{workshops.tex}
