@@ -12,7 +12,7 @@
 
 \subsection*{SIGMOD Test of Time Award}
 
-\awardedpaper{Privacy integrated queries: an extensible platform for privacy-preserving data analysis}{Frank McSherry}
+\awardedpaper{Privacy integrated queries: an extensible platform for privacy-preserving data analysis}{Frank McSherry, ACM SIGMOD 2009}.
 
 ~\\~
 
@@ -36,10 +36,10 @@ The committee reached an unanimous decision to  grant the SIGMOD Contribution Aw
 
 \subsection*{SIGMOD E.F. Codd Innovation Award}
 
-The awards committee selected \textbf{Anastasia Ailamaki} as the recipient of the 2019 ACM SIGMOD Edgar F. Codd Innovations Award for her pioneering work on the architecture of database systems, its interaction with computer architecture, and scientific data management.
+The awards committee selected \textbf{Anastasia Ailamaki} as the recipient of the 2019 ACM SIGMOD Edgar F. Codd Innovations Award \emph{for her pioneering work on the architecture of database systems, its interaction with computer architecture, and scientific data management}.
 
 
-\person{Anastasia Ailamaki}{Ecole Polytechnique Fédérale de Lausanne (EPFL) and RAW Labs SA}{\textbf{Anastasia Ailamaki} received her Ph.D. in Computer Science from the University of Wisconsin-Madison in 2000, was on the faculty of the School of Computer Science at Carnegie Mellon until 2008, and is currently a Professor of Computer and Communication Sciences at Ecole Polytechnique Fédérale de Lausanne (EPFL) in Switzerland.  In 2015, she co-founded RAW Labs SA, a swiss company that develops a real-time analytical engines that processes heterogeneous big data. Her research interests are in data-intensive systems and applications, and in particular (a) in strengthening the interaction between the database software and emerging hardware and I/O devices, and (b) in automating data management to support computationally-demanding, data-intensive scientific applications. She has received the Finmeccanica endowed chair from the Computer Science Department at Carnegie Mellon University (2007), an Alfred P. Sloan Research Fellowship (2005), and ten best-paper awards in database, storage, and computer architecture conferences. She has also received an ERC Consolidator Award (2013), a European Young Investigator Award from the European Science Foundation (2007), and an NSF CAREER award (2002). She is an ACM fellow, an IEEE fellow, the Laureate for the 2018 Nemitsas Prize in Computer Science, and an elected member of the Swiss, the Belgian, and the Cypriot National Research Councils.}{images/awards/ailamaki.jpg}
+\person{Anastasia Ailamaki}{Ecole Polytechnique Fédérale de Lausanne (EPFL) and RAW Labs SA}{\textbf{Anastasia Ailamaki}  is a Professor of Computer and Communication Sciences at EPFL and the co-founder of RAW Labs SA, a Swiss company that develops a software engine for real-time analysis of heterogeneous big data. Previously, she was on the faculty of the Computer Science Department at CMU, where she held the Finmeccanica endowed chair. She has received the 2019 EDBT Test of Time award, the 2018 Nemitsas Prize in Computer Science, an ERC Consolidator Award (2013), the European Young Investigator Award from the European Science Foundation (2007), an Alfred P. Sloan Research Fellowship (2005), and ten best-paper awards in database, storage, and computer architecture conferences. She is an ACM fellow, an IEEE fellow, and an elected member of the Swiss, the Belgian, and the Cypriot National Research Councils.}{images/awards/ailamaki.jpg}
 
 
 \clearpage
@@ -68,6 +68,13 @@ The awards committee selected \textbf{Anastasia Ailamaki} as the recipient of th
 
 \subsection*{SIGMOD Best Paper Award}
 \awardedpaper{Interventional Fairness : Causal Database Repair for Algorithmic Fairness}{Babak Salimi, Luke Rodriguez, Bill Howe, Dan Suciu}
+
+
+
+\textbf{Abstract.} Fairness is increasingly recognized as a critical component of machine learning systems. However, it is the underlying data on which these systems are trained that often reflect discrimination, suggesting a database repair problem. Existing treatments of fairness rely on statistical correlations that can be fooled by statistical anomalies, such as Simpson's paradox. Proposals for causality-based definitions of fairness can correctly model some of these situations, but they require specification of the underlying causal models. In this paper, we formalize the situation as a database repair problem, proving sufficient conditions for fair classifiers in terms of admissible variables as opposed to a complete causal model. We show that these conditions correctly capture subtle fairness violations. We then use these conditions as the basis for database repair algorithms that provide provable fairness guarantees about classifiers trained on their training labels. We evaluate our algorithms on real data, demonstrating improvement over the state of the art on multiple fairness metrics proposed in the literature while retaining high utility.
+
+
+
 
 
 \person{Babak Salimi}{University of Washington}{\textbf{Babak Salimi} is a postdoctoral research associate at University of Washington, where he works with Professor Dan Suciu. He received his Ph.D. from Carleton University, where he worked with Professor Leopoldo Bertossi. His research interests cover data management, decision making systems, causal inference and algorithmic fairness.}{images/awards/salimi.jpg}~\\
@@ -154,10 +161,13 @@ The SIGMOD Systems Award is awarded to an individual or set of individuals to re
 The ACM PODS Alberto O. Mendelzon Test-of-Time Award is awarded every year to a paper or a small number of papers published in the PODS proceedings ten years prior that had the most impact in terms of research, methodology, or transfer to practice over the intervening decade. After careful consideration and having solicited external nominations and advice, we have selected the following paper as the award winner for 2019:
 
 \vspace{1mm}
-\awardedpaper{A General Datalog-Based Framework for Tractable Query Answering over Ontologies}{Andrea Cali, Georg Gottlob, Thomas Lukasiewicz}
+\awardedpaper{A General Datalog-Based Framework for Tractable Query Answering over Ontologies}{Andrea Cali, Georg Gottlob, Thomas Lukasiewicz, PODS 2009.}
+
+\textbf{Abstract.} Ontologies and rules play a central role in the development of the Semantic Web. Recent research in this context focuses especially on highly scalable formalisms for the Web of Data, which may highly benefit from exploiting database technologies. In this paper, as a first step towards closing the gap between the Semantic Web and databases, we introduce a family of expressive extensions of Datalog, called Datalog$^\pm$, as a new paradigm for query answering over ontologies. The Datalog$^\pm$ family admits existentially quantified variables in rule heads, and has suitable restrictions to ensure highly efficient ontology querying. We show in particular that Datalog$^\pm$ encompasses and generalizes the tractable description logic $\varepsilon$ $\mathscr{L}$ and the \emph{DL-Lite} family of tractable description logics, which are the most common tractable ontology languages in the context of the Semantic Web and databases. We also show how stratified negation can be added to Datalog$^\pm$ while keeping ontology querying tractable. Furthermore, the Datalog$^\pm$ family is of interest in its own right, and can, moreover, be used in various contexts such as data integration and data exchange. It paves the way for applying results from databases to the context of the Semantic Web.
+
 \vspace{1mm}
 
-This paper introduces and studies the Datalog+/- framework for query answering over ontologies, which subsequently became highly influential in both the database and knowledge representation communities. Its main contribution is an in-depth study of the data complexity of Datalog+/-, and several extensions and restrictions tailored to ontologies. The paper identifies a tractable family of Datalog+/- formalisms, based on linear tuple-generating dependencies, that generalizes description logics of the DL-Lite family. Extensions with keys and stratified negation are also studied. Other technical results of the paper concerning the chase have been fundamental to further developments in the field. The paper received over 450 citations, evidencing its significant impact.
+\textbf{Citation from the Committee.} \emph{This paper introduces and studies the Datalog+/- framework for query answering over ontologies, which subsequently became highly influential in both the database and knowledge representation communities. Its main contribution is an in-depth study of the data complexity of Datalog+/-, and several extensions and restrictions tailored to ontologies. The paper identifies a tractable family of Datalog+/- formalisms, based on linear tuple-generating dependencies, that generalizes description logics of the DL-Lite family. Extensions with keys and stratified negation are also studied. Other technical results of the paper concerning the chase have been fundamental to further developments in the field. The paper received over 450 citations, evidencing its significant impact.}
 
 \person{Andrea Cali}{University of London, Birkbeck College}{\textbf{Andrea Cali} is a Senior Lecturer at the Department of Computer Science and Information System, Birkbeck University of London. He also holds positions as Research Scientist at RelationalAI Inc., as well as Associate Member at the
 Oxford-Man Institute of Quantitative Finance, University of Oxford. His research interests include database theory, Deep Web, Semantic Web, Machine Learning and Information Integration. He is currently undergoing new research directions in the area of cryptocurrencies.}{images/awards/cali.jpg}
@@ -188,6 +198,10 @@ Media Intelligence corporation.}{images/awards/gottlob.jpg}
 
 \awardedpaper{Efficient Logspace Classes for Enumeration, Counting, and Uniform Generation}{Marcelo Arenas,Luis Alberto Croqueviell, Rajesh Jayaram, Cristian Riveros}
 
+\vspace{1mm}
+
+\textbf{Abstract.} In this work, we study two simple yet general complexity classes, based on logspace Turing machines, which provide a unifying framework for efficient query evaluation in areas like information extraction and graph databases, among others. We investigate the complexity of three fundamental algorithmic problems for these classes: enumeration, counting and uniform generation of solutions, and show that they have several desirable properties in this respect. Both complexity classes are defined in terms of nondeterministic logspace transducers (NL transducers). For the first class, we consider the case of unambiguous NL transducers, and we prove constant delay enumeration, and both counting and uniform generation of solutions in polynomial time. For the second class, we consider unrestricted NL transducers, and we obtain polynomial delay enumeration, approximate counting in polynomial time, and polynomial-time randomized algorithms for uniform generation. More specifically, we show that each problem in this second class admits a fully polynomial-time randomized approximation scheme (FPRAS) and a polynomial-time Las Vegas algorithm for uniform generation. Interestingly, the key idea to prove these results is to show that the fundamental problem \#NFA admits an FPRAS, where \#NFA is the problem of counting the number of strings of length n accepted by a nondeterministic finite automaton (NFA). While this problem is known to be \#P-complete and, more precisely, SpanL-complete, it was open whether this problem admits an FPRAS. In this work, we solve this open problem, and obtain as a welcome corollary that every function in SpanL admits an FPRAS.
+
 
 \person{Marcelo Arenas}{Pontificia Universidad Catolica de Chile and Millennium Institute for Foundational Research on Data}{\textbf{Marcelo Arenas} is a Professor at the Department of Computer Science at the Pontificia Universidad Catolica de Chile, and the director of the Millennium Institute for Foundational Research on Data. He received a Ph.D. from the University of Toronto in 2005. His research interests are in the areas of data management, applications of logic in computer science and Semantic Web. Marcelo Arenas has received an IBM Ph.D. Fellowship (2004), a SIGMOD Jim Gray Doctoral Dissertation Award Honorable Mention in 2006 for his Ph.D. dissertation "Design Principles for XML Data", the 2016 Semantic Web Science Association (SWSA) Ten-Year Award for the article "Semantics and Complexity of SPARQL" and eight best paper awards (PODS 2003, PODS 2005, ISWC 2006, ICDT 2010, ESWC 2011, PODS 2011, WWW 2012 and ISWC 2014). He has served on multiple program committees and editorial boards, and he has chaired the program committees of ICDT 2015, ISWC 2015 and PODS 2018. }{images/awards/arenas.png}
 
@@ -203,6 +217,13 @@ Media Intelligence corporation.}{images/awards/gottlob.jpg}
 
 \subsection*{PODS Best Student Paper Award}
 \awardedpaper{On the Enumeration Complexity of Unions of Conjunctive Queries}{Nofar Carmeli, Markus Kr\"{o}ll}
+
+\vspace{1mm}
+
+
+\textbf{Abstract.} We study the enumeration complexity of Unions of Conjunctive Queries (UCQs). We aim to identify the UCQs that are tractable in the sense that the answer tuples can be enumerated with a linear preprocessing phase and a constant delay between every successive tuples. It has been established that, in the absence of self joins and under conventional complexity assumptions, the CQs that admit such an evaluation are precisely the free-connex ones. A union of tractable CQs is always tractable. We generalize the notion of free-connexity from CQs to UCQs, thus showing that some unions containing intractable CQs are, in fact, tractable. Interestingly, some unions consisting of only intractable CQs are tractable too. The question of a finding a full characterization of the tractability of UCQs remains open. Nevertheless, we prove that for several classes of queries, free-connexity fully captures the tractable UCQs.
+
+
 
 \person{Nofar Carmeli}{Technion, Israel Institute of Technology}{\textbf{Nofar Carmeli} is a PhD student in the Data and Knowledge group at Technion, Israel Institute of Technology, advised by Prof. Benny Kimelfeld.
 Her research focuses on query optimization with guarantees using enumeration techniques.

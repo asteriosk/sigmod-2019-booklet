@@ -3198,7 +3198,7 @@ entities={
 },
 "PODS_Research_122g": {
   "title": "Remembering the Probabilistic Analysis of Latent Semantic Indexing",
-  "abstract": "",
+  "abstract": "In the late 1990s, the possibility of algorithmic extraction of insight from soulless data loomed potentially important and very intriguing.  I will look back at our attempt at understanding and advancing this research program in the light of two decades of blistering progress in spectral methods, machine learning, data harvesting and deep nets.",
   "subtype": "Gems of PODS",
   "authors": [
     {
