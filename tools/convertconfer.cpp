@@ -124,6 +124,10 @@ static void dumpSession(ostream& out,string room,string sessionName,string sessi
      cerr << "warning: skipping session " << sessionName << ", no entry found" << endl;
      return;
   }
+
+  out << "\\begin{minipage}{\\textwidth}\n";
+
+
   auto session=sessions.get<picojson::object>()[sessionName].get<picojson::object>();
   out << "\\sessionname{" << sessionLabel << "}{" << escapeLatex(handleHTML(session["s_title"].get<string>())) 
   // << "\\hfill {\\relscale{0.7} (" << day.substr(0, 3) << " " << time << ")} "
@@ -135,6 +139,12 @@ static void dumpSession(ostream& out,string room,string sessionName,string sessi
   if (session.count("chair"))
      out << "\\sessionchair{" << escapeLatex(session["chair"].get<string>()) << "}\n\n";
   out << "\\sessionsep{}\n";
+
+
+  out << "\\end{minipage}\n\n";
+
+
+
 
   {
     auto& s=extra.get<picojson::object>()["sessionintro"].get<picojson::object>();
@@ -152,6 +162,10 @@ static void dumpSession(ostream& out,string room,string sessionName,string sessi
      auto paper=papers.get<picojson::object>()[paperName].get<picojson::object>();
      auto type=paper["type"].get<string>();
      if (type=="break") continue;
+
+     out << "\\begin{minipage}{\\textwidth}\n";
+
+
      out << "\\papertitle{" << escapeLatex(paper["title"].get<string>()) << "}{" << (paper.count("acm_link")?paper["acm_link"].get<string>():"") << "}\n";
      if (type=="industrial")
         out << " (industrial)";
@@ -167,7 +181,10 @@ static void dumpSession(ostream& out,string room,string sessionName,string sessi
         }
         out << "}\n";
      }
-     out << "\n";
+     // out << "\n";
+     out << "\\end{minipage}\n\n";
+
+
 
      if ((type=="awards")||(type=="keynote")||(type=="plenary")||(type=="workshop")||(type=="interactive session")) {
         out << escapeLatex(paper["abstract"].get<string>()) << "\n\n";

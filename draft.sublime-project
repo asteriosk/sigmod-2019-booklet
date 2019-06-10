@@ -3,7 +3,7 @@
 	[
 		{
 			"path": ".",
-			"file_include_patterns":["*.tex", "*.png", "*.jpg", "*.eps", "*.cls", "*.pdf", "*.csv", "*.bib", "*.sublime-project", "Makefile"],
+			"file_include_patterns":["*.tex", "*.png", "*.cpp", "*.h", "*.jpg", "*.eps", "*.cls", "*.pdf", "*.csv", "*.bib", "*.sublime-project", "Makefile"],
 			"folder_exclude_patterns":["libs", "*converted-to.pdf"]
 		}
 	]
