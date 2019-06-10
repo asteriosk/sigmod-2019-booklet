@@ -1,0 +1,692 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "detailed.tex",
+			"settings":
+			{
+				"buffer_size": 1324,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "ads.tex",
+			"settings":
+			{
+				"buffer_size": 9974,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "plans.tex",
+			"settings":
+			{
+				"buffer_size": 1394,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "reception.tex",
+			"settings":
+			{
+				"buffer_size": 5990,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sponsors.tex",
+			"settings":
+			{
+				"buffer_size": 5008,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "welcome.tex",
+			"settings":
+			{
+				"buffer_size": 6135,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wlan.tex",
+			"settings":
+			{
+				"buffer_size": 818,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "workshops.tex",
+			"settings":
+			{
+				"buffer_size": 3327,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "DBCares.tex",
+			"settings":
+			{
+				"buffer_size": 1584,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "booklet.tex",
+			"settings":
+			{
+				"buffer_size": 1927,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/LaTeXTools/LaTeX.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Makefile/Make.sublime-build",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					"Clean"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Traditional"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Script Builder"
+				]
+			],
+			[
+				"Packages/LaTeXTools/LaTeX.sublime-build",
+				"XeLaTeX"
+			]
+		]
+	],
+	"build_varint": "XeLaTeX",
+	"command_palette":
+	{
+		"height": 87.0,
+		"last_filter": "Package Control: install",
+		"selected_items":
+		[
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 485.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/asteriosk/Dropbox/papers/sigmod-2019-booklet",
+		"/Users/asteriosk/Dropbox/papers/sigmod-2019-booklet/sponsoricons"
+	],
+	"file_history":
+	[
+		"/Users/asteriosk/Dropbox/papers/sigmod-2019-booklet/draft.sublime-",
+		"/Users/asteriosk/Dropbox/papers/sigmod-2019-booklet/officers.tex",
+		"/Users/asteriosk/Dropbox/papers/sigmod-2019-booklet/overview.tex",
+		"/Users/asteriosk/Dropbox/papers/lara/4_Optimizations.tex",
+		"/Users/asteriosk/Dropbox/papers/lara/6_RelatedWork.tex",
+		"/Users/asteriosk/Dropbox/papers/lara/5_Evaluation.tex",
+		"/Users/asteriosk/Dropbox/papers/lara/3_Lara.tex",
+		"/Users/asteriosk/Dropbox/papers/lara/4.0_Pushdown.tex",
+		"/Users/asteriosk/Dropbox/papers/lara/4.2_Accesspatterns.tex",
+		"/Users/asteriosk/Dropbox/papers/lara/draft.pdf",
+		"/Users/asteriosk/Dropbox/papers/lara/4.1_Loopfusion.tex",
+		"/Users/asteriosk/Dropbox/papers/lara/4.3_Crossvalidation.tex",
+		"/Users/asteriosk/Dropbox/papers/lara/7_Conclusion.tex",
+		"/Users/asteriosk/Dropbox/papers/lara/images/tikz/ir-cv-opt.tex",
+		"/Users/asteriosk/Dropbox/papers/lara/1_Introduction.tex",
+		"/Users/asteriosk/Dropbox/papers/lara/draft.tex",
+		"/Users/asteriosk/Dropbox/papers/MixedPipelines_ResponseLetter/R1.tex",
+		"/Users/asteriosk/Dropbox/papers/lara/references.bib",
+		"/Users/asteriosk/Dropbox/papers/streaming-survey/tutorial_streaming/main.tex",
+		"/Users/asteriosk/Dropbox/papers/lara/images/tikz/ir-combinator-xtx.tex",
+		"/Users/asteriosk/Dropbox/projects/asteriosk.gr/jobs/index.md",
+		"/Users/asteriosk/Dropbox/papers/lara/2_Background.tex",
+		"/Users/asteriosk/Dropbox/teaching/tas.txt",
+		"/Users/asteriosk/Dropbox/papers/lara/3.5_Applicability.tex",
+		"/Users/asteriosk/Desktop/Desktop/misc/phd-hypersense.txt",
+		"/Users/asteriosk/Downloads/sample-edbt2019.tex",
+		"/Users/asteriosk/Dropbox/papers-working-drafts/MixedPipelines/2_Lara.tex",
+		"/Users/asteriosk/Downloads/latex/vldb_sample.bib",
+		"/Users/asteriosk/Dropbox/papers-working-drafts/scotty/p2-main.tex",
+		"/Users/asteriosk/Dropbox/papers-working-drafts/scotty/p2-content.tex",
+		"/Users/asteriosk/Dropbox/github/master-thesis-kit/.gitignore",
+		"/Users/asteriosk/Dropbox/github/master-thesis-kit/thesis/Makefile",
+		"/Users/asteriosk/Dropbox/papers-working-drafts/scotty/config/CACHE-ON",
+		"/Users/asteriosk/Dropbox/Work/postdoc3.txt",
+		"/Users/asteriosk/Desktop/pc.csv",
+		"/Users/asteriosk/Desktop/berlin.txt",
+		"/Users/asteriosk/Papers/MixedPipelines/1_Introduction.tex",
+		"/Users/asteriosk/Dropbox/Work/proposals/HollandPTC-2018/proposal.txt",
+		"/Users/asteriosk/Dropbox/Work/proposals/HollandPTC-2018/Picture1.svg",
+		"/Users/asteriosk/Papers/MixedPipelines/draft.bbl",
+		"/Users/asteriosk/Papers/MixedPipelines/references.bib",
+		"/Users/asteriosk/Papers/MixedPipelines/3.5_Applicability.tex",
+		"/Users/asteriosk/Papers/MixedPipelines/3_Optimizations.tex",
+		"/Users/asteriosk/Papers/MixedPipelines/draft.tex",
+		"/Users/asteriosk/Papers/MixedPipelines/3_Lara.tex",
+		"/Users/asteriosk/Papers/blockjoin/draft.tex",
+		"/Users/asteriosk/Dropbox/Projects/asteriosk.gr/index.md",
+		"/Users/asteriosk/Papers/MixedPipelines/!",
+		"/Users/asteriosk/Downloads/10.1007%2F978-3-319-63962-8_154-1.bib",
+		"/Users/asteriosk/Downloads/hdms18-paper11.xml",
+		"/Users/asteriosk/Dropbox/Work/trips/TU Delft/003 - Paris ICDE/papers/descriptions.txt",
+		"/Users/asteriosk/Papers/scotty/p2-content.tex",
+		"/Users/asteriosk/Papers/scotty/p2-abstract.tex",
+		"/Users/asteriosk/Papers/scotty/survey",
+		"/Users/asteriosk/Dropbox/Projects/asteriosk.gr/_layouts/default.html",
+		"/Users/asteriosk/Downloads/view_paper.php",
+		"/Users/asteriosk/Papers/encyclopedia-windows/main.tex",
+		"/Users/asteriosk/Papers/encyclopedia-windows/references.bib",
+		"/Users/asteriosk/Library/Application Support/Sublime Text 3/Packages/User/LaTeXTools.sublime-settings",
+		"/Users/asteriosk/Downloads/Pure research output - 220118.bib",
+		"/Users/asteriosk/Desktop/mkhattat.txt",
+		"/Users/asteriosk/Downloads/Reviews/vldb.txt",
+		"/Users/asteriosk/Desktop/akra.txt",
+		"/Users/asteriosk/Dropbox/Projects/asteriosk.gr/teaching/bigdata/streaming-assignment.md",
+		"/Users/asteriosk/Downloads/assignment-spark.ipynb",
+		"/Users/asteriosk/Dropbox/Projects/asteriosk.gr/_config.yml",
+		"/Users/asteriosk/Dropbox/Projects/asteriosk.gr/service/index.md",
+		"/Users/asteriosk/Dropbox/Projects/asteriosk.gr/teaching/index.html",
+		"/Users/asteriosk/Dropbox/Projects/asteriosk.gr/publications/index.html",
+		"/Users/asteriosk/Dropbox/Projects/asteriosk.gr/jobs.md",
+		"/Users/asteriosk/Dropbox/Projects/asteriosk.gr/theses/index.md",
+		"/Users/asteriosk/Desktop/anam.txt",
+		"/Users/asteriosk/Dropbox/Projects/asteriosk.gr/css/theme.css",
+		"/Users/asteriosk/Dropbox/Projects/asteriosk.gr/css/main.css",
+		"/Users/asteriosk/Dropbox/Projects/asteriosk.gr/robots.txt",
+		"/Users/asteriosk/Dropbox/Projects/asteriosk.gr/Makefile",
+		"/Users/asteriosk/Papers/stream-benchmarks/1_Introduction.tex",
+		"/Users/asteriosk/Papers/stream-benchmarks/0_Abstract.tex",
+		"/Users/asteriosk/Papers/stream-benchmarks/2_Related_Work.tex",
+		"/Users/asteriosk/Papers/scotty/Makefile",
+		"/Users/asteriosk/Papers/scotty/scotty.bib",
+		"/Users/asteriosk/Papers/scotty/content.tex",
+		"/Users/asteriosk/Papers/scotty/p2-main.tex",
+		"/Users/asteriosk/Papers/stream-iterations/main.tex",
+		"/Users/asteriosk/Papers/stream-iterations/thesis.sublime-project"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "detailed.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1324,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								25
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "ads.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9974,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								600,
+								600
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 170.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "plans.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1394,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								26,
+								26
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "reception.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5990,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								26,
+								26
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "sponsors.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5008,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								190,
+								190
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 222.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "welcome.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6135,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								25,
+								25
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "wlan.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 818,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								25,
+								25
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "workshops.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3327,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								25,
+								25
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "DBCares.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1584,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								25,
+								25
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "booklet.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1927,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								26,
+								26
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 37.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.latextools":
+	{
+		"height": 249.0
+	},
+	"pinned_build_system": "Packages/LaTeXTools/LaTeX.sublime-build",
+	"project": "draft.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 229.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
