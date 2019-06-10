@@ -81,6 +81,11 @@ static string handleHTML(string s)
      if (p==string::npos) break;
      s=s.substr(0,p)+"&"+s.substr(p+5);
   }
+  while (true) {
+     auto p=s.find("&#233;");
+     if (p==string::npos) break;
+     s=s.substr(0,p)+"é"+s.substr(p+6);
+  }
   return s;
 }
 
@@ -156,9 +161,9 @@ static void dumpSession(ostream& out,string room,string sessionName,string sessi
         for (auto author_:paper["authors"].get<picojson::array>()) {
           auto author=author_.get<picojson::object>();
           if (first) first=false; else out << ", ";
-          out << escapeLatex(fixUtf8(author["name"].get<string>()));
+          out << escapeLatex(handleHTML(fixUtf8(author["name"].get<string>())));
           if (author.count("affiliation"))
-             out << " (" << escapeLatex(fixUtf8(author["affiliation"].get<string>())) << ")";
+             out << " (" << escapeLatex(handleHTML(fixUtf8(author["affiliation"].get<string>()))) << ")";
         }
         out << "}\n";
      }
