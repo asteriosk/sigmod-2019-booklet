@@ -33,7 +33,7 @@ schedule=[
             "session": "Tutorial 3: part 1"
           },
           {
-            "room": "Mendes da Costa Kamer", 
+            "room": "Verwey Kamer", 
             "session": "DSMM Workshop: Session 1"
           }
         ], 
@@ -71,7 +71,7 @@ schedule=[
             "session": "Tutorial 3: part 2"
           },
           {
-            "room": "Mendes da Costa Kamer", 
+            "room": "Verwey Kamer", 
             "session": "DSMM Workshop: Session 2"
           }
         ], 
@@ -109,7 +109,7 @@ schedule=[
             "session": "PODS: Phokion Kolaitis Special Event: part 1"
           },
           {
-            "room": "Mendes da Costa Kamer", 
+            "room": "Verwey Kamer", 
             "session": "DSMM Workshop: Session 3"
           }
         ], 
@@ -147,7 +147,7 @@ schedule=[
             "session": "PODS: Phokion Kolaitis Special Event: part 2 (16:00-18:15)"
           },
           {
-            "room": "Mendes da Costa Kamer", 
+            "room": "Verwey Kamer", 
             "session": "DSMM Workshop: Session 4"
           }
         ], 
@@ -201,7 +201,7 @@ schedule=[
             "session": "PODS 1"
           }, 
           {
-            "room": "Berlage Zaal", 
+            "room": "Graanbeurszaal", 
             "session": "DaMoN Workshop: Session 1"
           }
         ], 
@@ -227,7 +227,7 @@ schedule=[
             "session": "PODS Test-of-Time & Gems"
           }, 
           {
-            "room": "Berlage Zaal", 
+            "room": "Graanbeurszaal", 
             "session": "DaMoN Workshop: Session 2"
           }
         ], 
@@ -253,7 +253,7 @@ schedule=[
             "session": "PODS 2"
           }, 
           {
-            "room": "Berlage Zaal",
+            "room": "Graanbeurszaal",
             "session": "DaMoN Workshop: Session 3"
           }
         ], 
@@ -279,7 +279,7 @@ schedule=[
             "session": "PODS 3"
           },
           {
-            "room": "Berlage Zaal", 
+            "room": "Graanbeurszaal", 
             "session": "DaMoN Workshop: Session 4"
           }
         ], 
@@ -294,7 +294,7 @@ schedule=[
             "session": "PODS Business Meeting"
           },
           {
-            "room": "Berlage Zaal", 
+            "room": "Graanbeurszaal", 
             "session": "DaMoN Workshop: Session 4 (uninterrupted from 17:00)"
           }
         ], 
@@ -769,7 +769,7 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "Mendes da Costa Kamer", 
+            "room": "Verwey Kamer", 
             "session": "Tutorial 4: part 1"
           }, 
           {
@@ -807,7 +807,7 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "Mendes da Costa Kamer", 
+            "room": "Verwey Kamer", 
             "session": "Tutorial 4: part 2"
           }, 
           {
@@ -849,7 +849,7 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "Mendes da Costa Kamer", 
+            "room": "Verwey Kamer", 
             "session": "Tutorial 5: part 1"
           }, 
           {
@@ -891,7 +891,7 @@ schedule=[
       {
         "sessions": [
           {
-            "room": "Mendes da Costa Kamer", 
+            "room": "Verwey Kamer", 
             "session": "Tutorial 5: part 2"
           },
           {

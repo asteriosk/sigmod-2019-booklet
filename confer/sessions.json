@@ -56,6 +56,7 @@ sessions={
   },
   "Lunch + SIGMOD Business Meeting": {
     "day": "Wednesday",
+    "chair": "Juliana Freire",
     "s_title": "Lunch + SIGMOD Business Meeting",
     "submissions": [ ]
   },
@@ -421,19 +422,19 @@ sessions={
   },
   "SIGMOD Welcome + Keynote": {
     "day": "Tuesday",
-    "chair": "Peter Boncz",
+    "chair": "Anastasia Ailamaki",
     "s_title": "SIGMOD Welcome + Keynote",
     "submissions": [  "SIGMOD_Keynote_025" ]
   },
   "SIGMOD Keynote": {
     "day": "Wednesday",
-    "chair": "Stefan Manegold",
+    "chair": "Michael Franklin",
     "s_title": "SIGMOD Keynote",
     "submissions": [  "SIGMOD_Keynote_015" ]
   },
   "SIGMOD Award Talks" : {
     "day": "Thursday",
-    "chair": "Anastasia Ailamaki",
+    "chair": "Juliana Freire",
     "s_title": "SIGMOD Award Talks",
     "submissions": [
         "SIGMOD_Award Talk_35",
@@ -448,19 +449,17 @@ sessions={
   },
   "SIGMOD Teaser Talks 1": {
     "day": "Tuesday",
-    "chair": "Peter Boncz",
     "s_title": "Teaser Talks for all Tuesday SIGMOD Research, Industrial Papers and TODS Posters",
     "submissions": [  ] 
   },
   "SIGMOD Teaser Talks 2": {
     "day": "Wednesday",
-    "chair": "Stefan Manegold",
     "s_title": "Teaser Talks for all Wednesday SIGMOD Research and Industrial Papers",
     "submissions": [  ] 
   },
   "SIGMOD Teaser Talks 3": {
     "day": "Thursday",
-    "chair": "Anastasia Ailamaki",
+    "chair": "Tim Kraska",
     "s_title": "Teaser Talks for all Thursday SIGMOD Research and Industrial Papers",
     "submissions": [  ] 
   },
