@@ -11,8 +11,13 @@ sessions={
   },
   "ADS Event": {
     "day": "Thursday",
-    "s_title": "ADS Event",
-    "submissions": [ "ADS__Event" ]
+    "s_title": "ADS meets SIGMOD event",
+    "submissions": [ 
+         "ADS_Introduction_300",
+         "ADS_Plenary_301",
+         "ADS_Plenary_302",
+         "ADS_Plenary_303"
+    ]
   },
   "LDBC TUC Meeting 1": {
     "day": "Friday",
@@ -51,7 +56,8 @@ sessions={
   },
   "Lunch + SIGMOD Awards": {
     "day": "Tuesday",
-    "s_title": "Lunch + SIGMOD Awards",
+    "chair": "Anastassia Ailamaki",
+    "s_title": "Lunch + Awards (Distinguished SIGMOD PC members, SIGMOD Best Paper, PODS Best Student Paper, PODS Best Paper. PODS Test-of-Time, SIGMOD Reproducibility, SIGMOD Programming Contest, Research Highlights)",
     "submissions": [ ]
   },
   "Lunch + SIGMOD Business Meeting": {
@@ -437,8 +443,10 @@ sessions={
     "chair": "Juliana Freire",
     "s_title": "SIGMOD Award Talks",
     "submissions": [
-        "SIGMOD_Award Talk_35",
-        "SIGMOD_Award Talk_45"
+        "SIGMOD_Award_35",
+        "SIGMOD_Award_200",
+        "SIGMOD_Award_201",
+        "SIGMOD_Award_202"
      ]
   },
   "SIGMOD Panel on Data Ethics": {
@@ -449,11 +457,13 @@ sessions={
   },
   "SIGMOD Teaser Talks 1": {
     "day": "Tuesday",
+    "chair": "Holger Pirk",
     "s_title": "Teaser Talks for all Tuesday SIGMOD Research, Industrial Papers and TODS Posters",
     "submissions": [  ] 
   },
   "SIGMOD Teaser Talks 2": {
     "day": "Wednesday",
+    "chair": "Ziawasch Abedjan",
     "s_title": "Teaser Talks for all Wednesday SIGMOD Research and Industrial Papers",
     "submissions": [  ] 
   },
@@ -709,36 +719,36 @@ sessions={
   },
   "New Researcher Symposium": {
     "day": "Wednesday",
-    "s_title": "New Researcher Symposium",
+    "s_title": "New Researcher Symposium (NRS)",
     "submissions": [ 
-        "SIGMOD_New Researcher Symposium_0",
-        "SIGMOD_New Researcher Symposium_1",
-        "SIGMOD_New Researcher Symposium_2",
-        "SIGMOD_New Researcher Symposium_3",
-        "SIGMOD_New Researcher Symposium_4",
-        "SIGMOD_New Researcher Symposium_5" 
+        "SIGMOD_NRS_0",
+        "SIGMOD_NRS_1",
+        "SIGMOD_NRS_2",
+        "SIGMOD_NRS_3",
+        "SIGMOD_NRS_4",
+        "SIGMOD_NRS_5" 
     ]
   },
   "Student Research Competition (starts 17:20)": {
     "day": "Wednesday",
-    "s_title": "Student Research Competition",
+    "s_title": "Student Research Competition (SRC)",
     "submissions": [
-        "SIGMOD_Research Competition_01",
-        "SIGMOD_Research Competition_02",
-        "SIGMOD_Research Competition_03",
-        "SIGMOD_Research Competition_05",
-        "SIGMOD_Research Competition_06",
-        "SIGMOD_Research Competition_08",
-        "SIGMOD_Research Competition_10",
-        "SIGMOD_Research Competition_12",
-        "SIGMOD_Research Competition_13",
-        "SIGMOD_Research Competition_14",
-        "SIGMOD_Research Competition_15",
-        "SIGMOD_Research Competition_16",
-        "SIGMOD_Research Competition_17",
-        "SIGMOD_Research Competition_18",
-        "SIGMOD_Research Competition_19",
-        "SIGMOD_Research Competition_20"
+        "SIGMOD_SRC_01",
+        "SIGMOD_SRC_02",
+        "SIGMOD_SRC_03",
+        "SIGMOD_SRC_05",
+        "SIGMOD_SRC_06",
+        "SIGMOD_SRC_08",
+        "SIGMOD_SRC_10",
+        "SIGMOD_SRC_12",
+        "SIGMOD_SRC_13",
+        "SIGMOD_SRC_14",
+        "SIGMOD_SRC_15",
+        "SIGMOD_SRC_16",
+        "SIGMOD_SRC_17",
+        "SIGMOD_SRC_18",
+        "SIGMOD_SRC_19",
+        "SIGMOD_SRC_20"
     ]
   },
   "Poster & Demo Reception 1": {

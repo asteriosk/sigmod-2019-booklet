@@ -4,7 +4,12 @@
 % start with Diamond sponsor on odd (right) page
 % such that all Platinum sponsors appear on two
 % adjacent / facing pages
-\ifodd\value{page}\else\hbox{}\newpage\fi
+% \ifodd\value{page}\else\hbox{}\newpage\fi
+
+
+\ifthispageodd{\hbox{}\newpage}{}
+
+
 
 \centering
 

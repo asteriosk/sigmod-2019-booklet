@@ -5,27 +5,22 @@
 \newcommand{\quot}[2]{{\vspace{2mm}``\emph{#1}''}}
 
 
-\clearpage
-
-
-\ifodd\value{page}\hbox{}\newpage\fi
-
+\cleardoublepage
 
 \section{SIGMOD Awards}
 
 \subsection*{SIGMOD Test of Time Award}
 
-\awardedpaper{Privacy integrated queries: an extensible platform for privacy-preserving data analysis}{Frank McSherry, ACM SIGMOD 2009}.
+% \hyphenation{pre-serving}
 
-~\\~
+\awardedpaper{Privacy integrated queries: an extensible platform for privacy-pre-\\ serving data analysis}{Frank McSherry, ACM SIGMOD 2009}
+
 
 The awards committee considers this paper a major scholastic contribution
 in the way we should handle one of the core challenges in  data management. The paper
 has become a landmark reference for research on a privacy preservation in these modern
 times geared at automated data analysis with privacy implications.
 
-
-~\\~
 
 \person{Frank McSherry}{Materialize, Inc.}{\textbf{Frank McSherry} is the Chief Scientist at Materialize, Inc., where he works on interactive and incremental data processing. Frank was previously at the Systems Group at ETH Z\"urich where he worked with students on timely and differential dataflow, and even further back at MSR Silicon Valley where he worked on the Naiad project and on Differential Privacy. Frank is perhaps best known for applying his undergraduate education to big data problems.}{images/awards/mcsherry.jpg}
 
@@ -36,8 +31,6 @@ times geared at automated data analysis with privacy implications.
 The committee reached an unanimous decision to  grant the SIGMOD Contributions Award award to \textbf{Ahmed Elmagarmid}, especially for his dedicated service to the database community in North America and the Middle East, as the founder/editor of Distributed and Parallel Database Journal, and PC for ACM SIGMOD.
 
 
-~\\~
-
 \person{Ahmed Elmagarmid}{Qatar Computing Research Institute, HBKU}{\textbf{Ahmed Elmagarmid} is the founding executive director of the Qatar Computing Research Institute and is an Emeritus Professor of Computer Science at Purdue University. He served as Chief Scientist at Hewlett Packard and Chief of Data Quality at Bellcore.  Dr. Elmagarmid is a recipient of the NSF Presidential Young Investigator (PYI) award from President Reagan in 1988. He is an IEEE Fellow, an ACM Fellow and an AAAS Fellow. The University of Dayton and Ohio State University have both named him among their distinguished alumni. His claim to fame is that he shared an office as graduate student with Prof. M.T.Ozsu.}{images/awards/elmagarmid.jpg}
 
 
@@ -46,9 +39,6 @@ The committee reached an unanimous decision to  grant the SIGMOD Contributions A
 \subsection*{SIGMOD E.F. Codd Innovations Award}
 
 The awards committee selected \textbf{Anastasia Ailamaki} as the recipient of the 2019 ACM SIGMOD Edgar F. Codd Innovations Award \emph{for her pioneering work on the architecture of database systems, its interaction with computer architecture, and scientific data management}.
-
-
-~\\~
 
 
 \person{Anastasia Ailamaki}{Ecole Polytechnique Fédérale de Lausanne (EPFL) and RAW Labs SA}{\textbf{Anastasia Ailamaki}  is a Professor of Computer and Communication Sciences at EPFL and the co-founder of RAW Labs SA, a Swiss company that develops a software engine for real-time analysis of heterogeneous big data. Previously, she was on the faculty of the Computer Science Department at CMU, where she held the Finmeccanica endowed chair. She has received the 2019 EDBT Test of Time award, the 2018 Nemitsas Prize in Computer Science, an ERC Consolidator Award (2013), the European Young Investigator Award from the European Science Foundation (2007), an Alfred P. Sloan Research Fellowship (2005), and ten best-paper awards in database, storage, and computer architecture conferences. She is an ACM fellow, an IEEE fellow, and an elected member of the Swiss, the Belgian, and the Cypriot National Research Councils.}{images/awards/ailamaki.jpg}
@@ -63,14 +53,15 @@ The awards committee selected \textbf{Anastasia Ailamaki} as the recipient of th
 \vspace{1mm}
 
 \textbf{Thesis Title: ``The Design and Implementation of a Non-Volatile Memory DBMS''}, supervised by Andy Pavlo at the Carnegie Mellon University.
-\vspace{1mm}
+
 
 \person{Joy Arulraj}{Georgia Institute of Technology}{\textbf{Joy Arulraj} is an assistant Professor of Computer Science at Georgia Institute of Technology. He received his Ph.D. from Carnegie Mellon University in 2018, advised by Andy Pavlo. His doctoral research focused on the design and implementation of non-volatile memory database management systems. This work was conducted in collaboration with the Intel Science and Technology Center for Big Data, Microsoft Research, and Samsung Research.}{images/awards/arulraj.jpg}
 
-\vspace{8mm}
+\vspace{5mm}
 
 \textbf{\large Honorable Mention: Bas Ketsman}
-\vspace{1mm}
+\vspace{2mm}
+
 
 \textbf{Thesis Title: ``Asynchronous Adventures: Formal Approaches to Querying Big Data in Shared-Nothing Systems''} supervised by Frank Neven at the Hasselt University \& the Transnational University of Limburg.
 
@@ -79,26 +70,27 @@ The awards committee selected \textbf{Anastasia Ailamaki} as the recipient of th
 \clearpage
 
 \subsection*{SIGMOD Best Paper Award}
-\awardedpaper{Interventional Fairness : Causal Database Repair for Algorithmic Fairness}{Babak Salimi, Luke Rodriguez, Bill Howe, Dan Suciu}
+\vspace{-1mm}
+\awardedpaper{Interventional Fairness: Causal Database Repair for Algorithmic Fairness}{Babak Salimi, Luke Rodriguez, Bill Howe, Dan Suciu}
 
-\vspace{2mm}
+\vspace{1mm}
 
 \textbf{Abstract.} Fairness is increasingly recognized as a critical component of machine learning systems. However, it is the underlying data on which these systems are trained that often reflect discrimination, suggesting a database repair problem. Existing treatments of fairness rely on statistical correlations that can be fooled by statistical anomalies, such as Simpson's paradox. Proposals for causality-based definitions of fairness can correctly model some of these situations, but they require specification of the underlying causal models. In this paper, we formalize the situation as a database repair problem, proving sufficient conditions for fair classifiers in terms of admissible variables as opposed to a complete causal model. We show that these conditions correctly capture subtle fairness violations. We then use these conditions as the basis for database repair algorithms that provide provable fairness guarantees about classifiers trained on their training labels. We evaluate our algorithms on real data, demonstrating improvement over the state of the art on multiple fairness metrics proposed in the literature while retaining high utility.
 
-\vspace{2mm}
+\vspace{-1mm}
 
-\person{Babak Salimi}{University of Washington}{\textbf{Babak Salimi} is a postdoctoral research associate at University of Washington, where he works with Professor Dan Suciu. He received his Ph.D. from Carleton University, where he worked with Professor Leopoldo Bertossi. His research interests cover data management, decision making systems, causal inference and algorithmic fairness.}{images/awards/salimi.jpg}~\\
+\person{Babak Salimi}{University of Washington}{\textbf{Babak Salimi} is a postdoctoral research associate at University of Washington, where he works with Professor Dan Suciu. He received his Ph.D. from Carleton University, where he worked with Professor Leopoldo Bertossi. His research interests cover data management, decision making systems, causal inference and algorithmic fairness.}{images/awards/salimi.jpg}
 
-% ~\\~\\~\\~\\~\\~
+\vspace{-2mm}
 
-\person{Luke Rodriguez}{University of Washington}{\textbf{Luke Rodriguez} is a PhD Student advised by Bill Howe in the Information School at the University of Washington whose research focuses on using tools from differential privacy and causal reasoning to support scientific collaboration and responsible data management. In particular, Luke seeks to investigate how we can go beyond accessibility and availability and make data more useful.}{images/awards/rodriguez.jpg}
-
-\clearpage
+\person{Luke Rodriguez}{University of Washington}{\textbf{Luke Rodriguez} is a PhD Student advised by Bill Howe at the University of Washington whose research focuses on using tools from differential privacy and causal reasoning to support scientific collaboration and responsible data management. In particular, Luke seeks to investigate how we can go beyond accessibility and availability and make data more useful.}{images/awards/rodriguez.jpg}
 
 \person{Bill Howe}{University of Washington}{\textbf{Bill Howe} is Associate Professor in the Information School and Adjunct Associate Professor in the Allen School of Computer Science \& Engineering and the Department of Electrical Engineering. His research interests are in data management, curation, analytics, and visualization in the sciences. As Founding Associate Director of the UW eScience Institute, Howe played a leadership role in the Data Science Environment program at UW through a \$32.8 million grant awarded jointly to UW, NYU, and UC Berkeley, and founded UW's Data Science for Social Good Program. With support from the MacArthur Foundation and Microsoft, Howe directs UW's participation in the Cascadia Urban Analytics Cooperative, where he focuses on responsible data science. He founded the UW Data Science Masters Degree, serving as its inaugural Program Chair, and created a first MOOC on data science that attracted over 200,000 students. His research has been featured in the Economist and Nature News, and he co-authored what have remained the most-cited papers from VLDB 2010 and SIGMOD 2012. He has received two Jim Gray Seed Grant awards from Microsoft Research and two ``Best of Conference'' invited papers from VLDB Journal. He has a Ph.D. in Computer Science from Portland State Univ. and a BSc degree in Industrial \& Systems Engineering from Georgia Tech.}{images/awards/howe.png}
 
 
 \person{Dan Suciu}{University of Washington}{\textbf{Dan Suciu} is a Professor in Computer Science at the Univ. of Washington. He received his Ph.D. from the Univ. of Pennsylvania in 1995, was a principal member of the technical staff at AT\&T Labs and joined the Univ. of Washington in 2000. Suciu is conducting research in data management, with an emphasis on topics related to Big Data and data sharing, such as probabilistic data, data pricing, parallel data processing, data security. He is a co-author of two books Data on the Web: from Relations to Semistructured Data and XML, 1999, and Probabilistic Databases, 2011. He is a Fellow of the ACM, holds twelve US patents, received the best paper award in SIGMOD 2000 and ICDT 2013, the ACM PODS Alberto Mendelzon Test of Time Award in 2010 and in 2012, the 10 Year Most Influential Paper Award in ICDE 2013, the VLDB Ten Year Best Paper Award in 2014, and is a recipient of the NSF Career Award and of an Alfred P. Sloan Fellowship. Suciu serves on the VLDB Board of Trustees, and is an assoc. editor for the Journal of the ACM, VLDB Journal, ACM TWEB, and Information Systems and is a past associate editor for ACM TODS and ACM TOIS. Suciu's PhD students Gerome Miklau, Christopher Re and Paris Koutris received the ACM SIGMOD Best Dissertation Award in 2006, 2010, and 2016 respectively, and Nilesh Dalvi was a runner up in 2008.}{images/awards/suciu.jpg}
+
+\clearpage
 
 \subsection*{SIGMOD Systems Award}
 
@@ -115,7 +107,7 @@ The SIGMOD Systems Award is awarded to an individual or set of individuals to re
 \vspace{2mm}
 
 \begin{tabular}{l l}
-\begin{minipage} [t] {0.42\textwidth} 
+\begin{minipage} [t] {0.44\textwidth} 
 \begin{itemize}
 %\small
 \setlength\itemsep{-3pt}
@@ -134,8 +126,9 @@ The SIGMOD Systems Award is awarded to an individual or set of individuals to re
 
 \end{itemize}
 \end{minipage}
+\hspace{-5mm}
   & 
-\begin{minipage} [t] {0.45\textwidth} 
+\begin{minipage} [t] {0.47\textwidth} 
 \begin{itemize}
 %\small
 \setlength\itemsep{-3pt}
@@ -176,7 +169,7 @@ The ACM PODS Alberto O. Mendelzon Test-of-Time Award is awarded every year to a 
 
 \vspace{2mm}
 
-\textbf{Abstract.} Ontologies and rules play a central role in the development of the Semantic Web. Recent research in this context focuses especially on highly scalable formalisms for the Web of Data, which may highly benefit from exploiting database technologies. In this paper, as a first step towards closing the gap between the Semantic Web and databases, we introduce a family of expressive extensions of Datalog, called Datalog$^\pm$, as a new paradigm for query answering over ontologies. The Datalog$^\pm$ family admits existentially quantified variables in rule heads, and has suitable restrictions to ensure highly efficient ontology querying. We show in particular that Datalog$^\pm$ encompasses and generalizes the tractable description logic $\varepsilon$ $\mathscr{L}$ and the \emph{DL-Lite} family of tractable description logics, which are the most common tractable ontology languages in the context of the Semantic Web and databases. We also show how stratified negation can be added to Datalog$^\pm$ while keeping ontology querying tractable. Furthermore, the Datalog$^\pm$ family is of interest in its own right, and can, moreover, be used in various contexts such as data integration and data exchange. It paves the way for applying results from databases to the context of the Semantic Web.
+\textbf{Abstract.} In this paper, we introduce a family of expressive extensions of Datalog, called Datalog$^\pm$, as a new paradigm for query answering over ontologies. The Datalog$^\pm$ family admits existentially quantified variables in rule heads, and has suitable restrictions to ensure highly efficient ontology querying. We show in particular that Datalog$^\pm$ generalizes the DL-Lite family of tractable description logics, which are the most common tractable ontology languages in the context of the Semantic Web and databases. We also show how stratified negation can be added to Datalog$^\pm$ while keeping ontology querying tractable. Furthermore, the Datalog$^\pm$ family is of interest in its own right and can, moreover, be used in various contexts such as data integration and data exchange.
 
 \vspace{1mm}
 
@@ -190,7 +183,7 @@ Oxford-Man Institute of Quantitative Finance, University of Oxford. His research
 \person{Georg Gottlob}{University of Oxford and TU Wien}{\textbf{Georg Gottlob} is Professor of Informatics at Oxford and at TU Wien. His interests include database theory, AI, knowledge representation, logic and complexity, 
 problem decompositions, and, on the more applied side, web data extraction, 
 and practical database query processing. Gottlob has received the Wittgenstein Award 
-(Austria)  and  the Ada Lovelace Medal (UK)., He   is an ACM Fellow, an ECCAI 
+(Austria)  and  the Ada Lovelace Medal (UK). He is an ACM Fellow, an ECCAI 
 Fellow, a  Fellow of the Royal Society,  and a member of the Austrian and the German 
 academies of  of Sciences, and the Academia Europaea.  He chaired the Program 
 Committees of IJCAI 2003 and ACM PODS 2000. He was the main founder of Lixto, 
@@ -201,6 +194,8 @@ on results of this project, he co-founded Wrapidity Ltd, a company that speciali
 in fully automated web data extraction that was recently acquired by the Meltwater
 Media Intelligence corporation.}{images/awards/gottlob.jpg}
 
+\clearpage
+
 \person{Thomas Lukasiewicz}{University of Oxford}{\textbf{Thomas Lukasiewicz} is currently a Professor of Computer Science with the Department of Computer Science, University of Oxford, UK, and a Turing Fellow with the Alan Turing Institute, London, UK. Prior to this, he was holding a prestigious Heisenberg Fellowship by the German Research Foundation (DFG), affiliated with the University of Oxford, TU Vienna, Austria, and Sapienza University of Rome, Italy. His research interests are in artificial intelligence (AI) and information systems, including especially knowledge representation, uncertainty in AI, machine learning, the (Social and/or Semantic) Web, and databases. He received the IJCAI-01 Distinguished Paper Award, the AIJ Prominent Paper Award 2013, and the RuleML 2015 Best Paper Award. He is area editor for the journal ACM TOCL, associate editor for the journals JAIR and AIJ, and editor for the journals Semantic Web and Heliyon.}{images/awards/lukasiewicz.jpg}
 
 \clearpage
@@ -209,8 +204,7 @@ Media Intelligence corporation.}{images/awards/gottlob.jpg}
 
 \subsection*{PODS Best Paper Award}
 
-\awardedpaper{Efficient Logspace Classes for Enumeration, Counting, and Uniform Generation}{Marcelo Arenas,Luis Alberto Croqueviell, Rajesh Jayaram, Cristian Riveros}
-
+\awardedpaper{Efficient Logspace Classes for Enumeration, Counting, and Uniform Generation}{Marcelo Arenas, Luis Alberto Croqueviell, Rajesh Jayaram, Cristian Riveros}
 
 ~\\~
 
@@ -274,17 +268,15 @@ Professor Fekete is a member of ACM and ACS, and of the IEEE Computer Society. H
 \textbf{\emph{``Algorithmic Fairness: Measures, Methods and Representations''}} by Suresh Venkatasubramanian ~\\~
 }
 
+\vspace{-1mm}
+
 \textbf{Abstract.} What happens when we replace — or augment — human decision-making with algorithms? This is a simple question, but the answers now define a new field of study — a field that I call algorithmic fairness, and that spans issues of fairness, discrimination, accountability, transparency, interpretability and responsibility, and so much more. While some of the early work in the area came out of data mining and machine learning, the field is now truly transdisciplinary, with contributions from all across computer science, as well as from all disciplines that touch on aspects of society - whether it be economics, philosophy, sociology, political science, or communication. In this tutorial, I’ll try to do three things: I'll survey the main questions and some of the key insights we’ve developed over the years. I'll explain the web of connections between the technical and the social disciplines that make up this area, and I'll point to exciting directions that remain to be explored in both technical and social dimensions. Along the way I hope to illustrate what I think are some interesting ``collisions'' between computer science and the social sciences, and call for a reimagining of core ideas in our field, including the very idea of how we think about data representation.
 
-\vspace{2mm}
-
+\vspace{-2mm}
 
 \person{Suresh Venkatasubramanian}{University of Utah}{\textbf{Suresh Venkatasubramanian} is a professor at the University of Utah. His background is in algorithms and computational geometry, as well as data mining and machine learning. His current research interests lie in algorithmic fairness, and more generally the problem of understanding and explaining the results of black box decision procedures. Suresh was the John and Marva Warnock Assistant Professor at the U, and has received a CAREER award from the NSF for his work in the geometry of probability, as well as a test-of-time award at ICDE 2017 for his work in privacy. His research on algorithmic fairness has received press coverage across North America and Europe, including NPR’s Science Friday, NBC, and CNN, as well as in other media outlets. He is a member of the Computing Community Consortium Council of the CRA, a member of the board of the ACLU in Utah, and a member of  New York City’s Failure to Appear Tool (FTA) Research Advisory Council.}{images/awards/suresh.jpg}
 
 
-
-
-\clearpage
 
 
 \section{Gems of PODS Event}
@@ -295,6 +287,7 @@ The Gems of PODS event features topics and results in PODS that have been highly
 {
 \vspace{-1mm}
 \center
+\large
 \textbf{\emph{``Remembering the Probabilistic Analysis of Latent Semantic Indexing''}} by Christos Papadimitriou ~\\~
 }
 
@@ -309,6 +302,7 @@ Professor Papadimitriou has been awarded the Knuth Prize, IEEE's John von Neuman
 
 {
 \center
+\large
 \textbf{\emph{``Database Repairs and Consistent Query Answering: Origins and Further Developments''}} by Leopoldo Bertossi \\~\\
 }
 

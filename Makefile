@@ -13,13 +13,6 @@ confer/overview.tex: tools/convertconfer confer/*.json
 	tools/convertconfer overview $@
 
 download:
-	@-mkdir schedule
-	wget https://homepages.cwi.nl/~manegold/SIGMOD-2019-Schedule-ataglance/SIGMOD-2019-Schedule-ataglance-128mm-x-85mm-p1.pdf -O schedule/p1.pdf
-	wget https://homepages.cwi.nl/~manegold/SIGMOD-2019-Schedule-ataglance/SIGMOD-2019-Schedule-ataglance-128mm-x-85mm-p2.pdf -O schedule/p2.pdf
-	wget https://homepages.cwi.nl/~manegold/SIGMOD-2019-Schedule-ataglance/SIGMOD-2019-Schedule-ataglance-128mm-x-85mm-p3.pdf -O schedule/p3.pdf
-	wget https://homepages.cwi.nl/~manegold/SIGMOD-2019-Schedule-ataglance/SIGMOD-2019-Schedule-ataglance-128mm-x-85mm-p4.pdf -O schedule/p4.pdf
-	wget https://homepages.cwi.nl/~manegold/SIGMOD-2019-Schedule-ataglance/SIGMOD-2019-Schedule-ataglance-128mm-x-85mm-p5.pdf -O schedule/p5.pdf
-	wget https://homepages.cwi.nl/~manegold/SIGMOD-2019-Schedule-ataglance/SIGMOD-2019-Schedule-ataglance-128mm-x-85mm-p6.pdf -O schedule/p6.pdf
 	cd confer ; ./updateconfer
 
 clean:

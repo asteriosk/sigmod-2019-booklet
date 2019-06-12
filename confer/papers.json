@@ -3157,7 +3157,7 @@ entities={
   "title": "2019 ACM PODS Alberto O. Mendelzon Test-of-Time Award",
   "acm_link": "https://doi.org/10.1145/3294052.3322193",
   "abstract": "",
-  "subtype": "PODS Award Talk",
+  "subtype": "PODS Award",
   "authors": [
     {
       "name": "Jianwen Su",
@@ -3178,7 +3178,7 @@ entities={
 "PODS_Research_tot": {
   "title": "A General Datalog-based Framework for Tractable Query Answering",
   "abstract": "",
-  "subtype": "PODS Award Talk",
+  "subtype": "PODS Award",
   "authors": [
     {
       "name": "Andrea Cali",
@@ -5201,11 +5201,11 @@ entities={
   "type": "SIGMOD",
   "id": "SIGMOD_Keynote_025"
 },
-"SIGMOD_Research Competition_01": {
+"SIGMOD_SRC_01": {
   "title": "SpeakQL: Towards Speech-driven Multimodal Querying",
   "acm_link": "https://doi.org/10.1145/3299869.3323596",
   "abstract": "Speech-based inputs have become popular in many applications on constrained device environments such as smartphones and tablets, and even personal conversational assistants such as Siri, Alexa, and Cortana. Inspired by this recent success of speech-driven interfaces, in this work, we consider an important fundamental question: How should one design a speech-driven system to query structured data? Recent works have studied new querying modalities like visual [4, 8], touch-based [3, 7], and natural language interfaces (NLIs) [5, 6], especially for constrained querying environments such as tablets, smartphones, and conversational assistants. The commands given by the user are then translated to the Structured Query Language (SQL). But conspicuous by its absence is a speech-driven interface for regular SQL or other structured querying. One might wonder: Why dictate structured queries and not just use NLIs or visual interfaces? From a practical standpoint, many users, including in the C-suite, enterprise, Web, and other domains are already familiar with SQL (even if only a subset of it) and use it routinely. A spoken SQL interface could help them speed up query specification, especially in constrained settings such as smartphones and tablets, where typing SQL would be painful. More fundamentally, there is a trade-off inherent in any query interface, as illustrated in Figure 1(A).",
-  "subtype": "SIGMOD Research Competition",
+  "subtype": "SIGMOD SRC",
   "authors": [
     {
       "name": "Vraj Shah",
@@ -5213,13 +5213,13 @@ entities={
     }
    ],
   "type": "SIGMOD",
-  "id": "SIGMOD_Research Competition_01"
+  "id": "SIGMOD_SRC_01"
 },
-"SIGMOD_Research Competition_02": {
+"SIGMOD_SRC_02": {
   "title": "Fingerprints for Compressed Columnar Data Search",
   "acm_link": "https://doi.org/10.1145/3299869.3323597",
   "abstract": "To enhance performance in main memory databases, compression techniques have been suggested to keep large volume of data in-memory, as opposed to loading data on demand from slower media storage. High compression ratio, however, comes with both memory and performance overhead for queries; packed data needs to be decompressed into vectors before applying optimized scan algorithms. In this work, we propose data summaries at column block level. Our preliminary experimental studies on TPC-H data confirm that under the same memory budget used for MinMax synopsis, our block headers can lower the false positive rates by up to 30% for compressed data scans and can reduce the overhead of employing advanced compression schemes.",
-  "subtype": "SIGMOD Research Competition",
+  "subtype": "SIGMOD SRC",
   "authors": [
     {
       "name": "Carmen Kwan",
@@ -5227,13 +5227,13 @@ entities={
     }
    ],
   "type": "SIGMOD",
-  "id": "SIGMOD_Research Competition_02"
+  "id": "SIGMOD_SRC_02"
 },
-"SIGMOD_Research Competition_03": {
+"SIGMOD_SRC_03": {
   "title": "CAvSAT: A System for Query Answering over Inconsistent Databases",
   "acm_link": "https://doi.org/10.1145/3299869.3323598",
   "abstract": "Managing inconsistencies in databases is an old, but recurring, problem. An inconsistent database is a database that violates one or more integrity constraints. In the real-world, inconsistent databases arise in several different contexts, including data warehousing and information integration. The framework of database repairs and consistent query answering (CQA) is a principled way of handling inconsistencies. In this work, we propose a novel approach that has a potential to build a comprehensive and scalable CQA system. We report preliminary experimental results on a prototype CQA system CAvSAT (Consistent Answering via Satisfiability), implemented using this approach.",
-  "subtype": "SIGMOD Research Competition",
+  "subtype": "SIGMOD SRC",
   "authors": [
     {
       "name": "Akhil Dixit",
@@ -5241,13 +5241,13 @@ entities={
     }
    ],
   "type": "SIGMOD",
-  "id": "SIGMOD_Research Competition_03"
+  "id": "SIGMOD_SRC_03"
 },
-"SIGMOD_Research Competition_05": {
+"SIGMOD_SRC_05": {
   "title": "Scalable Reservoir Sampling on Many-Core CPUs",
   "acm_link": "https://doi.org/10.1145/3299869.3323667",
   "abstract": "Database systems need to be able to convert queries to efficient execution plans. As recent research has shown, correctly estimating cardinalities of subqueries is an important factor in the efficiency of the resulting plans [7, 8]. Many algorithms have been proposed in literature that utilize a random sample to estimate cardinalities [6, 9, 13]. Thus, some modern database systems choose to store a materialized uniformly random sample for their relations [3, 6]. Such samples are built and refreshed when statistics are gathered, by loading uniformly random tuples from the relation in disk using random IO.",
-  "subtype": "SIGMOD Research Competition",
+  "subtype": "SIGMOD SRC",
   "authors": [
     {
       "name": "Altan Birler",
@@ -5255,13 +5255,13 @@ entities={
     }
    ],
   "type": "SIGMOD",
-  "id": "SIGMOD_Research Competition_05"
+  "id": "SIGMOD_SRC_05"
 },
-"SIGMOD_Research Competition_06": {
+"SIGMOD_SRC_06": {
   "title": "LSM-Trees and B-Trees: The Best of Both Worlds",
   "acm_link": "https://doi.org/10.1145/3299869.3323669",
   "abstract": "LSM-Trees and B-Trees are the two primary data structures used as storage engines in modern key-value (KV) stores. These two structures are optimal for different workloads; LSM-Trees perform better on update queries, whereas B-Trees are preferable for short range lookups. KV stores today use one or the other. However, for modern applications with increasingly diverse workloads, limiting KV stores to utilize only one of the two designs leads to a significant loss in performance. We propose a novel method of online transitioning a KV store from an LSM-Tree to a B-Tree and vice versa. This allows KV stores to smoothly adapt to changing workloads and use the optimal data structure as the workload changes.",
-  "subtype": "SIGMOD Research Competition",
+  "subtype": "SIGMOD SRC",
   "authors": [
     {
       "name": "Varun Jain",
@@ -5277,13 +5277,13 @@ entities={
     }
    ],
   "type": "SIGMOD",
-  "id": "SIGMOD_Research Competition_06"
+  "id": "SIGMOD_SRC_06"
 },
-"SIGMOD_Research Competition_08": {
+"SIGMOD_SRC_08": {
   "title": "Generating Selective Filters for Access Method and PhysicalDesign Evaluation",
   "acm_link": "https://doi.org/10.1145/3299869.3314032",
   "abstract": "It is a challenge for researchers and system developers to evaluate the impacts of new access methods and physical designs on query performance. One can evaluate these by executing selective filters over differing data distributions. For example, an index lookup may give better performance than a full table scan for a highly selective query [4]. However, generating a filter workload on nonsynthetic datasets to evaluate new techniques currently involves manually coming up with workloads of varying selectivities, which can be cumbersome. Automatically generating workloads with given selectivities over any dataset can facilitate a systematic study of performance of data storage and query optimization methods that also allows researchers to leverage interesting datasets. Toward this goal, this paper describes a new query generation method that, given a table T in a database D, and a selectivity constraint (L, R), where 0 ? L < R ? 1, generates filter queries (i.e., queries with predicates in WHERE-clauses) whose output size is between L ? |T | and R ? |T |. We first show that generating filter queries with selectivities satisfying the given constraint requires solving the subset sum problem for each integral value in the range L ? |T | and R ? |T |. We then present a polynomial-time heuristic for the same and discuss the performance of the heuristic on a large data set.",
-  "subtype": "SIGMOD Research Competition",
+  "subtype": "SIGMOD SRC",
   "authors": [
     {
       "name": "Pranav Subramaniam",
@@ -5291,13 +5291,13 @@ entities={
     }
    ],
   "type": "SIGMOD",
-  "id": "SIGMOD_Research Competition_08"
+  "id": "SIGMOD_SRC_08"
 },
-"SIGMOD_Research Competition_10": {
+"SIGMOD_SRC_10": {
   "title": "Interactive Visualization For Big Spatial Data",
   "acm_link": "https://doi.org/10.1145/3299869.3314034",
   "abstract": "The significance of spatial data is undeniable in present world. Starting from satellite data to GPS locations, from Facebook tags to Yelp check-ins, spatial data has become an intricate part of our daily life. Interactive visualization of these datasets can be of immense help to the scientific community for exploratory analytics which in turn helps to identify unique patterns and trends.",
-  "subtype": "SIGMOD Research Competition",
+  "subtype": "SIGMOD SRC",
   "authors": [
     {
       "name": "Saheli Ghosh",
@@ -5305,13 +5305,13 @@ entities={
     }
    ],
   "type": "SIGMOD",
-  "id": "SIGMOD_Research Competition_10"
+  "id": "SIGMOD_SRC_10"
 },
-"SIGMOD_Research Competition_12": {
+"SIGMOD_SRC_12": {
   "title": "Learning to Generate Questions with Adaptive Copying Neural Networks",
   "acm_link": "https://doi.org/10.1145/3299869.3300100",
   "abstract": "Automatic question generation is an important problem in natural language processing. In this paper, we propose a novel adaptive copying recurrent neural network model to tackle the problem of question generation from sentences and paragraphs. The proposed model adds a copying mechanism component onto a bidirectional LSTM architecture to generate more suitable questions adaptively from the input data. Our experimental results show the proposed model can outperform the state-of-the-art question generation methods in terms of BLEU and ROUGE evaluation scores.",
-  "subtype": "SIGMOD Research Competition",
+  "subtype": "SIGMOD SRC",
   "authors": [
     {
       "name": "Xinyuan Lu",
@@ -5319,13 +5319,13 @@ entities={
     }
    ],
   "type": "SIGMOD",
-  "id": "SIGMOD_Research Competition_12"
+  "id": "SIGMOD_SRC_12"
 },
-"SIGMOD_Research Competition_13": {
+"SIGMOD_SRC_13": {
   "title": "Query-Driven Learning for Next Generation Predictive Modeling & Analytics",
   "acm_link": "https://doi.org/10.1145/3299869.3300101",
   "abstract": "As data-size is increasing exponentially, new paradigm shifts have to emerge allowing fast exploitation of data by every- body. Large-scale predictive analytics is restricted to wealthy organizations as small-scale enterprises (SMEs) struggle to compete and are inundated by the sheer monetary cost of either procuring data infrastructures or analyzing datasets over the Cloud. The aim of this work is to study mechanisms which can democratize analytics, in the sense of making them affordable, while at the same time ensuring high efficiency, scalability, and accuracy. The crux of this proposal lies in developing query-driven solutions that can be used off the Cloud thus minimizing costs. Our query-driven approach will learn and adapt on-the-fly machine learning models, based solely on query-answer interactions, which can be used for answering analytical queries. In this abstract we describe the methodology followed for the implementation and evaluation of the system designed.",
-  "subtype": "SIGMOD Research Competition",
+  "subtype": "SIGMOD SRC",
   "authors": [
     {
       "name": "Fotis Savva",
@@ -5333,13 +5333,13 @@ entities={
     }
    ],
   "type": "SIGMOD",
-  "id": "SIGMOD_Research Competition_13"
+  "id": "SIGMOD_SRC_13"
 },
-"SIGMOD_Research Competition_14": {
+"SIGMOD_SRC_14": {
   "title": "Answering Range Queries Under Local Differential Privacy",
   "acm_link": "https://doi.org/10.1145/3299869.3300102",
   "abstract": "Counting the fraction of a population having an input within a specified interval i.e. range count query is a fundamental database operation. Range count queries can also be used to compute other interesting statistics such as quantiles. The framework of differential privacy [6] (DP) is becoming a standard for privacy-preserving data analysis [1]. While many works address the problem of range counting queries in the trusted aggregation model, surprisingly, this problem has not been addressed specifically under untrusted aggregation (local DP [10]). In this work we study the problem of answering 1?dimensional range count queries under the constraint of LDP.",
-  "subtype": "SIGMOD Research Competition",
+  "subtype": "SIGMOD SRC",
   "authors": [
     {
       "name": "Tejas Kulkarni",
@@ -5347,13 +5347,13 @@ entities={
     }
    ],
   "type": "SIGMOD",
-  "id": "SIGMOD_Research Competition_14"
+  "id": "SIGMOD_SRC_14"
 },
-"SIGMOD_Research Competition_15": {
+"SIGMOD_SRC_15": {
   "title": "Helios: An Adaptive and Query Workload-driven Partitioning Framework for Distributed Graph Stores",
   "acm_link": "https://doi.org/10.1145/3299869.3300103",
   "abstract": "In this paper, we present a novel adaptive and workload-driven partitioning framework, named Helios, aiming to achieve low-latency and high-throughput online queries in distributed graph stores. As each workload typically contains popular or similar queries, our partitioning method uses the existing workload to capture active vertices and edges which are frequently visited and traversed respectively. This information is used to heuristically improve the quality of partitions either by avoiding the concentration of active vertices in a few partitions proportional to their visit frequencies or by reducing the probability of the cut of active edges proportional to their traversal frequencies. In order to assess the impact of Helios on a graph store, and to show how easily the approach can be plugged on top of the system, we exploit it in a distributed, graph-based RDF store. The query engine of the store exploits Helios to reduce or eliminate data communication for future queries and balance the load among nodes. We evaluate the store by using realistic query workloads over an RDF dataset. Our results demonstrate the ability of Helios to handle varying query workloads with minimum overhead while maintaining the quality of partitions over time, along with being scalable by increasing either the data size or the number of computing nodes.",
-  "subtype": "SIGMOD Research Competition",
+  "subtype": "SIGMOD SRC",
   "authors": [
     {
       "name": "Ali Davoudian",
@@ -5361,13 +5361,13 @@ entities={
     }
    ],
   "type": "SIGMOD",
-  "id": "SIGMOD_Research Competition_15"
+  "id": "SIGMOD_SRC_15"
 },
-"SIGMOD_Research Competition_16": {
+"SIGMOD_SRC_16": {
   "title": "Deep Query Optimization",
   "acm_link": "https://doi.org/10.1145/3299869.3300104",
   "abstract": "In recent decades, we observed the rapid growth of several big data platforms. Each of them is designed for specific demands. For instance, Spark can efficiently process iterative queries, while Storm is designed for in-memory processing. In this context, the complexity of these distributed systems make it much harder to develop rigorous cost models for query optimization problems. This paper aims to address two problems of the query optimization process: cost estimation and index selection. The cost estimation problem predicts the best execution plan by measuring the cost of alternative query plans. The index selection problem determines the most suitable indexing method with a given dataset. Both problems require the development of a complex function that measures the cost or suitability of alternatives to a specific dataset. Therefore, we employ deep learning to solve those problems due to its capability of learning complicated models. We first address a simple form of cost estimation problem: selectivity estimation. Our preliminary results show that our deep learning models work efficiently with the accuracy of selectivity estimation up to 97%.",
-  "subtype": "SIGMOD Research Competition",
+  "subtype": "SIGMOD SRC",
   "authors": [
     {
       "name": "Tin Vu",
@@ -5375,13 +5375,13 @@ entities={
     }
    ],
   "type": "SIGMOD",
-  "id": "SIGMOD_Research Competition_16"
+  "id": "SIGMOD_SRC_16"
 },
-"SIGMOD_Research Competition_17": {
+"SIGMOD_SRC_17": {
   "title": "Bootstrapping an End-to-End Natural Language Interface for Databases",
   "acm_link": "https://doi.org/10.1145/3299869.3300105",
   "abstract": "The ability to extract insights from data is critical for decision making. Intuitive natural language interfaces to databases provide non-technical users with an effective way to formulate complex questions and information needs efficiently and effectively. A recent trend in the area of Natural Language Interfaces for Databases (NLIDBs) has been the use of neural machine translation models to synthesize executable Structured Query Language (SQL) queries from natural language utterances. The main bottleneck in this type of approach is the acquisition of examples for training the model. Recent work has assumed access to a rich manually-curated training set for a given target database. However, this assumption ignores the large manual overhead required to curate the training set for any new database. As a result, NLIDB systems that can simply ‘plug in’ to any new database and perform effectively for naive users have yet to make their way into commercial products. Here we present DBPal, an end-to-end NLIDB framework in which a neural translation model is trained for any new database schema with minimal manual overhead. In addition to being the first off-the-shelf, neural machine translationbased system of its kind, the contributions of our project are 1) its use of a synthetic training set generation pipeline used to bootstrap a translation model without requiring manually curated data, and 2) its use of state-of-the-art multi-task and cross-domain learning techniques that increases the robustness of the translation model towards unseen linguistic phenomena in new domains. In experiments we show that our system can achieve competitive performance on the recently released benchmarks for nl-to-sql translation. Through ablation experiments we show the benefit of using cross-domain learning techniques on the performance of the system. In a user study we show that DBPal outperforms a well-known rule-based NLIDB and performs comparably to an approach using a similar neural model that relies on manually curated data.",
-  "subtype": "SIGMOD Research Competition",
+  "subtype": "SIGMOD SRC",
   "authors": [
     {
       "name": "Nathaniel Weir",
@@ -5393,13 +5393,13 @@ entities={
     }
    ],
   "type": "SIGMOD",
-  "id": "SIGMOD_Research Competition_17"
+  "id": "SIGMOD_SRC_17"
 },
-"SIGMOD_Research Competition_18": {
+"SIGMOD_SRC_18": {
   "title": "Recommending Deployment Strategies in Crowdsourcing Platforms",
   "acm_link": "https://doi.org/10.1145/3299869.3300106",
   "abstract": "We initiate the study of how to recommend deployment strategies to the task designers in crowdsourcing platforms. The work proposes the first ever optimization based formalism of the task deployment strategies based on different parameters that the task designers have in mind during deployment and present principled algorithms that are designed using computational geometry techniques.",
-  "subtype": "SIGMOD Research Competition",
+  "subtype": "SIGMOD SRC",
   "authors": [
     {
       "name": "Dong Wei",
@@ -5407,13 +5407,13 @@ entities={
     }
    ],
   "type": "SIGMOD",
-  "id": "SIGMOD_Research Competition_18"
+  "id": "SIGMOD_SRC_18"
 },
-"SIGMOD_Research Competition_19": {
+"SIGMOD_SRC_19": {
   "title": "Towards Understanding Data Analysis Workflows using a Large Notebook Corpus",
   "acm_link": "https://doi.org/10.1145/3299869.3300107",
   "abstract": "The advent of big data analysis as a profession as well as a hobby has brought an increase in novel forms of data exploration and analysis, particularly ad-hoc analysis. Analysis of raw datasets using frameworks such as pandas and R have become very popular[8]. Typically these types of workflows are geared towards ingesting and transforming data in an exploratory fashion in order to derive knowledge while minimizing time-to-insight. However, there exists very little work studying usability and performance concerns of such unstructured workflows.",
-  "subtype": "SIGMOD Research Competition",
+  "subtype": "SIGMOD SRC",
   "authors": [
     {
       "name": "Mohammed Suhail Rehman",
@@ -5421,13 +5421,13 @@ entities={
     }
    ],
   "type": "SIGMOD",
-  "id": "SIGMOD_Research Competition_19"
+  "id": "SIGMOD_SRC_19"
 },
-"SIGMOD_Research Competition_20": {
+"SIGMOD_SRC_20": {
   "title": "Arachnid: Generalized Visual Data Cleaning",
   "acm_link": "https://doi.org/10.1145/3299869.3300108",
   "abstract": "Data cleaning is an inherently exploratory and visual process. Visualizations help analysts spot errors or surprising patterns/relationships that would otherwise go unnoticed. Once identified, the user will want to execute transformations in an attempt to correct these errors. However, alternating between the contexts of transforming and visualizing the data can be tedious. As a result, there is a need for data to be visualized and cleaned on the fly. Current solutions address this issue by allowing users to specify data cleaning transformations through a limited set of interactions that can directly manipulate visualizations pre-defined by the cleaning system itself. These visualizations are either generated as a table (OpenRefine, Wrangler, Microsoft Excel), or as bar graphs (Tableau Prep). By mapping a narrow set of mouse-based interactions to data cleaning specifications, these systems allow users to intuitively and quickly transform data within a constrained set of use cases. However, in order to gain a comprehensive visual understanding of the data and to quickly clean it for additional use cases, analysts often need to generate multiple visualizations from a set of common types and interactively execute data transformations beyond those supported by current cleaning software. Thus, we propose Arachnid as a novel system that builds upon existing work in generalized selection and direct manipulation to introduce a model for translating mouse-based interactions on common types of user-defined visualizations into an enhanced set of data cleaning transformations.",
-  "subtype": "SIGMOD Research Competition",
+  "subtype": "SIGMOD SRC",
   "authors": [
     {
       "name": "Conder Shou",
@@ -5439,7 +5439,7 @@ entities={
     }
    ],
   "type": "SIGMOD",
-  "id": "SIGMOD_Research Competition_20"
+  "id": "SIGMOD_SRC_20"
 },
 "SIGMOD_Tutorial_01": {
   "title": "Data Pipelines for User Group Analytics",
@@ -5902,20 +5902,6 @@ entities={
   "type": "PODS",
   "id": "PODS_Special_Event_for_Phokion_Kolaitis"
 },
-"ADS__Event": {
-  "title": "ADS Event",
-  "acm_link": "https://amsterdamdatascience.nl",
-  "abstract": "Amsterdam Data Science (ADS) is a virtual organization founded by CWI and the two Amsterdam universities (.vu.nl .uva.nl) to further research, education, and application of data science in the Amsterdam area. ADS regularly organizes meetups that draw researchers, educators, but most prominently practitioners. This event will bring the local ADS community into contact with data management research. This meetup will be open to the ADS community as well as to the whole SIGMOD/PODS audience.",
-  "subtype": "ADS",
-  "authors": [
-    {
-      "name": "Jeanne Kroeger",
-      "affiliation": "ADS"
-    }
-   ],
-  "type": "ADS",
-  "id": "ADS__Event"
-},
 "LDBC_TUC_Meeting": {
   "title": "LDBC Technical User Community Meeting",
   "acm_link": "http://wiki.ldbcouncil.org/pages/viewpage.action?pageId=106233859",
@@ -5934,11 +5920,11 @@ entities={
   "type": "LDBC",
   "id": "LDBC_TUC_Meeting"
 },
-"SIGMOD_Award Talk_35": {
-  "title": "Data Management on Non-Volatile Memory",
+"SIGMOD_Award_35": {
+  "title": "Jim Gray SIGMOD Dissertation Award Winning Thesis: Data Management on Non-Volatile Memory",
   "acm_link": "https://doi.org/10.1145/3299869.3328523",
   "abstract": "We are at an exciting point in the evolution of memory technology. Device manufacturers have created a new non- volatile memory (NVM) technology that can serve as both system memory and storage. NVM supports fast reads and writes similar to volatile memory, but all writes to it are persistent like a solid-state disk. The advent of NVM invalidates decades of design decisions that are deeply embedded in today's database management systems (DBMSs). These systems are unable to take full advantage of NVM because their internal architectures are predicated on the assumption that memory is volatile. With NVM, many of the components of today's DBMSs are unnecessary and will degrade the performance of data-intensive applications. Thus, the best way to resolve these shortcomings is by designing a new system explicitly tailored for NVM. In this talk, I will present our research on the design and development of an NVM DBMS, called Peloton. Peloton's architecture shows that the impact of NVM spans across all the layers of the DBMS. I will first introduce write-behind logging, an NVM-centric protocol that improves the availability of the database system by two orders-of-magnitude compared to the widely-used write- ahead logging protocol. I will then present the BzTree, an NVM-centric index data structure that illustrates how to simplify programming on NVM. In drawing broader lessons from this work, I will argue that all types of software systems, including file systems, machine-learning systems, and key-value stores, are amenable to similar architectural changes to achieve high performance and availability on NVM.",
-  "subtype": "SIGMOD Award Talk",
+  "subtype": "SIGMOD Award",
   "authors": [
     {
       "name": "Joy Arulraj",
@@ -5946,13 +5932,13 @@ entities={
     }
    ],
   "type": "SIGMOD",
-  "id": "SIGMOD_Award Talk_35"
+  "id": "SIGMOD_Award_35"
 },
-"SIGMOD_Award Talk_45": {
-  "title": "Formal Approaches to Querying Big Data in Shared-Nothing Systems",
+"SIGMOD_Award_45": {
+  "title": "Jim Gray SIGMOD Dissertation Award Honourable Mention: Formal Approaches to Querying Big Data in Shared-Nothing Systems",
   "acm_link": "https://doi.org/10.1145/3299869.3328524",
   "abstract": "To meet today's data management needs, it is a widespread practice to use distributed data storage and processing systems. Since the publication of the MapReduce paradigm, a plethora of such systems arose, but although widespread, the capabilities of these systems are still poorly understood and putting them to effective use is often more of an art than a science. As one of the causes for this observation, we identify a lack of theoretical underpinnings for these systems, which makes it hard to understand what the advantages and disadvantages of the particular systems are and which, in addition, complicates the choice of a particular formalism for a particular task. In my PhD thesis, we zoom in on several important aspects of query evaluation using clusters of servers, including coordination and communication, data-skew, load balancing, and data partitioning, and propose a set of elegant and theoretically sound frameworks and theories that help to understand the applicable limitations and trade-offs.",
-  "subtype": "SIGMOD Award Talk",
+  "subtype": "SIGMOD Award",
   "authors": [
     {
       "name": "Bas Ketsman",
@@ -5960,7 +5946,7 @@ entities={
     }
    ],
   "type": "SIGMOD",
-  "id": "SIGMOD_Award Talk_45"
+  "id": "SIGMOD_Award_45"
 },
 "SIGMOD_Panel_2019": {
   "title": "The Responsibility Challenge for Data",
@@ -5996,11 +5982,11 @@ entities={
   "type": "SIGMOD",
   "id": "SIGMOD_Panel_2019"
 },
-"SIGMOD_New Researcher Symposium_0": {
+"SIGMOD_NRS_0": {
   "title": "Publication Strategies for New Researchers: intro by the organizers",
   "acm_link": "https://http://sigmod2019.org/new_researchers_symp",
   "abstract": "The SIGMOD New Researcher Symposium is an informative and entertaining event geared at giving graduate students and junior researchers advice on starting a career in data management, though it often attracts a broader audience.  This year's topic is: publication strategies for new researchers. The symposium will discuss issues that span the gamut from questions on how scholarship is evaluated, advice on venue selection, strategies to tolerate randomness in reviewing, and suggestions on how to become a more engaged member of the data management community. The emphasis will be on new researchers ranging from early graduate school to early post-graduation.  Our panelists span different career stages, geographical regions, and research styles. Each panelist will give a 10-minute presentation based on their personal experiences and perspectives gained over the years. After the presentations, an informal discussion will ensue based on questions from the audience.",
-  "subtype": "SIGMOD New Researcher Symposium",
+  "subtype": "SIGMOD NRS",
   "authors": [
     {
       "name": "Katja Hose",
@@ -6012,13 +5998,13 @@ entities={
     }
    ],
   "type": "SIGMOD",
-  "id": "SIGMOD_New Researcher Symposium_0"
+  "id": "SIGMOD_NRS_0"
 },
-"SIGMOD_New Researcher Symposium_1": {
+"SIGMOD_NRS_1": {
   "title": "title unknown",
   "acm_link": "http://adityagp.net",
   "abstract": "Aditya Parameswaran is a just appointed Assistant Professor in the School of Information (I School) and Electrical Engineering and Computer Sciences (EECS) at the University of California, Berkeley. Aditya Parameswaran is currently an Assistant Professor in Computer Science at the University of Illinois, Urbana-Champaign. He spent a year as a PostDoc at MIT CSAIL following his PhD at Stanford University, before starting at Illinois in August 2014. He develops systems and algorithms for human-in-the-loop data analytics, synthesizing techniques from database systems, data mining, and human computation.",
-  "subtype": "SIGMOD New Researcher Symposium",
+  "subtype": "SIGMOD NRS",
   "authors": [
     {
       "name": "Aditya Parameswaran",
@@ -6026,13 +6012,13 @@ entities={
     }
    ],
   "type": "SIGMOD",
-  "id": "SIGMOD_New Researcher Symposium_1"
+  "id": "SIGMOD_NRS_1"
 },
-"SIGMOD_New Researcher Symposium_2": {
+"SIGMOD_NRS_2": {
   "title": "title unknown",
   "acm_link": "http://azza.azurewebsites.net/",
   "abstract": "Azza Abouzied is an Assistant Professor of Computer Science at New York University, Abu Dhabi. Azza’s research work focuses on designing novel and intuitive data analytics tools and on supporting complex analytics natively within databases, such as specifying and solving objective optimization problems. Her work combines techniques from various fields such as UI-design, active learning and databases. She received her doctoral degree from Yale in 2013 and BSc (CS) from Dalhousie. She spent a year as a visiting scholar at UC Berkeley. She is the recipient of an NSERC Canada Graduate Scholarships-Doctoral Fellowship, and multiple research paper awards including a SIGMOD Research Highlight Award, a best of VLDB citation and a best CHI paper award.",
-  "subtype": "SIGMOD New Researcher Symposium",
+  "subtype": "SIGMOD NRS",
   "authors": [
     {
       "name": "Azza Abouzied",
@@ -6040,13 +6026,13 @@ entities={
     }
    ],
   "type": "SIGMOD",
-  "id": "SIGMOD_New Researcher Symposium_2"
+  "id": "SIGMOD_NRS_2"
 },
-"SIGMOD_New Researcher Symposium_3": {
+"SIGMOD_NRS_3": {
   "title": "title unknown",
   "acm_link": "https://stratos.seas.harvard.edu/",
   "abstract": "Stratos Idreos is an associate professor of Computer Science at Harvard University where he leads the Data Systems Laboratory. His research focuses on enabling automatic design of workload and hardware conscious data structures with applications to relational, NoSQL, and broad data science  problems.",
-  "subtype": "SIGMOD New Researcher Symposium",
+  "subtype": "SIGMOD NRS",
   "authors": [
     {
       "name": "Stratos Idreos",
@@ -6054,13 +6040,13 @@ entities={
     }
    ],
   "type": "SIGMOD",
-  "id": "SIGMOD_New Researcher Symposium_3"
+  "id": "SIGMOD_NRS_3"
 },
-"SIGMOD_New Researcher Symposium_4": {
+"SIGMOD_NRS_4": {
   "title": "title unknown",
   "acm_link": "http://lig-membres.imag.fr/amery/",
   "abstract": "Sihem is a CNRS Research Director. Her interests are at the intersection of large-scale data management and social data exploration. Sihem held positions at QCRI, Yahoo! Research and at&t Labs. She served on the SIGMOD Executive Board and the VLDB Endowment. She is Editor-in-Chief of the VLDB Journal and served as chair for PVLDB 2018, WWW 2019 Workshops and ICDE 2019 Tutorials.",
-  "subtype": "SIGMOD New Researcher Symposium",
+  "subtype": "SIGMOD NRS",
   "authors": [
     {
       "name": "Sihem Amer-Yahia",
@@ -6068,13 +6054,13 @@ entities={
     }
    ],
   "type": "SIGMOD",
-  "id": "SIGMOD_New Researcher Symposium_4"
+  "id": "SIGMOD_NRS_4"
 },
-"SIGMOD_New Researcher Symposium_5": {
+"SIGMOD_NRS_5": {
   "title": "title unknown",
   "acm_link": "https://web.eecs.umich.edu/~jag/",
   "abstract": "I obtained my Ph. D. from Stanford in 1985, and worked many years for AT&T, where I eventually headed the database department. I arrived here in the fall of 1999, after a brief detour through the University of Illinois. I have been concerned about how academic scholarship is demonstrated, and have been involved with several efforts in this direction. I established the ACM SIGMOD Digital Review, which provides online reviews of published articles, now migrated to Pubzone. As a complementary effort, I serve as the editor for the database section of the Computing Research Repository (CoRR), which encourages publication prior to review. I am the founder of the Proceedings of the Very Large Database Endowment (PVLDB), which is an effort to bring journal-style reviewing to a prestigious conference.",
-  "subtype": "SIGMOD New Researcher Symposium",
+  "subtype": "SIGMOD NRS",
   "authors": [
     {
       "name": "H.V. Jagadish",
@@ -6082,5 +6068,188 @@ entities={
     }
    ],
   "type": "SIGMOD",
-  "id": "SIGMOD_New Researcher Symposium_5"
+  "id": "SIGMOD_NRS_5"
+},
+"SIGMOD_Award_200": {
+  "title": "SIGMOD Systems Award Talk on the Aurora Database System",
+  "abstract": "",
+  "subtype": "SIGMOD Award",
+  "authors": [
+    {
+      "name": "Xiaofeng Bao",
+      "affiliation": ""
+    },
+    {
+      "name": "Charlie Bell",
+      "affiliation": ""
+    },
+    {
+      "name": "Murali Brahmadesam",
+      "affiliation": ""
+    },
+    {
+      "name": "James Corey",
+      "affiliation": ""
+    },
+    {
+      "name": "Neal Fachan",
+      "affiliation": ""
+    },
+    {
+      "name": "Raju Gulabani",
+      "affiliation": ""
+    },
+    {
+      "name": "Anurag Gupta",
+      "affiliation": ""
+    },
+    {
+      "name": "Kamal Gupta",
+      "affiliation": ""
+    },
+    {
+      "name": "James Hamilton",
+      "affiliation": ""
+    },
+    {
+      "name": "Andy Jassy",
+      "affiliation": ""
+    },
+    {
+      "name": "Tengiz Kharatishvili",
+      "affiliation": ""
+    },
+    {
+      "name": "Sailesh Krishnamurthy",
+      "affiliation": ""
+    },
+    {
+      "name": "Yan Leshinsky",
+      "affiliation": ""
+    },
+    {
+      "name": "Lon Lundgren",
+      "affiliation": ""
+    },
+    {
+      "name": "Pradeep Madhavarapu",
+      "affiliation": ""
+    },
+    {
+      "name": "Sandor Maurice",
+      "affiliation": ""
+    },
+    {
+      "name": "Grant McAlister",
+      "affiliation": ""
+    },
+    {
+      "name": "Sam McKelvie",
+      "affiliation": ""
+    },
+    {
+      "name": "Raman Mittal",
+      "affiliation": ""
+    },
+    {
+      "name": "Debanjan Saha",
+      "affiliation": ""
+    },
+    {
+      "name": "Swami Sivasubramanian",
+      "affiliation": ""
+    },
+    {
+      "name": "Stefano Stefani",
+      "affiliation": ""
+    },
+    {
+      "name": "Alex Verbitski",
+      "affiliation": ""
+    }
+   ],
+  "type": "SIGMOD",
+  "id": "SIGMOD_Award_200"
+},
+"SIGMOD_Award_201": {
+  "title": "Test-Of-Time Award Talk on the SIGMOD2009 paper: 'Privacy integrated queries: an extensible platform for privacy-preserving data analysis'",
+  "abstract": "",
+  "subtype": "SIGMOD Award",
+  "authors": [
+    {
+      "name": "Frank McSherry",
+      "affiliation": "Materialize, Inc."
+    }
+   ],
+  "type": "SIGMOD",
+  "id": "SIGMOD_Award_201"
+},
+"SIGMOD_Award_202": {
+  "title": "SIGMOD Edgar F. Codd Innovations Award Talk",
+  "abstract": "",
+  "subtype": "SIGMOD Award",
+  "authors": [
+    {
+      "name": "Anastassia Ailamaki",
+      "affiliation": "EPFL"
+    }
+   ],
+  "type": "SIGMOD",
+  "id": "SIGMOD_Award_202"
+},
+"ADS_Introduction_300": {
+  "title": "Amsterdam Data Science (ADS - amsterdamdatascience.nl) meets SIGMOD Meetup Introduction",
+  "acm_link": "https://www.meetup.com/nl-NL/Amsterdam-Data-Science/events/262228580",
+  "abstract": "Amsterdam Data Science (ADS - amsterdamdatascience.nl) is a virtual organization founded by the two Amsterdam universities (.vu.nl .uva.nl) and CWI to further research, education, and application of data science in the Amsterdam area. ADS regularly organizes meetups that draw researchers, educators, but most prominently practitioners. This event is intended to bring local data scientists into contact with the data management research community. This meetup will be open to the ADS community as well as to the whole SIGMOD/PODS audience.",
+  "subtype": "ADS Introduction",
+  "authors": [
+    {
+      "name": "Peter Boncz",
+      "affiliation": "CWI"
+    }
+   ],
+  "type": "ADS",
+  "id": "ADS_Introduction_300"
+},
+"ADS_Plenary_301": {
+  "title": "Infrastructure for Machine Learning: Ideas from Industry and Research",
+  "acm_link": "https://www.meetup.com/nl-NL/Amsterdam-Data-Science/events/262228580",
+  "abstract": "Matei Zaharia is an Assistant Professor of Computer Science at Stanford University. He is Chief Technologist and Co-Founder of Databricks, a company that provides a unified cloud platform for data and AI. He started the Apache Spark project during his PhD at UC Berkeley in 2009, and has worked broadly in datacenter systems, co-starting the Apache Mesos project and contributing as a committer on Apache Hadoop. Today, Matei tech-leads the MLflow development effort at Databricks. Matei’s research work was recognized through the 2014 ACM Doctoral Dissertation Award for the best PhD dissertation in computer science, an NSF CAREER Award and several best paper awards.",
+  "subtype": "ADS Plenary",
+  "authors": [
+    {
+      "name": "Matei Zaharia",
+      "affiliation": "Stanford University and Databricks"
+    }
+   ],
+  "type": "ADS",
+  "id": "ADS_Plenary_301"
+},
+"ADS_Plenary_302": {
+  "title": "Ceres: Harvesting knowledge from the semi-structured web",
+  "acm_link": "https://www.meetup.com/nl-NL/Amsterdam-Data-Science/events/262228580",
+  "abstract": "Xin Luna Dong is a Principal Scientist at Amazon, leading the efforts of constructing Amazon Product Knowledge Graph. She was one of the major contributors to the Google Knowledge Vault project, and has led the Knowledge-based Trust project, which is called the “Google Truth Machine” by Washington’s Post. She has co-authored the book “Big Data Integration”, was awarded ACM Distinguished Member, VLDB Early Career Research Contribution Award for 'advancing the state of the art of knowledge fusion', and Best Demo award in SIGMOD 2005. She serves in VLDB Endowment and PVLDB Advisory Committee, and is a PC co-chair for VLDB 2021, the ICDE 2019 Industry track, VLDB 2019 Tutorials, SIGMOD 2018 and WAIM 2015.",
+  "subtype": "ADS Plenary",
+  "authors": [
+    {
+      "name": "Xin Luna Dong",
+      "affiliation": "Amazon"
+    }
+   ],
+  "type": "ADS",
+  "id": "ADS_Plenary_302"
+},
+"ADS_Plenary_303": {
+  "title": "Topic Pages: From Articles to Answers",
+  "acm_link": "https://www.meetup.com/nl-NL/Amsterdam-Data-Science/events/262228580",
+  "abstract": "Deep Kayal is a Senior Data Scientist at Elsevier, specializing in Natural Language Processing and Machine Learning, with several years of relevant experience in algorithm development and overall product development. He is familiar with the engineering concepts related to analytics as well as knowledge of various machine learning algorithms, and specializes in deployment of machine learning models and pipelines at scale. Besides his work at Elsevier, he is currently a part-time researcher at Erasmus MC in Rotterdam, exploring machine learning techniques for biomedical image analysis. He holds a MSc degree in Machine Learning from Helsinki University of Technology, Finland, and has also published several research papers and patents.",
+  "subtype": "ADS Plenary",
+  "authors": [
+    {
+      "name": "Deep Kayal",
+      "affiliation": "Elsevier"
+    }
+   ],
+  "type": "ADS",
+  "id": "ADS_Plenary_303"
 }}

@@ -5,14 +5,15 @@
 \usepackage{incgraph,microtype,tikz,colortbl,pdflscape,moresize,lmodern,enumitem,wrapfig}
 
 \usepackage{relsize}
-\usepackage[sfdefault,scaled=.75]{FiraSans}
+\usepackage[sfdefault,scaled=.80]{FiraSans}
 
 \usepackage{mathrsfs}
-
 
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[main=english,french,german]{babel}
+
+\usepackage{scrextend}
 
 
 
@@ -23,6 +24,8 @@
 
 \usepackage{setspace}
 \setstretch{0.8}
+
+\sloppy
 
 % How to use custom fonts:
 % https://www.overleaf.com/learn/latex/Questions/I_have_a_custom_font_I%27d_like_to_load_to_my_document._How_can_I_do_this%3F
@@ -59,17 +62,18 @@
 }
 
 
-\newcommand{\person}[4]{\vspace{2mm}
-\begin{minipage}{\textwidth}
+\newcommand{\person}[4]{~\newline\vspace{-1mm}
+% \begin{minipage}{\textwidth}
 \begin{wrapfigure}[7]{l}{2.15cm}
 \vspace*{-1.3\baselineskip}%
 \centering
 \personphoto{#4}
 \end{wrapfigure}
 \emph{\relscale{0.9}#3}
-\end{minipage}
+% \end{minipage}
 } 
 
+% \let\cleardoublepage\clearpage
 
 \title{SIGMOD 2019}
 
@@ -77,11 +81,23 @@
 
 % normal \emph{italic}, \textbf{bold} and \textbf{\emph{bold italic}}
 
-\incgraph[paper=document,options={width=105mm}]{images/cover.pdf}
+% \incgraph[paper=document,options={width=105mm}]{images/cover.pdf}
 \setlength\parindent{0pt}
+
+% \thispagestyle{empty}
+% \thispagestyle{empty}
+
+% \newpage~\newpage
+
+% \pagenumbering{arabic}
+% \setcounter{page}{2}
+
+% \let\oldsection\section
+% \def\section{\cleardoublepage\oldsection}
 
 \input{welcome.tex}
 
+~\newpage~\newpage
 \tableofcontents
 
 \clearpage
@@ -99,10 +115,10 @@
 % \input{workshops.tex}
 \input{ads.tex}
 
-\clearpage
-% back-cover need to be on even page
-\ifodd\value{page}\hbox{}\newpage\fi
+% \clearpage
+% % back-cover need to be on even page
+% \ifeven\value{page}\hbox{}\newpage\fi
 
-\incgraph[paper=document,options={width=105mm}]{images/back.pdf}
+% \incgraph[paper=document,options={width=105mm}]{images/back.pdf}
 
 \end{document} 
