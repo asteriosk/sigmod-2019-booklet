@@ -81,7 +81,7 @@
 
 % normal \emph{italic}, \textbf{bold} and \textbf{\emph{bold italic}}
 
-% \incgraph[paper=document,options={width=105mm}]{images/cover.pdf}
+\incgraph[paper=document,options={width=105mm,trim=105mm 0mm 0cm 0cm}]{images/cover.pdf}
 \setlength\parindent{0pt}
 
 % \thispagestyle{empty}
@@ -94,6 +94,13 @@
 
 % \let\oldsection\section
 % \def\section{\cleardoublepage\oldsection}
+
+\thispagestyle{empty}
+
+~\newpage
+
+\pagenumbering{arabic}
+\setcounter{page}{1}
 
 \input{welcome.tex}
 
@@ -119,6 +126,6 @@
 % % back-cover need to be on even page
 % \ifeven\value{page}\hbox{}\newpage\fi
 
-% \incgraph[paper=document,options={width=105mm}]{images/back.pdf}
+\incgraph[paper=document,options={width=105mm,trim=0mm 0mm 105mm 0cm}]{images/cover.pdf}
 
 \end{document} 
