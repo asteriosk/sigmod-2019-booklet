@@ -6001,71 +6001,51 @@ entities={
   "id": "SIGMOD_NRS_0"
 },
 "SIGMOD_NRS_1": {
-  "title": "title unknown",
+  "title": "Aditya Parameswaran (University of California, Berkeley)",
   "acm_link": "http://adityagp.net",
   "abstract": "Aditya Parameswaran is a just appointed Assistant Professor in the School of Information (I School) and Electrical Engineering and Computer Sciences (EECS) at the University of California, Berkeley. Aditya Parameswaran is currently an Assistant Professor in Computer Science at the University of Illinois, Urbana-Champaign. He spent a year as a PostDoc at MIT CSAIL following his PhD at Stanford University, before starting at Illinois in August 2014. He develops systems and algorithms for human-in-the-loop data analytics, synthesizing techniques from database systems, data mining, and human computation.",
   "subtype": "SIGMOD NRS",
   "authors": [
-    {
-      "name": "Aditya Parameswaran",
-      "affiliation": "University of California, Berkeley"
-    }
    ],
   "type": "SIGMOD",
   "id": "SIGMOD_NRS_1"
 },
 "SIGMOD_NRS_2": {
-  "title": "title unknown",
+  "title": "Azza Abouzied (New York University, Abu Dhabi)",
   "acm_link": "http://azza.azurewebsites.net/",
   "abstract": "Azza Abouzied is an Assistant Professor of Computer Science at New York University, Abu Dhabi. Azza’s research work focuses on designing novel and intuitive data analytics tools and on supporting complex analytics natively within databases, such as specifying and solving objective optimization problems. Her work combines techniques from various fields such as UI-design, active learning and databases. She received her doctoral degree from Yale in 2013 and BSc (CS) from Dalhousie. She spent a year as a visiting scholar at UC Berkeley. She is the recipient of an NSERC Canada Graduate Scholarships-Doctoral Fellowship, and multiple research paper awards including a SIGMOD Research Highlight Award, a best of VLDB citation and a best CHI paper award.",
   "subtype": "SIGMOD NRS",
   "authors": [
-    {
-      "name": "Azza Abouzied",
-      "affiliation": "New York University, Abu Dhabi"
-    }
    ],
   "type": "SIGMOD",
   "id": "SIGMOD_NRS_2"
 },
 "SIGMOD_NRS_3": {
-  "title": "title unknown",
+  "title": "Stratos Idreos (Harvard University)",
   "acm_link": "https://stratos.seas.harvard.edu/",
   "abstract": "Stratos Idreos is an associate professor of Computer Science at Harvard University where he leads the Data Systems Laboratory. His research focuses on enabling automatic design of workload and hardware conscious data structures with applications to relational, NoSQL, and broad data science  problems.",
   "subtype": "SIGMOD NRS",
   "authors": [
-    {
-      "name": "Stratos Idreos",
-      "affiliation": "Harvard University"
-    }
    ],
   "type": "SIGMOD",
   "id": "SIGMOD_NRS_3"
 },
 "SIGMOD_NRS_4": {
-  "title": "title unknown",
+  "title": "Sihem Amer-Yahia (CNRS)",
   "acm_link": "http://lig-membres.imag.fr/amery/",
   "abstract": "Sihem is a CNRS Research Director. Her interests are at the intersection of large-scale data management and social data exploration. Sihem held positions at QCRI, Yahoo! Research and at&t Labs. She served on the SIGMOD Executive Board and the VLDB Endowment. She is Editor-in-Chief of the VLDB Journal and served as chair for PVLDB 2018, WWW 2019 Workshops and ICDE 2019 Tutorials.",
   "subtype": "SIGMOD NRS",
   "authors": [
-    {
-      "name": "Sihem Amer-Yahia",
-      "affiliation": "CNRS"
-    }
    ],
   "type": "SIGMOD",
   "id": "SIGMOD_NRS_4"
 },
 "SIGMOD_NRS_5": {
-  "title": "title unknown",
+  "title": "H.V. Jagadish (University of Michigan)",
   "acm_link": "https://web.eecs.umich.edu/~jag/",
   "abstract": "I obtained my Ph. D. from Stanford in 1985, and worked many years for AT&T, where I eventually headed the database department. I arrived here in the fall of 1999, after a brief detour through the University of Illinois. I have been concerned about how academic scholarship is demonstrated, and have been involved with several efforts in this direction. I established the ACM SIGMOD Digital Review, which provides online reviews of published articles, now migrated to Pubzone. As a complementary effort, I serve as the editor for the database section of the Computing Research Repository (CoRR), which encourages publication prior to review. I am the founder of the Proceedings of the Very Large Database Endowment (PVLDB), which is an effort to bring journal-style reviewing to a prestigious conference.",
   "subtype": "SIGMOD NRS",
   "authors": [
-    {
-      "name": "H.V. Jagadish",
-      "affiliation": "University of Michigan"
-    }
    ],
   "type": "SIGMOD",
   "id": "SIGMOD_NRS_5"
@@ -6076,103 +6056,15 @@ entities={
   "subtype": "SIGMOD Award",
   "authors": [
     {
-      "name": "Xiaofeng Bao",
-      "affiliation": ""
-    },
-    {
-      "name": "Charlie Bell",
-      "affiliation": ""
-    },
-    {
-      "name": "Murali Brahmadesam",
-      "affiliation": ""
-    },
-    {
-      "name": "James Corey",
-      "affiliation": ""
-    },
-    {
-      "name": "Neal Fachan",
-      "affiliation": ""
-    },
-    {
-      "name": "Raju Gulabani",
-      "affiliation": ""
-    },
-    {
-      "name": "Anurag Gupta",
-      "affiliation": ""
-    },
-    {
-      "name": "Kamal Gupta",
-      "affiliation": ""
-    },
-    {
-      "name": "James Hamilton",
-      "affiliation": ""
-    },
-    {
-      "name": "Andy Jassy",
-      "affiliation": ""
-    },
-    {
-      "name": "Tengiz Kharatishvili",
-      "affiliation": ""
-    },
-    {
       "name": "Sailesh Krishnamurthy",
-      "affiliation": ""
-    },
-    {
-      "name": "Yan Leshinsky",
-      "affiliation": ""
-    },
-    {
-      "name": "Lon Lundgren",
-      "affiliation": ""
-    },
-    {
-      "name": "Pradeep Madhavarapu",
-      "affiliation": ""
-    },
-    {
-      "name": "Sandor Maurice",
-      "affiliation": ""
-    },
-    {
-      "name": "Grant McAlister",
-      "affiliation": ""
-    },
-    {
-      "name": "Sam McKelvie",
-      "affiliation": ""
-    },
-    {
-      "name": "Raman Mittal",
-      "affiliation": ""
-    },
-    {
-      "name": "Debanjan Saha",
-      "affiliation": ""
-    },
-    {
-      "name": "Swami Sivasubramanian",
-      "affiliation": ""
-    },
-    {
-      "name": "Stefano Stefani",
-      "affiliation": ""
-    },
-    {
-      "name": "Alex Verbitski",
-      "affiliation": ""
+      "affiliation": "Amazon"
     }
    ],
   "type": "SIGMOD",
   "id": "SIGMOD_Award_200"
 },
 "SIGMOD_Award_201": {
-  "title": "Test-Of-Time Award Talk on the SIGMOD2009 paper: 'Privacy integrated queries: an extensible platform for privacy-preserving data analysis'",
+  "title": "SIGMOD Test-Of-Time Award Talk: Building Tools for Differentially Private Data Analysis",
   "abstract": "",
   "subtype": "SIGMOD Award",
   "authors": [
