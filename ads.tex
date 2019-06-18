@@ -11,21 +11,49 @@
 
 
 
-\centering
+% \centering
 
 % Diamond: Facebook
 
-\incgraph[paper=document,options={width=105mm}]{ads/facebook.pdf}
+% \incgraph[paper=document,options={width=105mm}]{ads/facebook.pdf}
+\thispagestyle{empty}
+\includegraphics[width=95mm]{ads/facebook.pdf}
 
 % Platinum 
 
-\incgraph[paper=document,a6paper]{ads/elsevier.pdf}
+\begin{minipage}{\textwidth}
 
-\incgraph[paper=document,options={width=120mm},a6paper]{ads/microsoft.pdf}
+\thispagestyle{empty}
+\vspace{-3mm}
+\hspace*{-7mm}\includegraphics[width=100mm]{ads/elsevier.pdf}
+\end{minipage}
 
-\incgraph[paper=document,options={width=120mm},a6paper]{ads/oracle.pdf}
+% \clearpage
 
-\incgraph[paper=document,options={width=105mm},a6paper]{ads/tableau.pdf}
+\thispagestyle{empty}
+\includegraphics[width=93mm]{ads/microsoft.pdf}
+\newpagecolor{black}
+\newpage
+\newpagecolor{white}
+% \incgraph[paper=document,options={width=120mm},a6paper]{ads/microsoft.pdf}
+
+% \incgraph[paper=document,options={width=120mm},a6paper]{ads/oracle.pdf}
+
+\begin{minipage}{\textwidth}
+
+\thispagestyle{empty}
+\vspace{-25mm}
+\hspace*{-10mm}\includegraphics[width=110mm]{ads/oracle.pdf}
+\end{minipage}
+
+\begin{minipage}{\textwidth}
+
+\thispagestyle{empty}
+\vspace{-8mm}
+\hspace*{-16mm}\includegraphics[width=110mm]{ads/tableau.pdf}
+\end{minipage}
+
+% \incgraph[paper=document,options={width=105mm},a6paper]{ads/tableau.pdf}
 
 % Gold
 

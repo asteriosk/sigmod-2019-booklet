@@ -8,11 +8,31 @@
 	"buffers":
 	[
 		{
-			"file": "detailed.tex",
+			"file": "booklet.tex",
 			"settings":
 			{
-				"buffer_size": 1324,
+				"buffer_size": 2980,
 				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "confer/detailed.tex",
+			"settings":
+			{
+				"buffer_size": 133493,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "% THIS IS AN EXAMPLE DOCUMENT FOR VLDB 2012\n% based on ACM SIGPROC-SP.TEX VERSION 2.7\n% Modified by  Gerald Weber <gerald@cs.auckland.ac.nz>\n% Removed the requirement to include *bbl file in here. (AhmetSacan, Sep2012)\n% Fixed the equation on page 3 to prevent line overflow. (AhmetSacan, Sep2012)\n\n\\documentclass{vldb}\n\\usepackage{graphicx}\n\\usepackage{balance}  % for  \\balance command ON LAST PAGE  (only there!)\n\n\n% Include information below and uncomment for camera ready\n\\vldbTitle{A Sample Proceedings of the VLDB Endowment Paper in LaTeX Format}\n\\vldbAuthors{Ben Trovato, G. K. M. Tobin, Lars Th{\\sf{\\o}}rv{$\\ddot{\\mbox{a}}$}ld, Lawrence P. Leipuner, Sean Fogarty, Charles Palmer, John Smith, Julius P.~Kumquat, and Ahmet Sacan}\n\\vldbDOI{https://doi.org/10.14778/xxxxxxx.xxxxxxx}\n\\vldbVolume{12}\n\\vldbNumber{xxx}\n\\vldbYear{2019}\n\n\\begin{document}\n\n% ****************** TITLE ****************************************\n\n\\title{A Sample {\\ttlit Proceedings of the VLDB Endowment} Paper in LaTeX\nFormat\\titlenote{for use with vldb.cls}}\n\n\n% possible, but not really needed or used for PVLDB:\n%\\subtitle{[Extended Abstract]\n%\\titlenote{A full version of this paper is available as\\textit{Author's Guide to Preparing ACM SIG Proceedings Using \\LaTeX$2_\\epsilon$\\ and BibTeX} at \\texttt{www.acm.org/eaddress.htm}}}\n\n% ****************** AUTHORS **************************************\n\n% You need the command \\numberofauthors to handle the 'placement\n% and alignment' of the authors beneath the title.\n%\n% For aesthetic reasons, we recommend 'three authors at a time'\n% i.e. three 'name/affiliation blocks' be placed beneath the title.\n%\n% NOTE: You are NOT restricted in how many 'rows' of\n% \"name/affiliations\" may appear. We just ask that you restrict\n% the number of 'columns' to three.\n%\n% Because of the available 'opening page real-estate'\n% we ask you to refrain from putting more than six authors\n% (two rows with three columns) beneath the article title.\n% More than six makes the first-page appear very cluttered indeed.\n%\n% Use the \\alignauthor commands to handle the names\n% and affiliations for an 'aesthetic maximum' of six authors.\n% Add names, affiliations, addresses for\n% the seventh etc. author(s) as the argument for the\n% \\additionalauthors command.\n% These 'additional authors' will be output/set for you\n% without further effort on your part as the last section in\n% the body of your article BEFORE References or any Appendices.\n\n\\numberofauthors{8} %  in this sample file, there are a *total*\n% of EIGHT authors. SIX appear on the 'first-page' (for formatting\n% reasons) and the remaining two appear in the \\additionalauthors section.\n\n\\author{\n% You can go ahead and credit any number of authors here,\n% e.g. one 'row of three' or two rows (consisting of one row of three\n% and a second row of one, two or three).\n%\n% The command \\alignauthor (no curly braces needed) should\n% precede each author name, affiliation/snail-mail address and\n% e-mail address. Additionally, tag each line of\n% affiliation/address with \\affaddr, and tag the\n% e-mail address with \\email.\n%\n% 1st. author\n\\alignauthor\nBen Trovato\\titlenote{Dr.~Trovato insisted his name be first.}\\\\\n       \\affaddr{Institute for Clarity in Documentation}\\\\\n       \\affaddr{1932 Wallamaloo Lane}\\\\\n       \\affaddr{Wallamaloo, New Zealand}\\\\\n       \\email{trovato@corporation.com}\n% 2nd. author\n\\alignauthor\nG.K.M. Tobin\\titlenote{The secretary disavows\nany knowledge of this author's actions.}\\\\\n       \\affaddr{Institute for Clarity in Documentation}\\\\\n       \\affaddr{P.O. Box 1212}\\\\\n       \\affaddr{Dublin, Ohio 43017-6221}\\\\\n       \\email{webmaster@marysville-ohio.com}\n% 3rd. author\n\\alignauthor Lars Th{\\Large{\\sf{\\o}}}rv{$\\ddot{\\mbox{a}}$}ld\\titlenote{This author is the\none who did all the really hard work.}\\\\\n       \\affaddr{The Th{\\large{\\sf{\\o}}}rv{$\\ddot{\\mbox{a}}$}ld Group}\\\\\n       \\affaddr{1 Th{\\large{\\sf{\\o}}}rv{$\\ddot{\\mbox{a}}$}ld Circle}\\\\\n       \\affaddr{Hekla, Iceland}\\\\\n       \\email{larst@affiliation.org}\n\\and  % use '\\and' if you need 'another row' of author names\n% 4th. author\n\\alignauthor Lawrence P. Leipuner\\\\\n       \\affaddr{Brookhaven Laboratories}\\\\\n       \\affaddr{Brookhaven National Lab}\\\\\n       \\affaddr{P.O. Box 5000}\\\\\n       \\email{lleipuner@researchlabs.org}\n% 5th. author\n\\alignauthor Sean Fogarty\\\\\n       \\affaddr{NASA Ames Research Center}\\\\\n       \\affaddr{Moffett Field}\\\\\n       \\affaddr{California 94035}\\\\\n       \\email{fogartys@amesres.org}\n% 6th. author\n\\alignauthor Charles Palmer\\\\\n       \\affaddr{Palmer Research Laboratories}\\\\\n       \\affaddr{8600 Datapoint Drive}\\\\\n       \\affaddr{San Antonio, Texas 78229}\\\\\n       \\email{cpalmer@prl.com}\n}\n% There's nothing stopping you putting the seventh, eighth, etc.\n% author on the opening page (as the 'third row') but we ask,\n% for aesthetic reasons that you place these 'additional authors'\n% in the \\additional authors block, viz.\n\\additionalauthors{Additional authors: John Smith (The Th{\\o}rv\\\"{a}ld Group, {\\texttt{jsmith@affiliation.org}}), Julius P.~Kumquat\n(The \\raggedright{Kumquat} Consortium, {\\small \\texttt{jpkumquat@consortium.net}}), and Ahmet Sacan (Drexel University, {\\small \\texttt{ahmetdevel@gmail.com}})}\n\\date{30 July 1999}\n% Just remember to make sure that the TOTAL number of authors\n% is the number that will appear on the first page PLUS the\n% number that will appear in the \\additionalauthors section.\n\n\n\\maketitle\n\n\\begin{abstract}\nThe abstract for your paper for the PVLDB Journal submission.\nThe template and the example document are based on the ACM SIG Proceedings  templates. This file is part of a package for preparing the submissions for review. These files are in the camera-ready format, but they do not contain the full copyright note.\nNote that after the notification of acceptance, there will be an updated style file for the camera-ready submission containing the copyright note.\n\\end{abstract}\n\n\n\n\n\\section{Introduction}\nThe \\textit{proceedings} are the records of a conference.\nACM, as well as PVLDB, seeks to give these conference by-products a uniform,\nhigh-quality appearance.  To do this, ACM / PVLDB has some rigid\nrequirements for the format of the proceedings documents: there\nis a specified format (balanced  double columns), a specified\nset of fonts (Arial or Helvetica and Times Roman) in\ncertain specified sizes (for instance, 9 point for body copy),\na specified live area (18 $\\times$ 23.5 cm [7\" $\\times$ 9.25\"]) centered on\nthe page, specified size of margins (2.54cm [1\"] top and\nbottom and 1.9cm [.75\"] left and right; specified column width\n(8.45cm [3.33\"]) and gutter size (.083cm [.33\"]).\n\nThe good news is, with only a handful of manual\nsettings\\footnote{Two of these, the {\\texttt{\\char'134 numberofauthors}}\nand {\\texttt{\\char'134 alignauthor}} commands, you have\nalready used; another, {\\texttt{\\char'134 balancecolumns}}, will\nbe used in your very last run of \\LaTeX\\ to ensure\nbalanced column heights on the last page.}, the \\LaTeX\\ document\nclass file handles all of this for you.\n\nThe remainder of this document is concerned with showing, in\nthe context of an ``actual'' document, the \\LaTeX\\ commands\nspecifically available for denoting the structure of a\nproceedings paper, rather than with giving rigorous descriptions\nor explanations of such commands.\n\n\\section{The {\\secit Body} of The Paper}\nTypically, the body of a paper is organized\ninto a hierarchical structure, with numbered or unnumbered\nheadings for sections, subsections, sub-subsections, and even\nsmaller sections.  The command \\texttt{{\\char'134}section} that\nprecedes this paragraph is part of such a\nhierarchy.\\footnote{This is the second footnote.  It\nstarts a series of three footnotes that add nothing\ninformational, but just give an idea of how footnotes work\nand look. It is a wordy one, just so you see\nhow a longish one plays out.} \\LaTeX\\ handles the numbering\nand placement of these headings for you, when you use\nthe appropriate heading commands around the titles\nof the headings.  If you want a sub-subsection or\nsmaller part to be unnumbered in your output, simply append an\nasterisk to the command name.  Examples of both\nnumbered and unnumbered headings will appear throughout the\nbalance of this sample document.\n\nBecause the entire article is contained in\nthe \\textbf{document} environment, you can indicate the\nstart of a new paragraph with a blank line in your\ninput file; that is why this sentence forms a separate paragraph.\n\n\\subsection{Type Changes and {\\subsecit Special} Characters}\nWe have already seen several typeface changes in this sample.  You\ncan indicate italicized words or phrases in your text with\nthe command \\texttt{{\\char'134}textit}; emboldening with the\ncommand \\texttt{{\\char'134}textbf}\nand typewriter-style (for instance, for computer code) with\n\\texttt{{\\char'134}texttt}.  But remember, you do not\nhave to indicate typestyle changes when such changes are\npart of the \\textit{structural} elements of your\narticle; for instance, the heading of this subsection will\nbe in a sans serif\\footnote{A third footnote, here.\nLet's make this a rather short one to\nsee how it looks.} typeface, but that is handled by the\ndocument class file. Take care with the use\nof\\footnote{A fourth, and last, footnote.}\nthe curly braces in typeface changes; they mark\nthe beginning and end of\nthe text that is to be in the different typeface.\n\nYou can use whatever symbols, accented characters, or\nnon-English characters you need anywhere in your document;\nyou can find a complete list of what is\navailable in the \\textit{\\LaTeX\\\nUser's Guide}\\cite{Lamport:LaTeX}.\n\n\\subsection{Math Equations}\nYou may want to display math equations in three distinct styles:\ninline, numbered or non-numbered display.  Each of\nthe three are discussed in the next sections.\n\n\\subsubsection{Inline (In-text) Equations}\nA formula that appears in the running text is called an\ninline or in-text formula.  It is produced by the\n\\textbf{math} environment, which can be\ninvoked with the usual \\texttt{{\\char'134}begin. . .{\\char'134}end}\nconstruction or with the short form \\texttt{\\$. . .\\$}. You\ncan use any of the symbols and structures,\nfrom $\\alpha$ to $\\omega$, available in\n\\LaTeX\\cite{Lamport:LaTeX}; this section will simply show a\nfew examples of in-text equations in context. Notice how\nthis equation: \\begin{math}\\lim_{n\\rightarrow \\infty}x=0\\end{math},\nset here in in-line math style, looks slightly different when\nset in display style.  (See next section).\n\n\\subsubsection{Display Equations}\nA numbered display equation -- one set off by vertical space\nfrom the text and centered horizontally -- is produced\nby the \\textbf{equation} environment. An unnumbered display\nequation is produced by the \\textbf{displaymath} environment.\n\nAgain, in either environment, you can use any of the symbols\nand structures available in \\LaTeX; this section will just\ngive a couple of examples of display equations in context.\nFirst, consider the equation, shown as an inline equation above:\n\\begin{equation}\\lim_{n\\rightarrow \\infty}x=0\\end{equation}\nNotice how it is formatted somewhat differently in\nthe \\textbf{displaymath}\nenvironment.  Now, we'll enter an unnumbered equation:\n\\begin{displaymath}\\sum_{i=0}^{\\infty} x + 1\\end{displaymath}\nand follow it with another numbered equation:\n\\begin{equation}\\sum_{i=0}^{\\infty}x_i=\\int_{0}^{\\pi+2} f\\end{equation}\njust to demonstrate \\LaTeX's able handling of numbering.\n\n\\subsection{Citations}\nCitations to articles \\cite{bowman:reasoning, clark:pct, braams:babel, herlihy:methodology},\nconference\nproceedings \\cite{clark:pct} or books \\cite{salas:calculus, Lamport:LaTeX} listed\nin the Bibliography section of your\narticle will occur throughout the text of your article.\nYou should use BibTeX to automatically produce this bibliography;\nyou simply need to insert one of several citation commands with\na key of the item cited in the proper location in\nthe \\texttt{.tex} file \\cite{Lamport:LaTeX}.\nThe key is a short reference you invent to uniquely\nidentify each work; in this sample document, the key is\nthe first author's surname and a\nword from the title.  This identifying key is included\nwith each item in the \\texttt{.bib} file for your article.\n\nThe details of the construction of the \\texttt{.bib} file\nare beyond the scope of this sample document, but more\ninformation can be found in the \\textit{Author's Guide},\nand exhaustive details in the \\textit{\\LaTeX\\ User's\nGuide}\\cite{Lamport:LaTeX}.\n\nThis article shows only the plainest form\nof the citation command, using \\texttt{{\\char'134}cite}.\nThis is what is stipulated in the SIGS style specifications.\nNo other citation format is endorsed.\n\n\\subsection{Tables}\nBecause tables cannot be split across pages, the best\nplacement for them is typically the top of the page\nnearest their initial cite.  To\nensure this proper ``floating'' placement of tables, use the\nenvironment \\textbf{table} to enclose the table's contents and\nthe table caption.  The contents of the table itself must go\nin the \\textbf{tabular} environment, to\nbe aligned properly in rows and columns, with the desired\nhorizontal and vertical rules.  Again, detailed instructions\non \\textbf{tabular} material\nis found in the \\textit{\\LaTeX\\ User's Guide}.\n\nImmediately following this sentence is the point at which\nTable 1 is included in the input file; compare the\nplacement of the table here with the table in the printed\ndvi output of this document.\n\n\\begin{table}\n\\centering\n\\caption{Frequency of Special Characters}\n\\begin{tabular}{|c|c|l|} \\hline\nNon-English or Math&Frequency&Comments\\\\ \\hline\n\\O & 1 in 1,000& For Swedish names\\\\ \\hline\n$\\pi$ & 1 in 5& Common in math\\\\ \\hline\n\\$ & 4 in 5 & Used in business\\\\ \\hline\n$\\Psi^2_1$ & 1 in 40,000& Unexplained usage\\\\\n\\hline\\end{tabular}\n\\end{table}\n\nTo set a wider table, which takes up the whole width of\nthe page's live area, use the environment\n\\textbf{table*} to enclose the table's contents and\nthe table caption.  As with a single-column table, this wide\ntable will ``float\" to a location deemed more desirable.\nImmediately following this sentence is the point at which\nTable 2 is included in the input file; again, it is\ninstructive to compare the placement of the\ntable here with the table in the printed dvi\noutput of this document.\n\n\n\\begin{table*}\n\\centering\n\\caption{Some Typical Commands}\n\\begin{tabular}{|c|c|l|} \\hline\nCommand&A Number&Comments\\\\ \\hline\n\\texttt{{\\char'134}alignauthor} & 100& Author alignment\\\\ \\hline\n\\texttt{{\\char'134}numberofauthors}& 200& Author enumeration\\\\ \\hline\n\\texttt{{\\char'134}table}& 300 & For tables\\\\ \\hline\n\\texttt{{\\char'134}table*}& 400& For wider tables\\\\ \\hline\\end{tabular}\n\\end{table*}\n% end the environment with {table*}, NOTE not {table}!\n\n\\subsection{Figures}\nLike tables, figures cannot be split across pages; the\nbest placement for them\nis typically the top or the bottom of the page nearest\ntheir initial cite.  To ensure this proper ``floating'' placement\nof figures, use the environment\n\\textbf{figure} to enclose the figure and its caption.\n\nThis sample document contains examples of \\textbf{.pdf} files to be\ndisplayable with \\LaTeX (See Figures \\ref{fig:fly} and \\ref{fig:bigfly}).  More details on each of these is found in the\n\\textit{Author's Guide}.\n\n\\begin{figure}\n\\centering\n\\includegraphics{fly}\n\\caption{A sample black and white graphic (.pdf format).}\n\\label{fig:fly}\n\\end{figure}\n\n\\begin{figure}\n\\centering\n\\includegraphics[width=1in,height=1in]{fly}\n\\caption{A sample black and white graphic (.pdf format)\nthat has been resized with the \\texttt{includegraphics} command.}\n\\label{fig:bigfly}\n\\end{figure}\n\n\nAs was the case with tables, you may want a figure\nthat spans two columns.  To do this, and still to\nensure proper ``floating'' placement of tables, use the environment\n\\textbf{figure*} to enclose the figure and its caption (See Figure~\\ref{fig:flies}). And don't forget to end the environment with {figure*}, not {figure}!\n\n\\begin{figure*}\n\\centering\n\\includegraphics{flies}\n\\caption{A sample black and white graphic (.pdf format)\nthat needs to span two columns of text.}\n\\label{fig:flies}\n\\end{figure*}\n\n\nNote that only {\\textbf{.pdf}} files were used; if you want to include\n{\\textbf{.ps}} or {\\textbf{.eps}} formats, you can use the\n\\texttt{{\\char'134}epsfig} or \\texttt{{\\char'134}psfig}\ncommands as appropriate for the different file types.\n\n\\subsection{Theorem-like Constructs}\nOther common constructs that may occur in your article are\nthe forms for logical constructs like theorems, axioms,\ncorollaries and proofs.  There are\ntwo forms, one produced by the\ncommand \\texttt{{\\char'134}newtheorem} and the\nother by the command \\texttt{{\\char'134}newdef}; perhaps\nthe clearest and easiest way to distinguish them is\nto compare the two in the output of this sample document:\n\nThis uses the \\textbf{theorem} environment, created by\nthe\\linebreak\\texttt{{\\char'134}newtheorem} command:\n\\newtheorem{theorem}{Theorem}\n\\begin{theorem}\nLet $f$ be continuous on $[a,b]$.  If $G$ is\nan antiderivative for $f$ on $[a,b]$, then\n\\begin{displaymath}\\int^b_af(t)dt = G(b) - G(a).\\end{displaymath}\n\\end{theorem}\n\nThe other uses the \\textbf{definition} environment, created\nby the \\texttt{{\\char'134}newdef} command:\n\\newdef{definition}{Definition}\n\\begin{definition}\nIf $z$ is irrational, then by $e^z$ we mean the\nunique number which has\nlogarithm $z$: \\begin{displaymath}{\\log e^z = z}\\end{displaymath}\n\\end{definition}\n\nTwo lists of constructs that use one of these\nforms is given in the\n\\textit{Author's  Guidelines}.\n\n\nThere is one other similar construct environment, which is\nalready set up\nfor you; i.e. you must \\textit{not} use\na \\texttt{{\\char'134}newdef} command to\ncreate it: the \\textbf{proof} environment.  Here\nis a example of its use:\n\\begin{proof}\nSuppose on the contrary there exists a real number $L$ such that\n\\begin{displaymath}\n\\lim_{x\\rightarrow\\infty} \\frac{f(x)}{g(x)} = L.\n\\end{displaymath}\nThen\n\\begin{align*}\nl&=\\lim_{x\\rightarrow c} f(x)\n= \\lim_{x\\rightarrow c}\n\\left[ g{x} \\cdot \\frac{f(x)}{g(x)} \\right ] \\\\\n&= \\lim_{x\\rightarrow c} g(x) \\cdot \\lim_{x\\rightarrow c}\n\\frac{f(x)}{g(x)} = 0\\cdot L = 0,\n\\end{align*}\nwhich contradicts our assumption that $l\\neq 0$.\n\\end{proof}\n\nComplete rules about using these environments and using the\ntwo different creation commands are in the\n\\textit{Author's Guide}; please consult it for more\ndetailed instructions.  If you need to use another construct,\nnot listed therein, which you want to have the same\nformatting as the Theorem\nor the Definition\\cite{salas:calculus} shown above,\nuse the \\texttt{{\\char'134}newtheorem} or the\n\\texttt{{\\char'134}newdef} command,\nrespectively, to create it.\n\n\\subsection*{A {\\secit Caveat} for the \\TeX\\ Expert}\nBecause you have just been given permission to\nuse the \\texttt{{\\char'134}newdef} command to create a\nnew form, you might think you can\nuse \\TeX's \\texttt{{\\char'134}def} to create a\nnew command: \\textit{Please refrain from doing this!}\nRemember that your \\LaTeX\\ source code is primarily intended\nto create camera-ready copy, but may be converted\nto other forms -- e.g. HTML. If you inadvertently omit\nsome or all of the \\texttt{{\\char'134}def}s recompilation will\nbe, to say the least, problematic.\n\n\\section{Conclusions}\nThis paragraph will end the body of this sample document.\nRemember that you might still have Acknowledgments or\nAppendices; brief samples of these\nfollow.  There is still the Bibliography to deal with; and\nwe will make a disclaimer about that here: with the exception\nof the reference to the \\LaTeX\\ book, the citations in\nthis paper are to articles which have nothing to\ndo with the present subject and are used as\nexamples only.\n%\\end{document}  % This is where a 'short' article might terminate\n\n% ensure same length columns on last page (might need two sub-sequent latex runs)\n\\balance\n\n%ACKNOWLEDGMENTS are optional\n\\section{Acknowledgments}\nThis section is optional; it is a location for you\nto acknowledge grants, funding, editing assistance and\nwhat have you.  In the present case, for example, the\nauthors would like to thank Gerald Murray of ACM for\nhis help in codifying this \\textit{Author's Guide}\nand the \\textbf{.cls} and \\textbf{.tex} files that it describes.\n\n\n% The following two commands are all you need in the\n% initial runs of your .tex file to\n% produce the bibliography for the citations in your paper.\n\\bibliographystyle{abbrv}\n\\bibliography{vldb_sample}  % vldb_sample.bib is the name of the Bibliography in this case\n% You must have a proper \".bib\" file\n%  and remember to run:\n% latex bibtex latex latex\n% to resolve all references\n\n\\subsection{References}\nGenerated by bibtex from your ~.bib file.  Run latex,\nthen bibtex, then latex twice (to resolve references).\n\n%APPENDIX is optional.\n% ****************** APPENDIX **************************************\n% Example of an appendix; typically would start on a new page\n%pagebreak\n\n\\begin{appendix}\nYou can use an appendix for optional proofs or details of your evaluation which are not absolutely necessary to the core understanding of your paper. \n\n\\section{Final Thoughts on Good Layout}\nPlease use readable font sizes in the figures and graphs. Avoid tempering with the correct border values, and the spacing (and format) of both text and captions of the PVLDB format (e.g. captions are bold).\n\nAt the end, please check for an overall pleasant layout, e.g. by ensuring a readable and logical positioning of any floating figures and tables. Please also check for any line overflows, which are only allowed in extraordinary circumstances (such as wide formulas or URLs where a line wrap would be counterintuitive).\n\nUse the \\texttt{balance} package together with a \\texttt{\\char'134 balance} command at the end of your document to ensure that the last page has balanced (i.e. same length) columns.\n\n\\end{appendix}\n\n\n\n\\end{document}\n",
+			"file": "/Users/asteriosk/Downloads/latex/vldb_sample.tex",
+			"file_size": 21887,
+			"file_write_time": 131908910740000000,
+			"settings":
+			{
+				"buffer_size": 21887,
 				"line_ending": "Unix"
 			}
 		},
@@ -20,52 +40,34 @@
 			"file": "ads.tex",
 			"settings":
 			{
-				"buffer_size": 9974,
+				"buffer_size": 10393,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "plans.tex",
+			"file": "banquet.tex",
 			"settings":
 			{
-				"buffer_size": 1394,
+				"buffer_size": 2123,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "reception.tex",
+			"file": "DBCares.tex",
 			"settings":
 			{
-				"buffer_size": 5990,
+				"buffer_size": 1741,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "sponsors.tex",
+			"file": "detailed.tex",
 			"settings":
 			{
-				"buffer_size": 5008,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "welcome.tex",
-			"settings":
-			{
-				"buffer_size": 6135,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "wlan.tex",
-			"settings":
-			{
-				"buffer_size": 818,
+				"buffer_size": 1373,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -80,19 +82,73 @@
 			}
 		},
 		{
-			"file": "DBCares.tex",
+			"file": "awards.tex",
 			"settings":
 			{
-				"buffer_size": 1584,
+				"buffer_size": 36798,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "booklet.tex",
+			"file": "officers.tex",
 			"settings":
 			{
-				"buffer_size": 1927,
+				"buffer_size": 4426,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "overview.tex",
+			"settings":
+			{
+				"buffer_size": 1269,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "keynotes.tex",
+			"settings":
+			{
+				"buffer_size": 7158,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "plans.tex",
+			"settings":
+			{
+				"buffer_size": 1372,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "reception.tex",
+			"settings":
+			{
+				"buffer_size": 6020,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sponsors.tex",
+			"settings":
+			{
+				"buffer_size": 5180,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Makefile",
+			"settings":
+			{
+				"buffer_size": 880,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -158,7 +214,7 @@
 			]
 		]
 	],
-	"build_varint": "XeLaTeX",
+	"build_varint": "",
 	"command_palette":
 	{
 		"height": 87.0,
@@ -192,13 +248,35 @@
 	"expanded_folders":
 	[
 		"/Users/asteriosk/Dropbox/papers/sigmod-2019-booklet",
-		"/Users/asteriosk/Dropbox/papers/sigmod-2019-booklet/sponsoricons"
+		"/Users/asteriosk/Dropbox/papers/sigmod-2019-booklet/confer"
 	],
 	"file_history":
 	[
-		"/Users/asteriosk/Dropbox/papers/sigmod-2019-booklet/draft.sublime-",
+		"/Users/asteriosk/Dropbox/papers/sigmod-2019-booklet/confer/detailed.tex",
+		"/Users/asteriosk/Dropbox/papers/sigmod-2019-booklet/welcome.tex",
+		"/Users/asteriosk/Dropbox/papers/sigmod-2019-booklet/keynotes.tex",
+		"/Users/asteriosk/Dropbox/papers/sigmod-2019-booklet/detailed.tex",
+		"/Users/asteriosk/Dropbox/papers/sigmod-2019-booklet/booklet.toc",
+		"/Users/asteriosk/Dropbox/papers/sigmod-2019-booklet/banquet.tex",
+		"/Users/asteriosk/Dropbox/papers/sigmod-2019-booklet/todo.txt",
+		"/Users/asteriosk/Dropbox/papers/sigmod-2019-booklet/sponsors.tex",
+		"/Users/asteriosk/Dropbox/papers/positions.txt",
 		"/Users/asteriosk/Dropbox/papers/sigmod-2019-booklet/officers.tex",
+		"/Users/asteriosk/Dropbox/papers/sigmod-2019-booklet/reception.tex",
+		"/Users/asteriosk/Dropbox/papers/sigmod-2019-booklet/tools/convertconfer.cpp",
+		"/Users/asteriosk/Dropbox/papers/sigmod-2019-booklet/ads.tex",
+		"/Users/asteriosk/Dropbox/papers/sigmod-2019-booklet/plans.tex",
+		"/Users/asteriosk/Dropbox/papers/sigmod-2019-booklet/booklet.tex",
+		"/Users/asteriosk/Dropbox/papers/sigmod-2019-booklet/DBCares.tex",
 		"/Users/asteriosk/Dropbox/papers/sigmod-2019-booklet/overview.tex",
+		"/Users/asteriosk/Dropbox/papers/sigmod-2019-booklet/awards.tex",
+		"/Users/asteriosk/Dropbox/papers/sigmod-2019-booklet/tutorials.tex",
+		"/Users/asteriosk/Dropbox/papers/sigmod-2019-booklet/draft.sublime-project",
+		"/Users/asteriosk/Dropbox/papers/sigmod-2019-booklet/Makefile",
+		"/Users/asteriosk/Dropbox/papers/sigmod-2019-booklet/wlan.tex",
+		"/Users/asteriosk/Dropbox/papers/sigmod-2019-booklet/workshops.tex",
+		"/Users/asteriosk/Dropbox/papers/sigmod-2019-booklet/booklet.log",
+		"/Users/asteriosk/Dropbox/papers/sigmod-2019-booklet/draft.sublime-",
 		"/Users/asteriosk/Dropbox/papers/lara/4_Optimizations.tex",
 		"/Users/asteriosk/Dropbox/papers/lara/6_RelatedWork.tex",
 		"/Users/asteriosk/Dropbox/papers/lara/5_Evaluation.tex",
@@ -298,6 +376,36 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"kolaitis",
+			"Teaser",
+			"ziawa",
+			"Holger ",
+			"holger",
+			"ziawasch",
+			"holger",
+			"kolaitis",
+			"\\ifodd\\value{page}\\hbox{}\\newpage\\fi",
+			"number",
+			"fairness",
+			"Interventional Fairness",
+			"starts",
+			"kolaiti",
+			"08:30",
+			"contributio",
+			"damon",
+			"Mendes da Costa",
+			"Mendes da Costa Kamer",
+			"suciu",
+			"starts",
+			"handleht",
+			"html",
+			"handleHTML",
+			"babel",
+			"celoni",
+			"showflake",
+			"skrite",
+			"’",
+			"intel"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -305,6 +413,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"\\ifeven\\value{page}\\hbox{}\\newpage\\fi"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -315,16 +424,100 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "detailed.tex",
+					"file": "booklet.tex",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1324,
+						"buffer_size": 2980,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2409,
+								2409
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "confer/detailed.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 133493,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								131554,
+								131554
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/asteriosk/Downloads/latex/vldb_sample.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 21887,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								837,
+								837
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2149.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "ads.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10393,
 						"regions":
 						{
 						},
@@ -333,6 +526,90 @@
 							[
 								0,
 								25
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "banquet.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2123,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								26,
+								26
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "DBCares.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1741,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								43,
+								43
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "detailed.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1373,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1179,
+								1179
 							]
 						],
 						"settings":
@@ -349,20 +626,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "ads.tex",
+					"buffer": 7,
+					"file": "workshops.tex",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 9974,
+						"buffer_size": 3327,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								600,
-								600
+								0,
+								0
 							]
 						],
 						"settings":
@@ -370,19 +647,47 @@
 							"syntax": "Packages/LaTeX/LaTeX.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 170.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 15,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "plans.tex",
+					"buffer": 8,
+					"file": "awards.tex",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1394,
+						"buffer_size": 36798,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								269,
+								269
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "officers.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4426,
 						"regions":
 						{
 						},
@@ -401,80 +706,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 12,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "reception.tex",
+					"buffer": 10,
+					"file": "overview.tex",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5990,
+						"buffer_size": 1269,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								26,
-								26
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LaTeX/LaTeX.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "sponsors.tex",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5008,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								190,
-								190
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LaTeX/LaTeX.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 222.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "welcome.tex",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6135,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								25,
-								25
+								1222,
+								1222
 							]
 						],
 						"settings":
@@ -489,20 +738,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "wlan.tex",
+					"buffer": 11,
+					"file": "keynotes.tex",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 818,
+						"buffer_size": 7158,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								25,
-								25
+								7157,
+								7157
 							]
 						],
 						"settings":
@@ -517,20 +766,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 7,
-					"file": "workshops.tex",
+					"buffer": 12,
+					"file": "plans.tex",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3327,
+						"buffer_size": 1372,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								25,
-								25
+								0,
+								0
 							]
 						],
 						"settings":
@@ -541,24 +790,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 11,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
-					"file": "DBCares.tex",
+					"buffer": 13,
+					"file": "reception.tex",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1584,
+						"buffer_size": 6020,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								25,
-								25
+								1549,
+								1549
 							]
 						],
 						"settings":
@@ -569,24 +818,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 10,
 					"type": "text"
 				},
 				{
-					"buffer": 9,
-					"file": "booklet.tex",
+					"buffer": 14,
+					"file": "sponsors.tex",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1927,
+						"buffer_size": 5180,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								26,
-								26
+								402,
+								402
 							]
 						],
 						"settings":
@@ -597,7 +846,36 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "Makefile",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 880,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								462,
+								462
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Makefile/Makefile.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
 					"type": "text"
 				}
 			]
@@ -609,7 +887,7 @@
 	},
 	"input":
 	{
-		"height": 37.0
+		"height": 43.0
 	},
 	"layout":
 	{
@@ -640,7 +918,7 @@
 	},
 	"output.latextools":
 	{
-		"height": 249.0
+		"height": 342.0
 	},
 	"pinned_build_system": "Packages/LaTeXTools/LaTeX.sublime-build",
 	"project": "draft.sublime-project",
@@ -684,7 +962,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 229.0,
+	"side_bar_width": 180.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
