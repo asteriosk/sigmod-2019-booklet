@@ -18,13 +18,18 @@
 \usepackage{afterpage}
 \usepackage{pagecolor}
 
+\addtolength{\oddsidemargin}{-1mm}
+\addtolength{\evensidemargin}{-1mm}
+\addtolength{\textwidth}{3mm}
+
+% \addtolength{\topmargin}{-.875in}
+\addtolength{\textheight}{3mm}
 
 \usepackage[
-  % set width and height to a4 width and height + 6mm
-  % width=21.6truecm, height=30.3truecm,
-  a5,
+  % set width and height to a6 width and height + 6mm
+  width=11.1truecm, height=15.4truecm,
   % use any combination of these options to add different cut markings
-  cam, axes, frame, cross,
+  cam, axes, frame, cross, noinfo,
   % set the type of TeX renderer you use
   pdftex,
   % center the contents
@@ -79,18 +84,17 @@
 
 % normal \emph{italic}, \textbf{bold} and \textbf{\emph{bold italic}}
 
-\newpagecolor{black}\afterpage{\restorepagecolor}
-
 % \includegraphics[keepaspectratio,width=\textheight]{images/front.pdf}
 
 
-
 \thispagestyle{empty}
-\begin{minipage}{\textwidth}
+% \begin{minipage}{\textwidth}
 \vspace{3mm}
-\hspace*{2mm}\includegraphics[width=90mm]{images/front.pdf}
+\hspace*{-1mm}\includegraphics[width=90mm]{images/front.pdf}
 \setlength\parindent{0pt}
-\end{minipage}
+% \end{minipage}
+\newpagecolor{black}
+
 
 
 % \thispagestyle{empty}
