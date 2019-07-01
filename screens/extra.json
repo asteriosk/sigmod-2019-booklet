@@ -1,0 +1,39 @@
+extra={
+   "ignoreday": ["08/28/2017","09/01/2017"],
+   "specialsessions": {
+      "coffee": {
+         "overview": "\\overviewbreak{Coffee Break (tent)}",
+         "detailed": "\\sessionnamenl{Coffee Break}\n\n\\sessionlocation{Tent}\n\n"
+      },
+      "lunch": {
+         "overview": "\\overviewbreak{Lunch (tent)}",
+         "detailed": "\\sessionnamenl{Lunch}\n\n\\sessionlocation{Tent}\n\n"
+      },
+      "Posters1": {
+         "overview": "\\overviewplenary{Poster Reception (Foyer Audimax)}"
+      },
+      "Posters2": {
+         "overview": "\\overviewplenary{Poster Reception (Foyer Audimax)}"
+      },
+      "Posters3": {
+         "overview": "\\overviewplenary{Poster Reception (Foyer Audimax)}"
+      },
+      "VLDB Octoberfest": {
+         "overview": "\\overviewsocial{``VLDB Octoberfest'' Banquet (Hofbräuhaus)}",
+         "detailed": "\\sessionnamenl{``VLDB Octoberfest'' Banquet}\n\n\\sessionlocation{Hofbräuhaus}\n\n"
+      }
+   },
+   "roomlist": ["Audimax","Auditorium 602","Auditorium 606","Auditorium 601","Auditorium 670","Auditorium 1601","Classrooms 2601, 2605, 2607"],
+   "datelist": [{"date":"08/29/2017","overview":"Tuesday, August 29"},{"date":"08/30/2017","overview":"Wednesday, August 30"},{"date":"08/31/2017","overview":"Thursday, August 31"}],
+
+   "sessionintro": {
+      "keynote 1": "Overview General Chairs (Kemper, Neumann), Welcome Hans-Joachim Bungartz (Dean of Informatics, TUM), Program Overview PC Chairs (Boncz, Salem)"
+   },
+
+   "bios": {
+      "keynote1": "Wolfgang Lehner is full professor and head of the Database Technology Group as well as director of the Institute for System Architecture at TU Dresden, Germany. His research focuses on database system architecture specifically looking at crosscutting aspects from algorithms down to hardware-related aspects in main-memory centric settings. He is part of TU Dresden’s research cluster of excellence with topics in energy-aware computing, resilient data structures on unreliable hardware, and orchestration of widely heterogeneous systems. He is heading a Research Training Group on large-scale adaptive system software design and acts as a principal investigator in Germany's national “Competence Center for Scalable Data Services and Solutions” (ScaDS). Wolfgang also maintains a close research relationship with the SAP HANA development team. He serves the community in many PCs, is an elected member of the VLDB Endowment, is chairing the review board of Computer Science within the German Research Foundation (DFG), and is an appointed member of the Academy of Europe.",
+      "keynote2": "MICHAEL J. FRANKLIN is the Liew Family Chair of Computer Science and Sr. Advisor to the Provost for Computation and Data at the University of Chicago where his research focuses on database systems, data analytics, human-in-the-loop computing, and distributed computing systems.  Previously he was the Thomas M. Siebel Professor and Chair of Computer Science at UC Berkeley.   He co-founded and directed the Algorithms, Machines and People Laboratory (AMPLab), which created industry-changing open source Big Data software such as Apache Spark and BDAS, the Berkeley Data Analytics Stack. Franklin has nearly three decades(!) of experience with Database Systems projects including the Bubba massively parallel DBMS, the SHORE object-oriented DBMS, the TelegraphCQ and Truviso stream processing systems, the TinyDB and HiFi sensor query processing systems, and Spark/BDAS.  He currently serves as a Board Member of the Computing Research Association and on the NSF CISE Advisory Committee.  He is an ACM Fellow, a two-time recipient of the ACM SIGMOD “Test of Time” award and received the Outstanding Advisor award from Berkeley’s Computer Science Graduate Student Association.",
+      "plenary3": "Jens Dittrich is a Full Professor of Computer Science in the area of Databases, Data Management, and Big Data at Saarland University, Germany. Previous affiliations include U Marburg, SAP AG, and ETH. He received an Outrageous Ideas and Vision Paper Award at CIDR 2011, a BMBF VIP Grant in 2011, a best paper award at VLDB 2014 (the second ever given to an E&A paper), two CS teaching awards in 2011 and 2013, as well as several presentation awards including a qualification for the interdisciplinary German science slam finals in 2012 and three presentation awards at CIDR (2011, 2013, and 2015). He has been a PC member and area chair/group leader of prestigious international database conferences and journals such as PVLDB/VLDB, SIGMOD, ICDE, and VLDB Journal. At Saarland University he co-organizes the Data Science Summer School (http://datasciencemaster.de).\n\n Since 2013 he has been teaching some of his classes on data management as flipped classrooms. See http://datenbankenlernen.de or http://youtube.com/jensdit for a list of freely available videos on database technology in German (introduction to databases) and English (database architectures and implementation techniques). He is also author of a ``flipped textbook'' on databases. Since 2016 he has been working on a start-up at the intersection of deep learning and databases.\n\n His research focuses on fast access to big data including in particular: data analytics on large datasets, main-memory databases, database indexing, reproducability, and deep learning."
+   }
+}
+

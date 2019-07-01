@@ -1,0 +1,52 @@
+%!TEX root = schedule.tex
+
+\tikzset{
+  headings/base/.style = {
+    outer sep = 0pt,
+    text width = {\textwidth - 0.6666em},
+    align = center,
+    text = white,
+    font = \sffamily\Large\bfseries
+  },
+  headings/slot/.style = {
+    headings/base,
+    fill = black!90,
+    rounded corners=.5mm,
+    font = \sffamily\huge\bfseries
+  },
+  headings/session/.style = {
+    headings/base,
+    fill = black!70,
+    align = center,
+    rounded corners=.5mm
+    % font = \sffamily\Large\bfseries
+  }
+}
+
+\hypersetup{
+    colorlinks,
+    linkcolor=, %linkcolor={red!50!black},
+    citecolor={blue!50!black},
+    urlcolor= %{blue!80!black}
+}
+
+\newcommand{\slotheading}[1]{\newpage
+
+\begin{center}
+\includegraphics[width=.65\textwidth]{sigmod_logo.pdf}
+\end{center}
+
+ \noindent\tikz{\node[headings/slot]{\textbf{#1}};}}
+
+\newcommand{\sessionname}[2]{\large\noindent\hypertarget{#1}{}\tikz{\node[headings/session]{#2};}}
+\newcommand{\sessionnamenl}[1]{\large\noindent\tikz{\node[headings/session]{#1};}}
+\newcommand{\sessionlocation}[1]{}%\noindent \textbf{Room}: #1
+\newcommand{\sessiontimeloc}[2]{\large\noindent \textbf{Room:} #2 \hfill \textbf{Time}: #1} 
+
+\newcommand{\sessionchair}[1]{\large\noindent \textbf{Chair}: #1}
+\newcommand{\sessionsep}{\vspace{2mm}}
+
+\newcommand{\papertitle}[2]{\large\noindent\href{#2}{\textbf{#1}}}
+\newcommand{\paperauthors}[1]{\large\\{\relscale{0.9}\em #1}\vspace{2mm}}
+
+

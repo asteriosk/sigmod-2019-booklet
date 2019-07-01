@@ -1,0 +1,860 @@
+sessions={
+  "ADS Reception 1": {
+    "day": "Thursday",
+    "s_title": "ADS Reception 1 - sponsored by Elsevier",
+    "submissions": [ ]
+  },
+  "ADS Reception 2": {
+    "day": "Thursday",
+    "s_title": "ADS Reception 2 - sponsored by Elsevier",
+    "submissions": [ ]
+  },
+  "ADS Event": {
+    "day": "Thursday",
+    "s_title": "ADS meets SIGMOD event",
+    "submissions": [ 
+         "ADS_Introduction_300",
+         "ADS_Plenary_301",
+         "ADS_Plenary_302",
+         "ADS_Plenary_303"
+    ]
+  },
+  "LDBC TUC Meeting 1": {
+    "day": "Friday",
+    "s_title": "LDBC Technical User Community Meeting: session 1",
+    "submissions": [ "LDBC_TUC_Meeting" ]
+  },
+  "LDBC TUC Meeting 2": {
+    "day": "Friday",
+    "s_title": "LDBC Technical User Community Meeting: session 2",
+    "submissions": [ "LDBC_TUC_Meeting" ]
+  },
+  "LDBC TUC Meeting 3": {
+    "day": "Friday",
+    "s_title": "LDBC Technical User Community Meeting: session 3",
+    "submissions": [ "LDBC_TUC_Meeting" ]
+  },
+  "Coffee + Workshop Posters": {
+    "day": "Sunday and Friday",
+    "s_title": "Coffee + Workshop Posters",
+    "submissions": [ ]
+  },
+  "Coffee + Light Breakfast": {
+    "day": "Everyday",
+    "s_title": "Coffee + Light Breakfast",
+    "submissions": [ ]
+  },
+  "Coffee": {
+    "day": "Everyday",
+    "s_title": "Coffee",
+    "submissions": [ ]
+  },
+  "Lunch": {
+    "day": "Everyday",
+    "s_title": "Lunch",
+    "submissions": [ ]
+  },
+  "Lunch + SIGMOD Awards": {
+    "day": "Tuesday",
+    "chair": "Anastassia Ailamaki",
+    "s_title": "Lunch + Awards (Distinguished SIGMOD PC members, SIGMOD Best Paper, PODS Best Student Paper, PODS Best Paper. PODS Test-of-Time, SIGMOD Reproducibility, SIGMOD Programming Contest, Research Highlights)",
+    "submissions": [ ]
+  },
+  "Lunch + SIGMOD Business Meeting": {
+    "day": "Wednesday",
+    "chair": "Juliana Freire",
+    "s_title": "Lunch + SIGMOD Business Meeting",
+    "submissions": [ ]
+  },
+  "Lunch + Posters (PODS, DaMoN, SIGMOD Student Research Competition)": {
+    "day": "Monday",
+    "s_title": "Lunch + Posters (PODS, DaMoN, SIGMOD Student Research Competition)",
+    "submissions": [ ]
+  },
+  "PODS Reception": {
+    "day": "Sunday",
+    "s_title": "PODS Reception",
+    "submissions": [ ]
+  },
+  "SIGMOD Reception - sponsored by MonetDB": {
+    "day": "Tuesday",
+    "s_title": "SIGMOD Reception - sponsored by MonetDB",
+    "submissions": [ ]
+  },
+  "Dinner Transfer incl. Canal Cruise": {
+    "day": "Wednesday",
+    "s_title": "Dinner Transfer incl. Canal Cruise",
+    "submissions": [ ]
+  },
+  "SIGMOD Dinner - sponsored by Facebook": {
+    "day": "Wednesday",
+    "s_title": "SIGMOD Dinner - sponsored by Facebook",
+    "submissions": [ ]
+  },
+  "Tutorial 1: part 1": {
+    "day": "Sunday",
+    "s_title": "Tutorial 1: part 1",
+    "submissions": [ "SIGMOD_Tutorial_03" ]
+  },
+  "Tutorial 1: part 2": {
+    "day": "Sunday",
+    "s_title": "Tutorial 1: part 2",
+    "submissions": [ "SIGMOD_Tutorial_03" ]
+  },
+  "Tutorial 2: part 1": {
+    "day": "Sunday",
+    "s_title": "Tutorial 2: part 1",
+    "submissions": [ "SIGMOD_Tutorial_06" ]
+  },
+  "Tutorial 2: part 2": {
+    "day": "Sunday",
+    "s_title": "Tutorial 2: part 2",
+    "submissions": [ "SIGMOD_Tutorial_06" ]
+  },
+  "Tutorial 3: part 1": {
+    "day": "Sunday",
+    "s_title": "Tutorial 3: part 1",
+    "submissions": [ "SIGMOD_Tutorial_05" ]
+  },
+  "Tutorial 3: part 2": {
+    "day": "Sunday",
+    "s_title": "Tutorial 3: part 2",
+    "submissions": [ "SIGMOD_Tutorial_05" ]
+  },
+  "Tutorial 4: part 1": {
+    "day": "Friday",
+    "s_title": "Tutorial 4: part 1",
+    "submissions": [ "SIGMOD_Tutorial_09" ]
+  },
+  "Tutorial 4: part 2": {
+    "day": "Friday",
+    "s_title": "Tutorial 4: part 2",
+    "submissions": [ "SIGMOD_Tutorial_09" ]
+  },
+  "Tutorial 5: part 1": {
+    "day": "Friday",
+    "s_title": "Tutorial 5: part 1",
+    "submissions": [ "SIGMOD_Tutorial_01" ]
+  },
+  "Tutorial 5: part 2": {
+    "day": "Friday",
+    "s_title": "Tutorial 5: part 2",
+    "submissions": [ "SIGMOD_Tutorial_01" ]
+  },
+  "Tutorial 6: part 1": {
+    "day": "Friday",
+    "s_title": "Tutorial 6: part 1",
+    "submissions": [ "SIGMOD_Tutorial_10" ]
+  },
+  "Tutorial 6: part 2": {
+    "day": "Friday",
+    "s_title": "Tutorial 6: part 2",
+    "submissions": [ "SIGMOD_Tutorial_10" ]
+  },
+  "Tutorial 7": {
+    "day": "Friday",
+    "s_title": "Tutorial 7",
+    "submissions": [ "SIGMOD_Tutorial_08" ]
+  },
+  "PODS: Phokion Kolaitis Special Event: part 1": {
+    "day": "Sunday",
+    "s_title": "Phokion Kolaitis Special Event: part 1",
+    "submissions": [ "PODS_Special_Event_for_Phokion_Kolaitis" ] 
+  },
+  "PODS: Phokion Kolaitis Special Event: part 2 (16:00-18:15)": {
+    "day": "Sunday",
+    "s_title": "Phokion Kolaitis Special Event: part 2 (16:00-18:15)",
+    "submissions": [ "PODS_Special_Event_for_Phokion_Kolaitis" ] 
+  },
+  "DEEM Workshop: Session 1": {
+    "day": "Sunday",
+    "s_title": "DEEM 2019: Session 1",
+    "submissions": [ "SIGMOD_Workshop_03" ] 
+  },
+  "DEEM Workshop: Session 2": {
+    "day": "Sunday",
+    "s_title": "DEEM 2019: Session 2",
+    "submissions": [ "SIGMOD_Workshop_03" ] 
+  },
+  "DEEM Workshop: Session 3": {
+    "day": "Sunday",
+    "s_title": "DEEM 2019: Session 3",
+    "submissions": [ "SIGMOD_Workshop_03" ] 
+  },
+  "DEEM Workshop: Session 4": {
+    "day": "Sunday",
+    "s_title": "DEEM 2019: Session 4",
+    "submissions": [ "SIGMOD_Workshop_03" ] 
+  },
+  "GRADES-NDA Workshop: Session 1 (starts 08:30)": {
+    "day": "Sunday",
+    "s_title": "GRADES-NDA 2019: Session 1 (starts 08:30)",
+    "submissions": [ "SIGMOD_Workshop_05" ]
+  },
+  "GRADES-NDA Workshop: Session 2": {
+    "day": "Sunday",
+    "s_title": "GRADES-NDA 2019: Session 2",
+    "submissions": [ "SIGMOD_Workshop_05" ]
+  },
+  "GRADES-NDA Workshop: Session 3": {
+    "day": "Sunday",
+    "s_title": "GRADES-NDA 2019: Session 3",
+    "submissions": [ "SIGMOD_Workshop_05" ]
+  },
+  "GRADES-NDA Workshop: Session 4": {
+    "day": "Sunday",
+    "s_title": "GRADES-NDA 2019: Session 4",
+    "submissions": [ "SIGMOD_Workshop_05" ]
+  },
+  "DSMM Workshop: Session 1": {
+    "day": "Sunday",
+    "s_title": "DSMM 2019: Session 1",
+    "submissions": [ "SIGMOD_Workshop_04" ]
+  },
+  "DSMM Workshop: Session 2": {
+    "day": "Sunday",
+    "s_title": "DSMM 2019: Session 2",
+    "submissions": [ "SIGMOD_Workshop_04" ]
+  },
+  "DSMM Workshop: Session 3": {
+    "day": "Sunday",
+    "s_title": "DSMM 2019: Session 3",
+    "submissions": [ "SIGMOD_Workshop_04" ]
+  },
+  "DSMM Workshop: Session 4": {
+    "day": "Sunday",
+    "s_title": "DSMM 2019: Session 4",
+    "submissions": [ "SIGMOD_Workshop_04" ]
+  },
+  "DaMoN Workshop: Session 1": {
+    "day": "Monday",
+    "s_title": "DaMoN 2019: Session 1",
+    "submissions": [ "SIGMOD_Workshop_02" ] 
+  },
+  "DaMoN Workshop: Session 2": {
+    "day": "Monday",
+    "s_title": "DaMoN 2019: Session 2",
+    "submissions": [ "SIGMOD_Workshop_02" ] 
+  },
+  "DaMoN Workshop: Session 3": {
+    "day": "Monday",
+    "s_title": "DaMoN 2019: Session 3",
+    "submissions": [ "SIGMOD_Workshop_02" ] 
+  },
+  "DaMoN Workshop: Session 4": {
+    "day": "Monday",
+    "s_title": "DaMoN 2019: Session 4",
+    "submissions": [ "SIGMOD_Workshop_02" ] 
+  },
+  "DaMoN Workshop: Session 4 (uninterrupted from 17:00)": {
+    "day": "Monday",
+    "s_title": "DaMoN 2019: Session 4 (uninterrupted from 17:00)",
+    "submissions": [ "SIGMOD_Workshop_02" ] 
+  },
+  "HILDA Workshop: Session 1": {
+    "day": "Friday",
+    "s_title": "HILDA 2019: Session 1",
+    "submissions": [ "SIGMOD_Workshop_06" ] 
+  },
+  "HILDA Workshop: Session 2": {
+    "day": "Friday",
+    "s_title": "HILDA 2019: Session 2",
+    "submissions": [ "SIGMOD_Workshop_06" ] 
+  },
+  "HILDA Workshop: Session 3": {
+    "day": "Friday",
+    "s_title": "HILDA 2019: Session 3",
+    "submissions": [ "SIGMOD_Workshop_06" ] 
+  },
+  "HILDA Workshop: Session 4": {
+    "day": "Friday",
+    "s_title": "HILDA 2019: Session 4",
+    "submissions": [ "SIGMOD_Workshop_06" ] 
+  },
+  "aiDM Workshop: Session 1": {
+    "day": "Friday",
+    "s_title": "aiDM 2019: Session 1",
+    "submissions": [ "SIGMOD_Workshop_01" ] 
+  },
+  "aiDM Workshop: Session 2": {
+    "day": "Friday",
+    "s_title": "aiDM 2019: Session 2",
+    "submissions": [ "SIGMOD_Workshop_01" ] 
+  },
+  "aiDM Workshop: Session 3": {
+    "day": "Friday",
+    "s_title": "aiDM 2019: Session 3",
+    "submissions": [ "SIGMOD_Workshop_01" ] 
+  },
+  "aiDM Workshop: Session 4": {
+    "day": "Friday",
+    "s_title": "aiDM 2019: Session 4",
+    "submissions": [ "SIGMOD_Workshop_01" ] 
+  },
+  "SBD Workshop: Session 1": {
+    "day": "Friday",
+    "s_title": "SBD 2019: Session 1",
+    "submissions": [ "SIGMOD_Workshop_07" ] 
+  },
+  "SBD Workshop: Session 2": {
+    "day": "Friday",
+    "s_title": "SBD 2019: Session 2",
+    "submissions": [ "SIGMOD_Workshop_07" ] 
+  },
+  "SBD Workshop: Session 3": {
+    "day": "Friday",
+    "s_title": "SBD 2019: Session 3",
+    "submissions": [ "SIGMOD_Workshop_07" ] 
+  },
+  "SBD Workshop: Session 4": {
+    "day": "Friday",
+    "s_title": "SBD 2019: Session 4",
+    "submissions": [ "SIGMOD_Workshop_07" ] 
+  },
+  "PODS Opening + Keynote": {
+    "day": "Monday",
+    "chair": "Christoph Koch",
+    "s_title": "PODS Opening & Keynote",
+    "submissions": [  "PODS_Research_119k" ]  
+  },
+  "PODS Test-of-Time & Gems": {
+    "day": "Monday",
+    "s_title": "Gems of PODS and Test-of-Time Award",
+    "chair": "Benny Kimelfeld",
+    "submissions": [  
+        "PODS_Research_tot",
+        "PODS_Research_125g",
+        "PODS_Research_122g"
+    ]  
+  },
+  "PODS Business Meeting": {
+    "day": "Monday",
+    "s_title": "PODS Business Meeting",
+    "submissions": [ ]
+  },
+  "PODS 1": {
+    "day": "Monday",
+    "chair": "Pierre Senellart",
+    "s_title": "PODS 1: Incomplete Information",
+    "submissions": [ 
+        "PODS_Research_013",
+        "PODS_Research_015",
+        "PODS_Research_063"
+    ]
+  },
+  "PODS 2": {
+    "day": "Monday",
+    "s_title": "PODS 2: Enumeration and Counting",
+    "chair": "Dirk van Gucht",
+    "submissions": [ 
+        "PODS_Research_109",
+        "PODS_Research_008",
+        "PODS_Research_098",
+        "PODS_Research_100",
+        "PODS_Research_114",
+        "PODS_Research_084"
+    ]
+  },
+  "PODS 3": {
+    "day": "Monday",
+    "s_title": "PODS 3: Information Extraction, Hashing, and Privacy",
+    "chair": "Yufei Tao",
+    "submissions": [ 
+        "PODS_Research_024",
+        "PODS_Research_060",
+        "PODS_Research_074"
+    ]
+  },
+  "PODS 4": {
+    "day": "Tuesday",
+    "s_title": "PODS 4: Streams",
+    "chair": "Pablo Barceló",
+    "submissions": [ 
+        "PODS_Research_061",
+        "PODS_Research_075",
+        "PODS_Research_077",
+        "PODS_Research_087"
+     ]
+  },
+  "PODS 5": {
+    "day": "Tuesday",
+    "s_title": "PODS 5: Semistructured Data and Knowledge Graphs, Logic, and Verification",
+    "chair": "Reinhard Pichler",
+    "submissions": [ 
+        "PODS_Research_041",
+        "PODS_Research_030",
+        "PODS_Research_033",
+        "PODS_Research_083",
+        "PODS_Research_112",
+        "PODS_Research_064"
+    ]
+  },
+  "PODS 6": {
+    "day": "Wednesday",
+    "s_title": "PODS 6: Containment and Homomorphisms",
+    "chair": "Dan Olteanu",
+    "submissions": [ 
+        "PODS_Research_009",
+        "PODS_Research_016",
+        "PODS_Research_043"
+    ]
+  },
+  "PODS 7": {
+    "day": "Wednesday",
+    "s_title": "PODS 7: Joins, hypergraphs, and Aggregate Queries",
+    "chair": "Hubie Chen",
+    "submissions": [ 
+        "PODS_Research_072",
+        "PODS_Research_032",
+        "PODS_Research_079",
+        "PODS_Research_017"
+    ]
+  },
+  "PODS Invited Tutorial 1": {
+    "day": "Wednesday",
+    "s_title": "PODS Invited Tutorial 1",
+    "chair": "Pierre Bourhis",
+    "submissions": [ 
+        "PODS_Research_128t"
+    ]
+  },
+  "PODS Invited Tutorial 2": {
+    "day": "Wednesday",
+    "s_title": "PODS Invited Tutorial 2",
+    "chair": "Christoph Koch",
+    "submissions": [ 
+        "PODS_Research_131t"
+    ]
+  },
+  "SIGMOD Welcome + Keynote": {
+    "day": "Tuesday",
+    "chair": "Anastasia Ailamaki",
+    "s_title": "SIGMOD Welcome + Keynote",
+    "submissions": [  "SIGMOD_Keynote_025" ]
+  },
+  "SIGMOD Keynote": {
+    "day": "Wednesday",
+    "chair": "Michael Franklin",
+    "s_title": "SIGMOD Keynote",
+    "submissions": [  "SIGMOD_Keynote_015" ]
+  },
+  "SIGMOD Award Talks" : {
+    "day": "Thursday",
+    "chair": "Juliana Freire",
+    "s_title": "SIGMOD Award Talks",
+    "submissions": [
+        "SIGMOD_Award_35",
+        "SIGMOD_Award_200",
+        "SIGMOD_Award_201",
+        "SIGMOD_Award_202"
+     ]
+  },
+  "SIGMOD Panel on Data Ethics": {
+    "day": "Wednesday",
+    "chair": "H.V. Jagadish",
+    "s_title": "SIGMOD Panel on Data Ethics",
+    "submissions": [ "SIGMOD_Panel_2019" ] 
+  },
+  "SIGMOD Teaser Talks 1": {
+    "day": "Tuesday",
+    "chair": "Holger Pirk",
+    "s_title": "Teaser Talks for all Tuesday SIGMOD Research, Industrial Papers and TODS Posters",
+    "submissions": [  ] 
+  },
+  "SIGMOD Teaser Talks 2": {
+    "day": "Wednesday",
+    "chair": "Ziawasch Abedjan",
+    "s_title": "Teaser Talks for all Wednesday SIGMOD Research and Industrial Papers",
+    "submissions": [  ] 
+  },
+  "SIGMOD Teaser Talks 3": {
+    "day": "Thursday",
+    "chair": "Tim Kraska",
+    "s_title": "Teaser Talks for all Thursday SIGMOD Research and Industrial Papers",
+    "submissions": [  ] 
+  },
+  "SIGMOD Research 1": {
+    "day": "Tuesday",
+    "s_title": "SIGMOD Research 1: Query Processing & Optimization 1 - sponsored by Tableau",
+    "chair": "Wolfgang Lehner",
+    "submissions": [ 
+      "SIGMOD_Research_202",
+      "SIGMOD_Research_576",
+      "SIGMOD_Research_122",
+      "SIGMOD_Research_482",
+      "SIGMOD_Research_588",
+      "SIGMOD_Research_285"
+    ]
+  },
+  "SIGMOD Research 2": {
+    "day": "Wednesday",
+    "s_title": "SIGMOD Research 2: Privacy/Blockchain",
+    "chair": "Raghav Kaushik",
+    "submissions": [
+      "SIGMOD_Research_485",
+      "SIGMOD_Research_543",
+      "SIGMOD_Research_177",
+      "SIGMOD_Research_566",
+      "SIGMOD_Research_240",
+      "SIGMOD_Research_269"
+    ]
+  },
+  "SIGMOD Research 3": {
+    "day": "Wednesday",
+    "s_title": "SIGMOD Research 3: Information Extraction",
+    "chair": "Guoliang Li",
+    "submissions": [
+      "SIGMOD_Research_279",
+      "SIGMOD_Research_595",
+      "SIGMOD_Research_367",
+      "SIGMOD_Research_148",
+      "SIGMOD_Research_056",
+      "SIGMOD_Research_119"
+    ]
+  },
+  "SIGMOD Research 4": {
+    "day": "Wednesday",
+    "s_title": "SIGMOD Research 4: Distributed Data Management",
+    "chair": "Holger Pirk",
+    "submissions": [
+      "SIGMOD_Research_193",
+      "SIGMOD_Research_057",
+      "SIGMOD_Research_616",
+      "SIGMOD_Research_442"
+    ]
+  },
+  "SIGMOD Research 5": {
+    "day": "Wednesday",
+    "s_title": "SIGMOD Research 5: Provenance",
+    "chair": "Alexandra Meliou",
+    "submissions": [
+      "SIGMOD_Research_050",
+      "SIGMOD_Research_361",
+      "SIGMOD_Research_226",
+      "SIGMOD_Research_179"
+    ]
+  },
+  "SIGMOD Research 6": {
+    "day": "Wednesday",
+    "s_title": "SIGMOD Research 6: Streams",
+    "chair": "Jonathan Goldstein",
+    "submissions": [
+      "SIGMOD_Research_295",
+      "SIGMOD_Research_380",
+      "SIGMOD_Research_385",
+      "SIGMOD_Research_501"
+    ]
+  },
+  "SIGMOD Research 7": {
+    "day": "Wednesday",
+    "s_title": "SIGMOD Research 7: Modern Hardware",
+    "chair": "Justin Levandoski",
+    "submissions": [
+      "SIGMOD_Research_223",
+      "SIGMOD_Research_052",
+      "SIGMOD_Research_073",
+      "SIGMOD_Research_156",
+      "SIGMOD_Research_354",
+      "SIGMOD_Research_403"
+    ]
+  },
+  "SIGMOD Research 8": {
+    "day": "Wednesday",
+    "s_title": "SIGMOD Research 8: Data Integration/Cleaning",
+    "chair": "Paolo Papotti",
+    "submissions": [
+      "SIGMOD_Research_604",
+      "SIGMOD_Research_267",
+      "SIGMOD_Research_539",
+      "SIGMOD_Research_034",
+      "SIGMOD_Research_329",
+      "SIGMOD_Research_589"
+    ]
+  },
+  "SIGMOD Research 9": {
+    "day": "Wednesday",
+    "s_title": "SIGMOD Research 9: Query Processing & Optimization 2",
+    "chair": "Jun Yang",
+    "submissions": [
+      "SIGMOD_Research_110",
+      "SIGMOD_Research_626",
+      "SIGMOD_Research_210",
+      "SIGMOD_Research_278",
+      "SIGMOD_Research_300",
+      "SIGMOD_Research_406"
+    ]
+  },
+  "SIGMOD Research 10": {
+    "day": "Wednesday",
+    "s_title": "SIGMOD Research 10: Graphs 1",
+    "chair": "Angela Bonifati",
+    "submissions": [
+      "SIGMOD_Research_573",
+      "SIGMOD_Research_166",
+      "SIGMOD_Research_411",
+      "SIGMOD_Research_443",
+      "SIGMOD_Research_449",
+      "SIGMOD_Research_457"
+    ]
+  },
+  "SIGMOD Research 11": {
+    "day": "Thursday",
+    "s_title": "SIGMOD Research 11: Systems & Machine Learning",
+    "chair": "Matthias Boehm",
+    "submissions": [
+      "SIGMOD_Research_118",
+      "SIGMOD_Research_131",
+      "SIGMOD_Research_207",
+      "SIGMOD_Research_298"
+    ]
+  },
+  "SIGMOD Research 12": {
+    "day": "Thursday",
+    "s_title": "SIGMOD Research 12: Indexing",
+    "chair": "Stratos Idreos",
+    "submissions": [
+      "SIGMOD_Research_289",
+      "SIGMOD_Research_392",
+      "SIGMOD_Research_294",
+      "SIGMOD_Research_396"
+    ]
+  },
+  "SIGMOD Research 13": {
+    "day": "Thursday",
+    "s_title": "SIGMOD Research 13: Fairness, Uncertainty",
+    "chair": "Ke Yi",
+    "submissions": [
+      "SIGMOD_Research_147",
+      "SIGMOD_Research_436",
+      "SIGMOD_Research_598",
+      "SIGMOD_Research_534"
+    ]
+  },
+  "SIGMOD Research 14": {
+    "day": "Thursday",
+    "s_title": "SIGMOD Research 14: Graphs 2",
+    "chair": "Sourav S Bhowmick",
+    "submissions": [
+      "SIGMOD_Research_531",
+      "SIGMOD_Research_432",
+      "SIGMOD_Research_128",
+      "SIGMOD_Research_527"
+    ]
+  },
+  "SIGMOD Research 15": {
+    "day": "Thursday",
+    "s_title": "SIGMOD Research 15: Graphs 3",
+    "chair": "Xuemin Lin",
+    "submissions": [
+      "SIGMOD_Research_033",
+      "SIGMOD_Research_450",
+      "SIGMOD_Research_200",
+      "SIGMOD_Research_465",
+      "SIGMOD_Research_565",
+      "SIGMOD_Research_351"
+    ]
+  },
+  "SIGMOD Research 16": {
+    "day": "Thursday",
+    "s_title": "SIGMOD Research 16: Machine Learning",
+    "chair": "Theodoros Rekatsinas",
+    "submissions": [
+      "SIGMOD_Research_072",
+      "SIGMOD_Research_135",
+      "SIGMOD_Research_410",
+      "SIGMOD_Research_447",
+      "SIGMOD_Research_429",
+      "SIGMOD_Research_262"
+    ]
+  },
+  "SIGMOD Research 17": {
+    "day": "Thursday",
+    "s_title": "SIGMOD Research 17: Scalability",
+    "chair": "Norman May",
+    "submissions": [
+      "SIGMOD_Research_567",
+      "SIGMOD_Research_560",
+      "SIGMOD_Research_577",
+      "SIGMOD_Research_613",
+      "SIGMOD_Research_575",
+      "SIGMOD_Research_580"
+    ]
+  },
+  "SIGMOD Industry 1": {
+    "day": "Wednesday",
+    "s_title": "SIGMOD Industry 1: Data Applications",
+    "chair": "Marco Serafini",
+    "submissions": [
+        "SIGMOD_Industrial_640",
+        "SIGMOD_Industrial_649",
+        "SIGMOD_Industrial_661",
+        "SIGMOD_Industrial_676",
+        "SIGMOD_Industrial_679",
+        "SIGMOD_Industrial_693"
+    ]
+  },
+  "SIGMOD Industry 2": {
+    "day": "Wednesday",
+    "s_title": "SIGMOD Industry 2: Storage and Indexing",
+    "chair": "Alexander Shraer",
+    "submissions": [
+        "SIGMOD_Industrial_657",
+        "SIGMOD_Industrial_655",
+        "SIGMOD_Industrial_665",
+        "SIGMOD_Industrial_651"
+    ]
+  },
+  "SIGMOD Industry 3": {
+    "day": "Thursday",
+    "s_title": "SIGMOD Industry 3: Data Platforms",
+    "chair": "Ying Zhang",
+    "submissions": [
+        "SIGMOD_Industrial_642",
+        "SIGMOD_Industrial_653",
+        "SIGMOD_Industrial_689",
+        "SIGMOD_Industrial_691",
+        "SIGMOD_Industrial_674",
+        "SIGMOD_Industrial_694"
+    ]
+  },
+  "New Researcher Symposium": {
+    "day": "Wednesday",
+    "s_title": "New Researcher Symposium (NRS)",
+    "submissions": [ 
+        "SIGMOD_NRS_0",
+        "SIGMOD_NRS_1",
+        "SIGMOD_NRS_2",
+        "SIGMOD_NRS_3",
+        "SIGMOD_NRS_4",
+        "SIGMOD_NRS_5" 
+    ]
+  },
+  "Student Research Competition (starts 17:20)": {
+    "day": "Wednesday",
+    "s_title": "Student Research Competition (SRC)",
+    "submissions": [
+        "SIGMOD_SRC_01",
+        "SIGMOD_SRC_02",
+        "SIGMOD_SRC_03",
+        "SIGMOD_SRC_05",
+        "SIGMOD_SRC_06",
+        "SIGMOD_SRC_08",
+        "SIGMOD_SRC_12",
+        "SIGMOD_SRC_13",
+        "SIGMOD_SRC_15",
+        "SIGMOD_SRC_17",
+        "SIGMOD_SRC_18",
+        "SIGMOD_SRC_19"
+    ]
+  },
+  "Poster & Demo Reception 1": {
+    "day": "Tuesday",
+    "s_title": "Poster & Demo Groups A and B",
+    "submissions": [
+        "SIGMOD_Posters_1",
+        "SIGMOD_ProgrammingContest_401",
+        "SIGMOD_ProgrammingContest_402",
+        "SIGMOD_ProgrammingContest_403",
+        "SIGMOD_ProgrammingContest_404",
+        "SIGMOD_ProgrammingContest_405",
+        "TODS_Poster_1",
+        "TODS_Poster_2",
+        "TODS_Poster_3",
+        "TODS_Poster_4",
+        "SIGMOD_Demo_700",
+        "SIGMOD_Demo_703",
+        "SIGMOD_Demo_709",
+        "SIGMOD_Demo_711",
+        "SIGMOD_Demo_712",
+        "SIGMOD_Demo_718",
+        "SIGMOD_Demo_719",
+        "SIGMOD_Demo_721",
+        "SIGMOD_Demo_725",
+        "SIGMOD_Demo_729",
+        "SIGMOD_Demo_730",
+        "SIGMOD_Demo_747",
+        "SIGMOD_Demo_697",
+        "SIGMOD_Demo_733",
+        "SIGMOD_Demo_734",
+        "SIGMOD_Demo_746",
+        "SIGMOD_Demo_748",
+        "SIGMOD_Demo_750",
+        "SIGMOD_Demo_761",
+        "SIGMOD_Demo_764",
+        "SIGMOD_Demo_777",
+        "SIGMOD_Demo_782",
+        "SIGMOD_Demo_785",
+        "SIGMOD_Demo_800"
+    ]
+  },
+  "Poster & Demo Reception 2": {
+    "day": "Wednesday",
+    "s_title": "Poster & Demo Groups B and C",
+    "submissions": [
+        "SIGMOD_Posters_2",
+        "SIGMOD_Demo_697",
+        "SIGMOD_Demo_733",
+        "SIGMOD_Demo_734",
+        "SIGMOD_Demo_746",
+        "SIGMOD_Demo_748",
+        "SIGMOD_Demo_750",
+        "SIGMOD_Demo_761",
+        "SIGMOD_Demo_764",
+        "SIGMOD_Demo_777",
+        "SIGMOD_Demo_782",
+        "SIGMOD_Demo_785",
+        "SIGMOD_Demo_800",
+        "SIGMOD_Demo_696",
+        "SIGMOD_Demo_708",
+        "SIGMOD_Demo_715",
+        "SIGMOD_Demo_723",
+        "SIGMOD_Demo_724",
+        "SIGMOD_Demo_752",
+        "SIGMOD_Demo_753",
+        "SIGMOD_Demo_767",
+        "SIGMOD_Demo_771",
+        "SIGMOD_Demo_778",
+        "SIGMOD_Demo_779",
+        "SIGMOD_Demo_781",
+        "SIGMOD_Demo_783",
+        "SIGMOD_Demo_787",
+        "SIGMOD_Demo_792",
+        "SIGMOD_Demo_796"
+    ]
+  },
+  "Poster & Demo Reception 3": {
+    "day": "Thursday",
+    "s_title": "Poster & Demo Groups A and C",
+    "submissions": [
+        "SIGMOD_Posters_3",
+        "SIGMOD_Demo_700",
+        "SIGMOD_Demo_703",
+        "SIGMOD_Demo_709",
+        "SIGMOD_Demo_711",
+        "SIGMOD_Demo_712",
+        "SIGMOD_Demo_718",
+        "SIGMOD_Demo_719",
+        "SIGMOD_Demo_721",
+        "SIGMOD_Demo_725",
+        "SIGMOD_Demo_729",
+        "SIGMOD_Demo_730",
+        "SIGMOD_Demo_747",
+        "SIGMOD_Demo_696",
+        "SIGMOD_Demo_708",
+        "SIGMOD_Demo_715",
+        "SIGMOD_Demo_723",
+        "SIGMOD_Demo_724",
+        "SIGMOD_Demo_752",
+        "SIGMOD_Demo_753",
+        "SIGMOD_Demo_767",
+        "SIGMOD_Demo_771",
+        "SIGMOD_Demo_778",
+        "SIGMOD_Demo_779",
+        "SIGMOD_Demo_781",
+        "SIGMOD_Demo_783",
+        "SIGMOD_Demo_787",
+        "SIGMOD_Demo_792",
+        "SIGMOD_Demo_796"
+    ]
+  }
+}
