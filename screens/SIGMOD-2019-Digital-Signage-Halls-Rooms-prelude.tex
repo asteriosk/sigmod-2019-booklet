@@ -1,0 +1,121 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{incgraph,microtype,tikz,colortbl,pdflscape,moresize,lmodern,enumitem,wrapfig}
+
+\usepackage{relsize}
+\usepackage[sfdefault,scaled=1]{FiraSans}
+
+
+\pdfminorversion=4
+
+\pagestyle{plain}
+
+\usepackage{setspace}
+\setstretch{0.8}
+
+\hypersetup{
+    colorlinks,
+    linkcolor=, %linkcolor={red!50!black},
+    citecolor={blue!50!black},
+    urlcolor={blue!80!black}
+}
+
+
+\usepackage[paperwidth=100mm, paperheight=160mm,left=0.5cm,right=0.5cm,top=.5cm,bottom=.5cm,textwidth=5cm,textheight=5cm]{geometry}
+
+\newgeometry{paperwidth=100mm, paperheight=160mm, vmargin={5mm}, hmargin={7mm,17mm}}   % set the margins
+
+\usepackage{relsize}
+\usepackage[sfdefault,scaled=1]{FiraSans}
+
+\usepackage{mathrsfs}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[main=english,french,german]{babel}
+%\setlength{\bottommargin}{1mm}
+
+\newcommand{\logo}[2][.25]{%
+% \begin{minipage}
+\centerline{\includegraphics[height=#1\textheight,width=\textwidth,keepaspectratio]{#2}}%
+% \end{minipage}
+}
+
+
+\input{../format.tex}
+
+
+\newcommand{\tutorial}[3]{%
+\noindent%
+\textbf{%
+\textsl{#1}%
+\\%
+\textsf{#2}%
+}%
+\\%
+{\Large{\textsl{#3}}}%
+}
+
+\newcommand{\session}[2]{
+\subslotheading{#1 -- #2}
+\\~\\
+}%
+
+
+\newcommand{\talk}[2]{\papertitle{#1}~
+\paperauthors{#2}
+}
+
+\pagestyle{empty}
+
+\begin{document}
+
+\setlength{\tabcolsep}{0pt}
+
+\huge
+
+
+
+
+
+
+
+
+
+
+
+% !TEX TS-program = pdflatex
+% !TEX encoding = UTF-8 Unicode
+
+
+
+
+% \newcommand{\person}[4]{~\newline\vspace{-1mm}
+% % \begin{minipage}{\textwidth}
+% \begin{wrapfigure}[7]{l}{2.15cm}
+% \vspace*{-1.3\baselineskip}%
+% \centering
+% \personphoto{#4}
+% \end{wrapfigure}
+% \emph{\relscale{0.9}#3}
+% % \end{minipage}
+% } 
+
+
+% \begin{document}
+
+% \pagestyle{empty}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
